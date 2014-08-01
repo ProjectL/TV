@@ -45,6 +45,7 @@ through a device.
 TODO
 ------------
 * Add visuals
+* Focus on what behaviors the TV has. What can it Do?
 
 
 Repository Goals
