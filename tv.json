@@ -4,11 +4,16 @@
         "androidid": "",
         "udid": "",
         "queueid": "",
-        "channels": "",
+        "localeid": "",
+        "channels": [
+                {"channelid": ""
+                }
+        ],
         "scene_count": "",
         "tvgeo": {
-            "x": "",
-            "y": ""
-        }
+            "lat": "",
+            "long": ""
+                },
+        "containerid": ""
      }
 }
