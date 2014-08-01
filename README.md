@@ -8,7 +8,7 @@ A Project L TV is a Shared Display of Content.
  We all have these little, and even big powerful devices in our pockets. Our own personal worlds.
 In Project L, your phone or tablet is an interface to the greater world around you.
 
- It is what is it, but we as humans are becoming more comfortable intiating interaction with one another
+ It is what is it, but we as humans are becoming more comfortable intiating interaction with one another solely
 through a device.
 
  So this object is being designed to help bring us closer by having an always available interactive shared world to post to, an objective view on the reality around us, that we can contribute to using our subjective handheld devices.
