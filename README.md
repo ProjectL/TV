@@ -53,6 +53,10 @@ Repository Goals
 * create an example TV in code
 * Learn and experiment through thought
 
+Wiki
+-------
+Heres a wiki explaining its implementation in more depth [Wiki](https://bitbucket.org/loqootv/tv/wiki/browse/)
+
 
 Contribution
 ------------
