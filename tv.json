@@ -1,11 +1,14 @@
 {
-  "tv": {
-    "tvid": "",
-    "androidid": "",
-    "udid": "",
-    "queueid": ""
-  
-  }
-
-
+"tv": {
+        "tvid": "",
+        "androidid": "",
+        "udid": "",
+        "queueid": "",
+        "channels": "",
+        "scene_count": "",
+        "tvgeo": {
+            "x": "",
+            "y": ""
+        }
+     }
 }
