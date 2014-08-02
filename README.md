@@ -29,8 +29,18 @@ through a device.
         "udid": "",
         "queueid": "",
         "localeid": "",
+        "device": [
+                {
+                        "ble": "",
+                        "wifi": "",
+                        "cellular": "",
+                        "ethernet": "",
+                        "isFast": ""
+                }
+                ],
         "channels": [
-                {"channelid": ""
+                {"channelid": "",
+                 "channelname": ""
                 }
         ],
         "scene_count": "",
