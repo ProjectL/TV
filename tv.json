@@ -5,6 +5,14 @@
         "udid": "",
         "queueid": "",
         "localeid": "",
+        "device": [
+                {
+                        "wifi": "",
+                        "cellular": "",
+                        "ethernet": "",
+                        "isFast": ""
+                }
+                ],
         "channels": [
                 {"channelid": ""
                 }
