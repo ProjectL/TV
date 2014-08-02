@@ -14,7 +14,8 @@
                 }
                 ],
         "channels": [
-                {"channelid": ""
+                {"channelid": "",
+                 "channelname": ""
                 }
         ],
         "scene_count": "",
