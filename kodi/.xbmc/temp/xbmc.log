@@ -1,0 +1,1489 @@
+﻿20:38:00 T:1506940664  NOTICE: special://profile/ is mapped to: special://masterprofile/
+20:38:00 T:1506940664  NOTICE: -----------------------------------------------------------------------
+20:38:00 T:1506940664  NOTICE: Starting Kodi (14.0-ALPHA2 Git:2014-08-01-62d01f6-dirty). Platform: Android ARM 32-bit
+20:38:00 T:1506940664  NOTICE: Using Kodi Debug x32 build
+20:38:00 T:1506940664  NOTICE: Kodi compiled Aug  1 2014 by GCC 4.8.0 for Android ARM 32-bit API level 14 (API level 14)
+20:38:00 T:1506940664  NOTICE: Running on asus ASUS Transformer Pad TF300T with Android 4.1.1 API level 16, kernel: Linux ARM 32-bit version 3.1.10-00003-gb0003ba
+20:38:00 T:1506940664  NOTICE: FFmpeg version: 2.2.3-xbmc-2.2-Helix-alpha2
+20:38:00 T:1506940664  NOTICE: Host CPU: ARMv7 Processor rev 9 (v7l), 4 cores available
+20:38:00 T:1506940664  NOTICE: Product: US_epad, Device: TF300T, Board: EeePad - Manufacturer: asus, Brand: asus, Model: ASUS Transformer Pad TF300T, Hardware: cardhu
+20:38:00 T:1506940664  NOTICE: ARM Features: Neon enabled
+20:38:00 T:1506940664  NOTICE: special://xbmc/ is mapped to: /data/data/org.xbmc.xbmc/cache/apk/assets
+20:38:00 T:1506940664  NOTICE: special://xbmcbin/ is mapped to: /data/data/org.xbmc.xbmc/cache/apk/assets
+20:38:00 T:1506940664  NOTICE: special://masterprofile/ is mapped to: /storage/sdcard0/Android/data/org.xbmc.xbmc/files/.xbmc/userdata
+20:38:00 T:1506940664  NOTICE: special://home/ is mapped to: /storage/sdcard0/Android/data/org.xbmc.xbmc/files/.xbmc
+20:38:00 T:1506940664  NOTICE: special://temp/ is mapped to: /storage/sdcard0/Android/data/org.xbmc.xbmc/files/.xbmc/temp
+20:38:00 T:1506940664  NOTICE: The executable running is: /system/bin/app_process
+20:38:00 T:1506940664  NOTICE: Local hostname: localhost
+20:38:00 T:1506940664  NOTICE: Log File is located: /storage/sdcard0/Android/data/org.xbmc.xbmc/files/.xbmc/temp/xbmc.log
+20:38:00 T:1506940664  NOTICE: -----------------------------------------------------------------------
+20:38:00 T:1506940664  NOTICE: load settings...
+20:38:00 T:1506940664   DEBUG: static int CAndroidFeatures::GetVersion(): android.os.Build.VERSION 16
+20:38:00 T:1506940664   DEBUG: CSettings: loaded settings definition from special://xbmc/system/settings/settings.xml
+20:38:00 T:1506940664 WARNING: CSettingInt: unknown options filler "audiocdactions" of "audiocds.autoaction"
+20:38:00 T:1506940664   DEBUG: CSettings: loaded settings definition from special://xbmc/system/settings/android.xml
+20:38:00 T:1506940664  NOTICE: Found 1 Lists of Devices
+20:38:00 T:1506940664  NOTICE: Enumerated AUDIOTRACK devices:
+20:38:00 T:1506940664  NOTICE:     Device 1
+20:38:00 T:1506940664  NOTICE:         m_deviceName      : AudioTrack
+20:38:00 T:1506940664  NOTICE:         m_displayName     : android
+20:38:00 T:1506940664  NOTICE:         m_displayNameExtra: audiotrack
+20:38:00 T:1506940664  NOTICE:         m_deviceType      : AE_DEVTYPE_HDMI
+20:38:00 T:1506940664  NOTICE:         m_channels        : FL,FR
+20:38:00 T:1506940664  NOTICE:         m_sampleRates     : 48000
+20:38:00 T:1506940664  NOTICE:         m_dataFormats     : AE_FMT_S16LE,AE_FMT_AC3,AE_FMT_DTS
+20:38:00 T:1506940664  NOTICE: No settings file to load (special://xbmc/system/advancedsettings.xml)
+20:38:00 T:1506940664  NOTICE: No settings file to load (special://masterprofile/advancedsettings.xml)
+20:38:00 T:1506940664  NOTICE: Default DVD Player: dvdplayer
+20:38:00 T:1506940664  NOTICE: Default Video Player: dvdplayer
+20:38:00 T:1506940664  NOTICE: Default Audio Player: paplayer
+20:38:00 T:1506940664  NOTICE: Disabled debug logging due to GUI setting. Level 0.
+20:38:00 T:1506940664  NOTICE: Log level changed to 0
+20:38:00 T:1506940664  NOTICE: Loading player core factory settings from special://xbmc/system/playercorefactory.xml.
+20:38:00 T:1506940664   DEBUG: CPlayerCoreConfig::<ctor>: created player DVDPlayer for core 1
+20:38:00 T:1506940664   DEBUG: CPlayerCoreConfig::<ctor>: created player oldmplayercore for core 1
+20:38:00 T:1506940664   DEBUG: CPlayerCoreConfig::<ctor>: created player PAPlayer for core 3
+20:38:00 T:1506940664   DEBUG: CPlayerSelectionRule::Initialize: creating rule: system rules
+20:38:00 T:1506940664   DEBUG: CPlayerSelectionRule::Initialize: creating rule: rtv
+20:38:00 T:1506940664   DEBUG: CPlayerSelectionRule::Initialize: creating rule: hdhomerun/myth/mms/udp
+20:38:00 T:1506940664   DEBUG: CPlayerSelectionRule::Initialize: creating rule: lastfm/shout
+20:38:00 T:1506940664   DEBUG: CPlayerSelectionRule::Initialize: creating rule: rtmp
+20:38:00 T:1506940664   DEBUG: CPlayerSelectionRule::Initialize: creating rule: rtsp
+20:38:00 T:1506940664   DEBUG: CPlayerSelectionRule::Initialize: creating rule: streams
+20:38:00 T:1506940664   DEBUG: CPlayerSelectionRule::Initialize: creating rule: aacp/sdp
+20:38:00 T:1506940664   DEBUG: CPlayerSelectionRule::Initialize: creating rule: mp2
+20:38:00 T:1506940664   DEBUG: CPlayerSelectionRule::Initialize: creating rule: dvd
+20:38:00 T:1506940664   DEBUG: CPlayerSelectionRule::Initialize: creating rule: dvdimage
+20:38:00 T:1506940664   DEBUG: CPlayerSelectionRule::Initialize: creating rule: sdp/asf
+20:38:00 T:1506940664   DEBUG: CPlayerSelectionRule::Initialize: creating rule: nsv
+20:38:00 T:1506940664   DEBUG: CPlayerSelectionRule::Initialize: creating rule: radio
+20:38:00 T:1506940664  NOTICE: Loaded playercorefactory configuration
+20:38:00 T:1506940664  NOTICE: Loading player core factory settings from special://masterprofile/playercorefactory.xml.
+20:38:00 T:1506940664  NOTICE: special://masterprofile/playercorefactory.xml does not exist. Skipping.
+20:38:00 T:1506940664    INFO: creating subdirectories
+20:38:00 T:1506940664    INFO: userdata folder: special://masterprofile/
+20:38:00 T:1506940664    INFO: recording folder:
+20:38:00 T:1506940664    INFO: screenshots folder:
+20:38:00 T:1506940664    INFO: load language info file: special://xbmc/language/English/langinfo.xml
+20:38:00 T:1506940664   DEBUG: trying to set locale to en_US.UTF-8
+20:38:00 T:1506940664    INFO: global locale set to C
+20:38:00 T:1506940664    INFO: load English language file, from path: special://xbmc/language/
+20:38:00 T:1506940664   DEBUG: POParser: loaded 3214 strings from file /data/data/org.xbmc.xbmc/cache/apk/assets/language/English/strings.po
+20:38:00 T:1508510344  NOTICE: Thread ActiveAE start, auto delete: false
+20:38:00 T:1508512544  NOTICE: Thread AESink start, auto delete: false
+20:38:00 T:1508512544    INFO: CActiveAESink::OpenSink - initialize sink
+20:38:00 T:1508512544   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+20:38:00 T:1508512544   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+20:38:00 T:1508512544   DEBUG:   Output Device : android
+20:38:00 T:1508512544   DEBUG:   Sample Rate   : 48000
+20:38:00 T:1508512544   DEBUG:   Sample Format : AE_FMT_S16NE
+20:38:00 T:1508512544   DEBUG:   Channel Count : 2
+20:38:00 T:1508512544   DEBUG:   Channel Layout: FL,FR
+20:38:00 T:1508512544   DEBUG:   Frames        : 2048
+20:38:00 T:1508512544   DEBUG:   Frame Samples : 4096
+20:38:00 T:1508512544   DEBUG:   Frame Size    : 4
+20:38:00 T:1506940664  NOTICE: Running database version Addons16
+20:38:00 T:1506940664   DEBUG: SECTION:LoadDLL(libcpluff-arm.so)
+20:38:00 T:1506940664   DEBUG: Loading: /data/data/org.xbmc.xbmc/lib/libcpluff-arm.so
+20:38:00 T:1506940664    INFO: ADDON: cpluff: 'Could not read plug-in directory /storage/sdcard0/Android/data/org.xbmc.xbmc/files/.xbmc/addons: No such file or directory'
+20:38:00 T:1506940664  NOTICE: ADDONS: Using repository repository.xbmc.org
+20:38:00 T:1506940664  NOTICE: ADDONS: Using repository repository.pvr-android.xbmc.org
+20:38:00 T:1506940664   DEBUG: bool PERIPHERALS::CPeripherals::LoadMappings() - loaded node "Motorola Nyxboard Hybrid"
+20:38:00 T:1506940664   DEBUG: bool PERIPHERALS::CPeripherals::LoadMappings() - loaded node "CEC Adapter"
+20:38:00 T:1506940664   DEBUG: bool PERIPHERALS::CPeripherals::LoadMappings() - loaded node "Pulse-Eight CEC Adapter"
+20:38:00 T:1506940664   DEBUG: bool PERIPHERALS::CPeripherals::LoadMappings() - loaded node "iMON HID device"
+20:38:00 T:1506940664   DEBUG: PERIPHERALS::CPeripheralBusUSB::CPeripheralBusUSB(PERIPHERALS::CPeripherals*) - using libusb peripheral scanning
+20:38:00 T:1506940664   DEBUG: SECTION:LoadDLL(libcec.so)
+20:38:00 T:1506940664   DEBUG: Loading: libcec.so
+20:38:00 T:1506940664   ERROR: Unable to load libcec.so, reason: Symbol not found:
+20:38:00 T:1506940664   DEBUG: Dll libcec.so was not found in path
+20:38:00 T:1506940664   ERROR: virtual void PERIPHERALS::CPeripherals::Initialise() - failed to initialise bus cec
+20:38:00 T:1509688400  NOTICE: Thread PeripBusUSB start, auto delete: false
+20:38:00 T:1506940664  NOTICE: virtual bool CWinSystemEGL::InitWindowSystem(): Using EGL Implementation: android
+20:38:00 T:1506940664   DEBUG: bool CWinSystemEGL::CreateWindow(RESOLUTION_INFO&): Created surface of size 1280x752
+20:38:00 T:1506940664  NOTICE: Current resolution: 1280x752 @ 60.00 - Full Screen
+20:38:00 T:1506940664  NOTICE: Previous line repeats 1 times.
+20:38:00 T:1506940664  NOTICE: Found resolution 1280 x 752 for display 0 with 1280 x 752 @ 60.000000 Hz
+20:38:00 T:1506940664  NOTICE: Found (1280x752@60.000000) at 16, setting to RES_DESKTOP at 16
+20:38:00 T:1506940664  NOTICE: Checking resolution 16
+20:38:00 T:1506940664  NOTICE: Current resolution: 1280x752 @ 60.00 - Full Screen
+20:38:00 T:1506940664   DEBUG: bool CWinSystemEGL::CreateWindow(RESOLUTION_INFO&): Created surface of size 1280x752
+20:38:00 T:1506940664  NOTICE: GL_VENDOR = NVIDIA Corporation
+20:38:00 T:1506940664  NOTICE: GL_RENDERER = NVIDIA Tegra 3
+20:38:00 T:1506940664  NOTICE: GL_VERSION = OpenGL ES 2.0 14.01002
+20:38:00 T:1506940664  NOTICE: GL_SHADING_LANGUAGE_VERSION = OpenGL ES GLSL 1.00
+20:38:00 T:1506940664   DEBUG: GLES: Extension Support Test - GL_NVX_gpu_memory_info NO
+20:38:00 T:1506940664  NOTICE: GL_EXTENSIONS = GL_OES_rgb8_rgba8 GL_OES_EGL_sync GL_OES_surfaceless_context GL_OES_fbo_render_mipmap GL_NV_depth_nonlinear GL_NV_draw_path GL_NV_texture_npot_2D_mipmap GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_vertex_half_float GL_OES_mapbuffer GL_NV_draw_buffers GL_NV_multiview_draw_buffers GL_EXT_Cg_shader GL_EXT_packed_float GL_OES_texture_half_float GL_EXT_texture_array GL_OES_compressed_ETC1_RGB8_texture GL_EXT_texture_compression_latc GL_NV_texture_compression_latc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_s3tc GL_NV_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_NV_get_tex_image GL_NV_read_buffer GL_NV_shader_framebuffer_fetch GL_NV_copy_image GL_NV_fbo_color_attachments GL_EXT_bgra GL_EXT_texture_format_BGRA8888 GL_EXT_unpack_subimage GL_NV_pack_subimage GL_NV_texture_compression_s3tc_update GL_NV_read_depth GL_NV_read_stencil GL_NV_uniform_buffer_object GL_NV_map_buffer_range GL_EXT_robustness GL_OES_standard_derivatives GL_NV_EGL_stream_consumer_external GL_EXT_separate_shader_objects GL_NV_copy_buffer GL_NV_3dvision_settings GL_EXT_debug_marker GL_EXT_debug_label GL_EXT_texture_storage GL_NV_pixel_buffer_object GL_NV_framebuffer_blit GL_NV_explicit_attrib_location GL_NV_coverage_sample GL_EXT_occlusion_query_boolean GL_NV_occlusion_query_samples GL_NV_timer_query
+20:38:00 T:1506940664   DEBUG: GLES: Extension Support Test - GL_EXT_texture_format_BGRA8888 YES
+20:38:00 T:1506940664   DEBUG: GLES: Extension Support Test - GL_IMG_texture_format_BGRA8888 NO
+20:38:00 T:1506940664   DEBUG: GLES: Extension Support Test - GL_APPLE_texture_format_BGRA8888 NO
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GL: Pixel Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Fragment Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GUI Shader [guishader_frag_default.glsl]- Initialise successful : 0x59d61f68
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GL: Pixel Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Fragment Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GUI Shader [guishader_frag_texture.glsl]- Initialise successful : 0x5a0ccf88
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GL: Pixel Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Fragment Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GUI Shader [guishader_frag_multi.glsl]- Initialise successful : 0x5bec0118
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GL: Pixel Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Fragment Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GUI Shader [guishader_frag_fonts.glsl]- Initialise successful : 0x5bec1288
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GL: Pixel Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Fragment Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GUI Shader [guishader_frag_texture_noblend.glsl]- Initialise successful : 0x5bec0198
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GL: Pixel Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Fragment Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GUI Shader [guishader_frag_multi_blendcolor.glsl]- Initialise successful : 0x5bec1048
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GL: Pixel Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Fragment Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GUI Shader [guishader_frag_rgba.glsl]- Initialise successful : 0x5bec6198
+20:38:01 T:1506940664   DEBUG: GLES: Extension Support Test - GL_OES_EGL_image_external YES
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GL: Pixel Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Fragment Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GUI Shader [guishader_frag_rgba_oes.glsl]- Initialise successful : 0x5beca690
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Vertex Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GL: Pixel Shader compilation log:
+20:38:01 T:1506940664   DEBUG: GL: Fragment Shader compiled successfully
+20:38:01 T:1506940664   DEBUG: GUI Shader [guishader_frag_rgba_blendcolor.glsl]- Initialise successful : 0x5beca578
+20:38:01 T:1506940664  NOTICE: Current resolution: 1280x752 @ 60.00 - Full Screen
+20:38:01 T:1506940664   DEBUG: CWinSystemEGL::CreateNewWindow: No need to create a new window
+20:38:01 T:1506940664    INFO: GLES: Maximum texture width: 2048
+20:38:01 T:1506940664   DEBUG: CRenderManager::UpdateDisplayLatency - Latency set to 0 msec
+20:38:01 T:1506940664    INFO: load default splash image: /data/data/org.xbmc.xbmc/cache/apk/assets/media/Splash.png
+20:38:01 T:1506940664   DEBUG: SECTION:LoadDLL(libImageLib-arm.so)
+20:38:01 T:1506940664   DEBUG: Loading: /data/data/org.xbmc.xbmc/lib/libImageLib-arm.so
+20:38:01 T:1506940664    INFO: load keymapping
+20:38:01 T:1506940664    INFO: Loading special://xbmc/system/keymaps/appcommand.xml
+20:38:01 T:1506940664    INFO: Loading special://xbmc/system/keymaps/gamepad.xml
+20:38:01 T:1506940664    INFO: Loading special://xbmc/system/keymaps/joystick.xml
+20:38:01 T:1506940664  NOTICE: No Joystick name specified, loading default map
+20:38:01 T:1506940664  NOTICE: Previous line repeats 35 times.
+20:38:01 T:1506940664    INFO: Loading special://xbmc/system/keymaps/keyboard.xml
+20:38:01 T:1506940664    INFO: Loading special://xbmc/system/keymaps/mouse.xml
+20:38:01 T:1506940664    INFO: Loading special://xbmc/system/keymaps/remote.xml
+20:38:01 T:1506940664    INFO: Loading special://xbmc/system/keymaps/touchscreen.xml
+20:38:01 T:1506940664    INFO: GUI format 1280x752, Display 1280x752 @ 60.00 - Full Screen
+20:38:01 T:1506940664   DEBUG: guilib: Fill viewport on change for solving rendering passes
+20:38:01 T:1506940664   DEBUG: SECTION:LoadDLL(libcurl.so)
+20:38:01 T:1506940664   DEBUG: Loading: /data/data/org.xbmc.xbmc/lib/libcurl.so
+20:38:01 T:1506940664  NOTICE: Running database version Addons16
+20:38:01 T:1506940664   DEBUG: void CDatabaseManager::Initialize(bool), updating databases...
+20:38:01 T:1506940664  NOTICE: Running database version ViewModes6
+20:38:01 T:1506940664  NOTICE: Running database version Textures13
+20:38:01 T:1506940664  NOTICE: Running database version MyMusic48
+20:38:01 T:1506940664  NOTICE: Running database version MyVideos88
+20:38:01 T:1506940664  NOTICE: Running database version TV25
+20:38:01 T:1506940664  NOTICE: Running database version Epg8
+20:38:01 T:1506940664   DEBUG: void CDatabaseManager::Initialize(bool), updating databases... DONE
+20:38:01 T:1506940664    INFO: DPMS: not supported on this platform
+20:38:01 T:1506940664   DEBUG: CAnnouncementManager - Announcement: OnClear from xbmc
+20:38:01 T:1506940664   DEBUG: GOT ANNOUNCEMENT, type: 2, from xbmc, message OnClear
+20:38:01 T:1506940664    INFO: Unloading old skin ...
+20:38:01 T:1506940664    INFO:   load skin from: /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence (version: 2.4.0)
+20:38:01 T:1506940664    INFO:   load fonts for skin...
+20:38:01 T:1506940664    INFO: Loading fonts from /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/720p/Font.xml
+20:38:01 T:1506940664   DEBUG: POParser: loaded 149 strings from file /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/language/English/strings.po
+20:38:01 T:1506940664    INFO: Loading skin includes from /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/720p/includes.xml
+20:38:01 T:1506940664    INFO:   load new skin...
+20:38:01 T:1506940664    INFO: Loading user windows, path /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/720p
+20:38:01 T:1506940664   DEBUG: Load Skin XML: 39.71ms
+20:38:01 T:1506940664    INFO:   initialize new skin...
+20:38:01 T:1506940664   DEBUG: guilib: Fill viewport on change for solving rendering passes
+20:38:01 T:1506940664    INFO: Loading skin file: Pointer.xml, load type: LOAD_ON_GUI_INIT
+20:38:01 T:1506940664   DEBUG: Load Pointer.xml: 3.15ms
+20:38:01 T:1506940664   DEBUG: bool CTextureBundleXBT::OpenBundle() - Opened bundle /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/media/Textures.xbt
+20:38:01 T:1506940664   DEBUG: Alloc resources: 38.76ms  (3.80 ms skin load)
+20:38:01 T:1506940664    INFO: Loading skin file: DialogVolumeBar.xml, load type: LOAD_ON_GUI_INIT
+20:38:01 T:1506940664   DEBUG: Load DialogVolumeBar.xml: 5.70ms
+20:38:01 T:1506940664   DEBUG: Alloc resources: 6.43ms  (6.21 ms skin load)
+20:38:01 T:1506940664    INFO: Loading skin file: DialogKaiToast.xml, load type: LOAD_ON_GUI_INIT
+20:38:01 T:1506940664   DEBUG: Load DialogKaiToast.xml: 6.20ms
+20:38:01 T:1506940664   DEBUG: Alloc resources: 6.90ms  (6.90 ms skin load)
+20:38:01 T:1506940664    INFO: Loading skin file: DialogMuteBug.xml, load type: LOAD_ON_GUI_INIT
+20:38:02 T:1506940664   DEBUG: Load DialogMuteBug.xml: 2.37ms
+20:38:02 T:1506940664   DEBUG: Alloc resources: 2.90ms  (2.90 ms skin load)
+20:38:02 T:1506940664    INFO: Loading skin file: DialogSeekBar.xml, load type: LOAD_ON_GUI_INIT
+20:38:02 T:1506940664   DEBUG: Load DialogSeekBar.xml: 19.75ms
+20:38:02 T:1506940664   DEBUG: Alloc resources: 20.64ms  (20.26 ms skin load)
+20:38:02 T:1506940664    INFO: Loading skin file: DialogBusy.xml, load type: LOAD_ON_GUI_INIT
+20:38:02 T:1506940664   DEBUG: Load DialogBusy.xml: 3.94ms
+20:38:02 T:1506940664   DEBUG: Alloc resources: 4.59ms  (4.56 ms skin load)
+20:38:02 T:1506940664    INFO: Loading skin file: DialogExtendedProgressBar.xml, load type: LOAD_ON_GUI_INIT
+20:38:02 T:1506940664   DEBUG: Load DialogExtendedProgressBar.xml: 4.01ms
+20:38:02 T:1506940664   DEBUG: Alloc resources: 4.74ms  (4.71 ms skin load)
+20:38:02 T:1506940664    INFO: Loading /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/sounds/sounds.xml
+20:38:02 T:1506940664    INFO:   skin loaded...
+20:38:02 T:1506940664   DEBUG: JSONRPC: JSON schema type stereoscopicmode references an unknown type GUI.Stereoscopy.Mode
+20:38:02 T:1506940664 WARNING: JSONRPC: Could not parse type "GUI.Property.Value"
+20:38:02 T:1506940664    INFO: JSONRPC: Adding type "GUI.Property.Value" to list of incomplete definitions (waiting for "GUI.Stereoscopy.Mode")
+20:38:02 T:1506940664    INFO: JSONRPC: Resolving incomplete types/methods referencing GUI.Stereoscopy.Mode
+20:38:02 T:1506940664   DEBUG: JSONRPC: JSON schema type definition references an unknown type Setting.Details.Setting
+20:38:02 T:1506940664 WARNING: JSONRPC: Could not parse type "Setting.Details.SettingList"
+20:38:02 T:1506940664    INFO: JSONRPC: Adding type "Setting.Details.SettingList" to list of incomplete definitions (waiting for "Setting.Details.Setting")
+20:38:02 T:1506940664    INFO: JSONRPC: Resolving incomplete types/methods referencing Setting.Details.Setting
+20:38:02 T:1506940664    INFO: JSONRPC v6.16.0: Successfully initialized
+20:38:02 T:1506940664   DEBUG: ADDON: Starting service addons.
+20:38:02 T:1506940664   DEBUG: Activating window ID: 12999
+20:38:02 T:1506940664   DEBUG: ------ Window Init (Startup.xml) ------
+20:38:02 T:1506940664    INFO: Loading skin file: Startup.xml, load type: LOAD_EVERY_TIME
+20:38:02 T:1552674808  NOTICE: Thread LanguageInvoker start, auto delete: false
+20:38:02 T:1552674808    INFO: initializing python engine.
+20:38:02 T:1506940664   DEBUG: Load Startup.xml: 10.31ms
+20:38:02 T:1506940664   DEBUG: Alloc resources: 38.31ms  (38.30 ms skin load)
+20:38:02 T:1506940664    INFO: removing tempfiles
+20:38:02 T:1506940664   DEBUG: ADDON: Starting service addons.
+20:38:02 T:1506940664  NOTICE: initialize done
+20:38:02 T:1506940664  NOTICE: Running the application...
+20:38:02 T:1506940664   DEBUG: Activating window ID: 10000
+20:38:02 T:1506940664    INFO: GLES: Enabling VSYNC
+20:38:02 T:1506940664    INFO: GLES: Selected vsync mode 10
+20:38:02 T:1506940664   DEBUG: ------ Window Deinit (Startup.xml) ------
+20:38:02 T:1506940664   DEBUG: ------ Window Init (Home.xml) ------
+20:38:02 T:1506940664    INFO: Loading skin file: Home.xml, load type: KEEP_IN_MEMORY
+20:38:02 T:1552674808   DEBUG: CPythonInvoker(0, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): start processing
+20:38:02 T:1552674808  NOTICE: -->Python Interpreter Initialized<--
+20:38:02 T:1552674808   DEBUG: CPythonInvoker(0, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): the source file to load is "/data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py"
+20:38:02 T:1552674808   DEBUG: CPythonInvoker(0, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): setting the Python path to /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck:/data/data/org.xbmc.xbmc/cache/apk/assets/addons/script.module.pil/lib:/:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python26.zip:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6/plat-linux3:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6/lib-tk:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6/lib-old:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6/lib-dynload
+20:38:02 T:1552674808   DEBUG: CPythonInvoker(0, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): entering source directory /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck
+20:38:02 T:1552674808   DEBUG: CPythonInvoker(0, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): instantiating addon using automatically obtained id of "service.xbmc.versioncheck" dependent on version 2.1.0 of the xbmc.python api
+20:38:02 T:1552674808   DEBUG: XBMC Version Check: Version 0.1.21 started
+20:38:02 T:1506940664   DEBUG: Load Home.xml: 215.40ms
+20:38:02 T:1506940664   DEBUG: Alloc resources: 407.61ms  (236.88 ms skin load)
+20:38:02 T:1558043816  NOTICE: Thread JobWorker start, auto delete: true
+20:38:02 T:1558043816   DEBUG: CRecentlyAddedJob::UpdateMusic() - Running RecentlyAdded home screen update
+20:38:02 T:1552674808    INFO: CPythonInvoker(0, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): script successfully run
+20:38:02 T:1506940664   DEBUG: no profile autoexec.py (/storage/sdcard0/Android/data/org.xbmc.xbmc/files/.xbmc/userdata/autoexec.py) found, skipping
+20:38:02 T:1506940664   DEBUG: void CNetwork::NetworkMessage(CNetwork::EMESSAGE, int) - Starting network services
+20:38:02 T:1506940664  NOTICE: starting zeroconf publishing
+20:38:02 T:1558044064  NOTICE: Thread ZerocconfEmbedded start, auto delete: false
+20:38:02 T:1506940664  NOTICE: Webserver: Starting...
+20:38:02 T:1506940664  NOTICE: WebServer: Started the webserver
+20:38:03 T:1506940664  NOTICE: starting upnp controller
+20:38:03 T:1558759528  NOTICE: Thread JobWorker start, auto delete: true
+20:38:03 T:1558044064   DEBUG: ZeroconfEmbedded - processing...
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: identifier: servers.webserver type: _http._tcp name:kodi port:8080
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: identifier: servers.jsonrpc-http type: _xbmc-jsonrpc-h._tcp name:kodi port:8080
+20:38:03 T:1506940664  NOTICE: starting upnp server
+20:38:03 T:1506940664  NOTICE: starting upnp renderer
+20:38:03 T:1558043816   DEBUG: GetRecentlyAddedAlbumSongs() query: SELECT songview.* FROM (SELECT idAlbum FROM albumview ORDER BY idAlbum DESC LIMIT 10) AS recentalbums JOIN songview ON songview.idAlbum=recentalbums.idAlbum
+20:38:03 T:1506940664  NOTICE: ES: Starting event server
+20:38:03 T:1558043816   DEBUG: bool CMusicDatabase::GetRecentlyAddedAlbums(VECALBUMS&, unsigned int) query: select * from albumview where strAlbum != '' order by idAlbum desc limit 10
+20:38:03 T:1506940664    INFO: JSONRPC Server: Successfully initialized
+20:38:03 T:1506940664   DEBUG: SECTION:LoadDLL(libshairplay.so)
+20:38:03 T:1506940664   DEBUG: Loading: /data/data/org.xbmc.xbmc/lib/libshairplay.so
+20:38:03 T:1558811136  NOTICE: Thread EventServer start, auto delete: false
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: identifier: servers.jsonrpc-tpc type: _xbmc-jsonrpc._tcp name:kodi port:9090
+20:38:03 T:1559482232  NOTICE: Thread TCPServer start, auto delete: false
+20:38:03 T:1558811136  NOTICE: ES: Starting UDP Event server on 0.0.0.0:9777
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: identifier: servers.airtunes type: _raop._tcp name:5CFF35707B1C@kodi port:36666
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:txtvers, value:1
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:cn, value:0,1
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:ch, value:2
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:ek, value:1
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:et, value:0,1
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:sv, value:false
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:tp, value:UDP
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:sm, value:false
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:ss, value:16
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:sr, value:44100
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:pw, value:false
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:vn, value:3
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:da, value:true
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:vs, value:130.14
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:md, value:0,1,2
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:am, value:Xbmc,1
+20:38:03 T:1558043816   DEBUG: CRecentlyAddedJob::UpdateVideos() - Running RecentlyAdded home screen update
+20:38:03 T:1552674808    INFO: Python script stopped
+20:38:03 T:1506940664    INFO: AIRPLAY Server: Successfully initialized
+20:38:03 T:1559136288  NOTICE: Thread AirPlayServer start, auto delete: false
+20:38:03 T:1552674808   DEBUG: Thread LanguageInvoker 1552674808 terminating
+20:38:03 T:1506940664   DEBUG: started alarm with name: checkatboot
+20:38:03 T:1506940664   DEBUG: started alarm with name: checkwhilerunning
+20:38:03 T:1558811136  NOTICE: UDP: Listening on port 9777
+20:38:03 T:1559307112  NOTICE: Thread AlarmClock start, auto delete: false
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: identifier: servers.airplay type: _airplay._tcp name:kodi port:36667
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:deviceid, value:5C:FF:35:70:7B:1C
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:features, value:0x77
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:model, value:Xbmc,1
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: key:srcvers, value:101.28
+20:38:03 T:1559174856  NOTICE: Thread JobWorker start, auto delete: true
+20:38:03 T:1558759528   DEBUG: ZeroconfMDNS: identifier: servers.eventserver type: _xbmc-events._udp name:kodi port:9777
+20:38:03 T:1559285152  NOTICE: Thread RSSReader start, auto delete: false
+20:38:03 T:1559285152   DEBUG: CurlFile::Open(0x62d8ddb8) http://feeds.xbmc.org/xbmc
+20:38:03 T:1559285152    INFO: void XCURL::DllLibCurlGlobal::easy_aquire(const char*, const char*, XCURL::CURL_HANDLE**, XCURL::CURLM**) - Created session to http://feeds.xbmc.org
+20:38:03 T:1558043816   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 2 ms for 0 items query: select * from movieview  ORDER BY dateAdded desc, idMovie desc LIMIT 10
+20:38:03 T:1558043816   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 2 ms for 0 items query: select * from episodeview  ORDER BY dateAdded desc, idEpisode desc LIMIT 10
+20:38:03 T:1558043816   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 3 ms for 0 items query: select * from musicvideoview  ORDER BY dateAdded desc, idMVideo desc LIMIT 10
+20:38:03 T:1558043816   DEBUG: CRecentlyAddedJob::UpdateTotal() - Running RecentlyAdded home screen update
+20:38:03 T:1559285152   DEBUG: Got rss feed: http://feeds.xbmc.org/xbmc
+20:38:03 T:1559285152   DEBUG: RSS feed encoding: UTF-8
+20:38:03 T:1559285152   DEBUG: Parsed rss feed: http://feeds.xbmc.org/xbmc
+20:38:03 T:1559285152   DEBUG: CurlFile::Open(0x62d8ddb8) http://feeds.xbmc.org/latest_xbmc_addons
+20:38:03 T:1559285152   DEBUG: Got rss feed: http://feeds.xbmc.org/latest_xbmc_addons
+20:38:03 T:1559285152   DEBUG: RSS feed encoding: UTF-8
+20:38:03 T:1559285152   DEBUG: Parsed rss feed: http://feeds.xbmc.org/latest_xbmc_addons
+20:38:03 T:1559285152   DEBUG: CurlFile::Open(0x62d8ddb8) http://feeds.xbmc.org/updated_xbmc_addons
+20:38:03 T:1559285152   DEBUG: Got rss feed: http://feeds.xbmc.org/updated_xbmc_addons
+20:38:03 T:1559285152   DEBUG: RSS feed encoding: UTF-8
+20:38:03 T:1559285152   DEBUG: Parsed rss feed: http://feeds.xbmc.org/updated_xbmc_addons
+20:38:03 T:1559285152   DEBUG: Thread RSSReader 1559285152 terminating
+20:38:03 T:1558821816   DEBUG: CPlayerCoreConfig::<ctor>: created player [TV][LG]55LA6200-UA for core 5
+20:38:04 T:1559307232  NOTICE: Thread Timer start, auto delete: false
+20:38:04 T:1559307232   DEBUG: Thread Timer 1559307232 terminating
+20:38:04 T:1558044064   DEBUG: ZeroconfMDNS: kodi._http._tcp.local. registration removed
+20:38:04 T:1558044064   DEBUG: ZeroconfMDNS: kodi._xbmc-jsonrpc-h._tcp.local. registration removed
+20:38:04 T:1558044064   DEBUG: ZeroconfMDNS: kodi._xbmc-jsonrpc._tcp.local. registration removed
+20:38:04 T:1558044064   DEBUG: ZeroconfMDNS: 5CFF35707B1C@kodi._raop._tcp.local. registration removed
+20:38:04 T:1558044064   DEBUG: ZeroconfMDNS: kodi._airplay._tcp.local. registration removed
+20:38:04 T:1558044064   DEBUG: ZeroconfMDNS: kodi._xbmc-events._udp.local. registration removed
+20:38:05 T:1559235136   DEBUG: UPnP Translated id to 'virtualpath://upnproot/'
+20:38:05 T:1559235136    INFO: UPnP: Received Browse DirectChildren request for object '0', with sort criteria
+20:38:05 T:1559235136   DEBUG: Building UPnP response with filter 'res@resolution,res@nrAudioChannels,res@sampleFrequency,res@bitrate,dc:creator,res@dlna:cleartextSize,dc:date,upnp:genre,res,res@duration,res@size,upnp:albumArtURI,upnp:originalTrackNumber,upnp:album,upnp:artist,upnp:author', starting @ 0 with 100 requested
+20:38:05 T:1559235136   DEBUG: Preparing upnp object for item 'musicdb://'
+20:38:05 T:1559235136   DEBUG: UPnP: Building didl for object 'musicdb://'
+20:38:05 T:1559235136   DEBUG: Preparing upnp object for item 'library://video/'
+20:38:05 T:1559235136   DEBUG: UPnP: Building didl for object 'library://video/'
+20:38:05 T:1559235136   DEBUG: Returning UPnP response with 2 items out of 2 total matches
+20:38:05 T:1558926328   DEBUG: UPnP Translated id to 'musicdb://'
+20:38:05 T:1558926328    INFO: UPnP: Received Browse DirectChildren request for object 'musicdb://', with sort criteria
+20:38:05 T:1558926328   DEBUG: Album format left  = [%B]
+20:38:05 T:1558926328   DEBUG: Album format right = [%A]
+20:38:05 T:1558926328   DEBUG: Building UPnP response with filter 'res@resolution,res@nrAudioChannels,res@sampleFrequency,res@bitrate,dc:creator,res@dlna:cleartextSize,dc:date,upnp:genre,res,res@duration,res@size,upnp:albumArtURI,upnp:originalTrackNumber,upnp:album,upnp:artist,upnp:author', starting @ 0 with 100 requested
+20:38:05 T:1558926328   DEBUG: Preparing upnp object for item 'musicdb://genres/'
+20:38:05 T:1558926328   DEBUG: UPnP: Building didl for object 'musicdb://genres/'
+20:38:05 T:1558926328   DEBUG: Preparing upnp object for item 'musicdb://artists/'
+20:38:05 T:1558926328   DEBUG: UPnP: Building didl for object 'musicdb://artists/'
+20:38:05 T:1558926328   DEBUG: Preparing upnp object for item 'musicdb://albums/'
+20:38:05 T:1558926328   DEBUG: UPnP: Building didl for object 'musicdb://albums/'
+20:38:05 T:1558926328   DEBUG: Preparing upnp object for item 'musicdb://songs/'
+20:38:05 T:1558926328   DEBUG: UPnP: Building didl for object 'musicdb://songs/'
+20:38:05 T:1558926328   DEBUG: Preparing upnp object for item 'musicdb://years/'
+20:38:05 T:1558926328   DEBUG: UPnP: Building didl for object 'musicdb://years/'
+20:38:05 T:1558926328   DEBUG: Preparing upnp object for item 'musicdb://top100/'
+20:38:05 T:1558926328   DEBUG: UPnP: Building didl for object 'musicdb://top100/'
+20:38:05 T:1558926328   DEBUG: Preparing upnp object for item 'musicdb://recentlyaddedalbums/'
+20:38:05 T:1558926328   DEBUG: UPnP: Building didl for object 'musicdb://recentlyaddedalbums/'
+20:38:05 T:1558926328   DEBUG: Preparing upnp object for item 'musicdb://recentlyplayedalbums/'
+20:38:05 T:1558926328   DEBUG: UPnP: Building didl for object 'musicdb://recentlyplayedalbums/'
+20:38:05 T:1558926328   DEBUG: Preparing upnp object for item 'special://musicplaylists/'
+20:38:05 T:1558926328   DEBUG: UPnP: Building didl for object 'special://musicplaylists/'
+20:38:05 T:1558926328   DEBUG: Returning UPnP response with 9 items out of 9 total matches
+20:38:05 T:1559410520   DEBUG: UPnP Translated id to 'library://video/'
+20:38:05 T:1559410520    INFO: UPnP: Received Browse DirectChildren request for object 'library://video/', with sort criteria
+20:38:05 T:1559410520   DEBUG: Building UPnP response with filter 'res@resolution,res@nrAudioChannels,res@sampleFrequency,res@bitrate,dc:creator,res@dlna:cleartextSize,dc:date,upnp:genre,res,res@duration,res@size,upnp:albumArtURI,upnp:originalTrackNumber,upnp:album,upnp:artist,upnp:author', starting @ 0 with 100 requested
+20:38:05 T:1559410520   DEBUG: Preparing upnp object for item 'library://video/files.xml/'
+20:38:05 T:1559410520   DEBUG: UPnP: Building didl for object 'library://video/files.xml/'
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/poster.jpg
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/poster.png
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/banner.jpg
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/banner.png
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/thumb.jpg
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/thumb.png
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/movie.tbn
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/folder.jpg
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/fanart.jpg
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/fanart.png
+20:38:05 T:1559410520   DEBUG: Preparing upnp object for item 'library://video/playlists.xml/'
+20:38:05 T:1559410520   DEBUG: UPnP: Building didl for object 'library://video/playlists.xml/'
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/playlists.xml/poster.jpg
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/playlists.xml/poster.png
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/playlists.xml/banner.jpg
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/playlists.xml/banner.png
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/playlists.xml/thumb.jpg
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/playlists.xml/thumb.png
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/playlists.xml/movie.tbn
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/playlists.xml/folder.jpg
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/playlists.xml/fanart.jpg
+20:38:05 T:1559410520 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/playlists.xml/fanart.png
+20:38:05 T:1559410520   DEBUG: Returning UPnP response with 2 items out of 2 total matches
+20:38:05 T:1560127664   DEBUG: UPnP Translated id to 'musicdb://genres/'
+20:38:05 T:1560127664    INFO: UPnP: Received Browse DirectChildren request for object 'musicdb://genres/', with sort criteria
+20:38:05 T:1560127664   DEBUG: bool CMusicDatabase::GetGenresNav(const CStdString&, CFileItemList&, const CDatabase::Filter&, bool) query: SELECT genre.* FROM genre  WHERE genre.strGenre != ''
+20:38:05 T:1560127664   DEBUG: Album format left  = [%B]
+20:38:05 T:1560127664   DEBUG: Album format right = [%A]
+20:38:05 T:1560127664   DEBUG: Building UPnP response with filter 'res@resolution,res@nrAudioChannels,res@sampleFrequency,res@bitrate,dc:creator,res@dlna:cleartextSize,dc:date,upnp:genre,res,res@duration,res@size,upnp:albumArtURI,upnp:originalTrackNumber,upnp:album,upnp:artist,upnp:author', starting @ 0 with 100 requested
+20:38:05 T:1560127664   DEBUG: Preparing upnp object for item 'musicdb://genres/1/'
+20:38:05 T:1560127664   DEBUG: UPnP: Building didl for object 'musicdb://genres/1/'
+20:38:05 T:1560127664   DEBUG: Returning UPnP response with 1 items out of 1 total matches
+20:38:05 T:1559372456   DEBUG: UPnP Translated id to 'musicdb://artists/'
+20:38:05 T:1559372456    INFO: UPnP: Received Browse DirectChildren request for object 'musicdb://artists/', with sort criteria
+20:38:05 T:1559372456   DEBUG: bool CMusicDatabase::GetArtistsByWhere(const CStdString&, const CDatabase::Filter&, CFileItemList&, const SortDescription&, bool) query: SELECT artistview.* FROM artistview  WHERE (artistview.idArtist IN (SELECT song_artist.idArtist FROM song_artist) OR artistview.idArtist IN (SELECT album_artist.idArtist FROM album_artist)) and artistview.strArtist != '' and artistview.strArtist <> 'Various artists'
+20:38:05 T:1559372456   DEBUG: Time to retrieve artists from dataset = 4
+20:38:05 T:1559372456   DEBUG: Album format left  = [%B]
+20:38:05 T:1559372456   DEBUG: Album format right = [%A]
+20:38:05 T:1559372456   DEBUG: Building UPnP response with filter 'res@resolution,res@nrAudioChannels,res@sampleFrequency,res@bitrate,dc:creator,res@dlna:cleartextSize,dc:date,upnp:genre,res,res@duration,res@size,upnp:albumArtURI,upnp:originalTrackNumber,upnp:album,upnp:artist,upnp:author', starting @ 0 with 100 requested
+20:38:05 T:1559372456   DEBUG: Returning UPnP response with 0 items out of 0 total matches
+20:38:05 T:1560127664   DEBUG: UPnP Translated id to 'musicdb://albums/'
+20:38:05 T:1560127664    INFO: UPnP: Received Browse DirectChildren request for object 'musicdb://albums/', with sort criteria
+20:38:05 T:1560127664   DEBUG: bool CMusicDatabase::GetAlbumsByWhere(const CStdString&, const CDatabase::Filter&, CFileItemList&, const SortDescription&, bool) query: SELECT albumview.* FROM albumview  WHERE albumview.strAlbum <> ''
+20:38:05 T:1560127664   DEBUG: bool CMusicDatabase::GetAlbumsByWhere(const CStdString&, const CDatabase::Filter&, CFileItemList&, const SortDescription&, bool) - query took 2 ms
+20:38:05 T:1560127664   DEBUG: Album format left  = [%B]
+20:38:05 T:1560127664   DEBUG: Album format right = [%A]
+20:38:05 T:1560127664   DEBUG: Building UPnP response with filter 'res@resolution,res@nrAudioChannels,res@sampleFrequency,res@bitrate,dc:creator,res@dlna:cleartextSize,dc:date,upnp:genre,res,res@duration,res@size,upnp:albumArtURI,upnp:originalTrackNumber,upnp:album,upnp:artist,upnp:author', starting @ 0 with 100 requested
+20:38:06 T:1560127664   DEBUG: Returning UPnP response with 0 items out of 0 total matches
+20:38:06 T:1560163640   DEBUG: UPnP Translated id to 'musicdb://songs/'
+20:38:06 T:1560163640    INFO: UPnP: Received Browse DirectChildren request for object 'musicdb://songs/', with sort criteria
+20:38:06 T:1560163640   DEBUG: bool CMusicDatabase::GetSongsByWhere(const CStdString&, const CDatabase::Filter&, CFileItemList&, const SortDescription&) query = SELECT songview.* FROM songview
+20:38:06 T:1560163640   DEBUG: Album format left  = [%B]
+20:38:06 T:1560163640   DEBUG: Album format right = [%A]
+20:38:06 T:1560163640   DEBUG: Building UPnP response with filter 'res@resolution,res@nrAudioChannels,res@sampleFrequency,res@bitrate,dc:creator,res@dlna:cleartextSize,dc:date,upnp:genre,res,res@duration,res@size,upnp:albumArtURI,upnp:originalTrackNumber,upnp:album,upnp:artist,upnp:author', starting @ 0 with 100 requested
+20:38:06 T:1560163640   DEBUG: Returning UPnP response with 0 items out of 0 total matches
+20:38:06 T:1559595936   DEBUG: UPnP Translated id to 'musicdb://years/'
+20:38:06 T:1559595936    INFO: UPnP: Received Browse DirectChildren request for object 'musicdb://years/', with sort criteria
+20:38:06 T:1559595936   DEBUG: bool CMusicDatabase::GetYearsNav(const CStdString&, CFileItemList&, const CDatabase::Filter&) query: SELECT DISTINCT albumview.iYear FROM albumview  WHERE albumview.iYear <> 0
+20:38:06 T:1559595936   DEBUG: Album format left  = [%B]
+20:38:06 T:1559595936   DEBUG: Album format right = [%A]
+20:38:06 T:1559595936   DEBUG: Building UPnP response with filter 'res@resolution,res@nrAudioChannels,res@sampleFrequency,res@bitrate,dc:creator,res@dlna:cleartextSize,dc:date,upnp:genre,res,res@duration,res@size,upnp:albumArtURI,upnp:originalTrackNumber,upnp:album,upnp:artist,upnp:author', starting @ 0 with 100 requested
+20:38:06 T:1559595936   DEBUG: Returning UPnP response with 0 items out of 0 total matches
+20:38:06 T:1560163640   DEBUG: UPnP Translated id to 'musicdb://top100/'
+20:38:06 T:1560163640    INFO: UPnP: Received Browse DirectChildren request for object 'musicdb://top100/', with sort criteria
+20:38:06 T:1560163640   DEBUG: Album format left  = [%B]
+20:38:06 T:1560163640   DEBUG: Album format right = [%A]
+20:38:06 T:1560163640   DEBUG: Building UPnP response with filter 'res@resolution,res@nrAudioChannels,res@sampleFrequency,res@bitrate,dc:creator,res@dlna:cleartextSize,dc:date,upnp:genre,res,res@duration,res@size,upnp:albumArtURI,upnp:originalTrackNumber,upnp:album,upnp:artist,upnp:author', starting @ 0 with 100 requested
+20:38:06 T:1560163640   DEBUG: Preparing upnp object for item 'musicdb://top100/songs/'
+20:38:06 T:1560163640   DEBUG: UPnP: Building didl for object 'musicdb://top100/songs/'
+20:38:06 T:1560163640   DEBUG: Preparing upnp object for item 'musicdb://top100/albums/'
+20:38:06 T:1560163640   DEBUG: UPnP: Building didl for object 'musicdb://top100/albums/'
+20:38:06 T:1560163640   DEBUG: Returning UPnP response with 2 items out of 2 total matches
+20:38:06 T:1559595936   DEBUG: UPnP Translated id to 'musicdb://recentlyaddedalbums/'
+20:38:06 T:1559595936    INFO: UPnP: Received Browse DirectChildren request for object 'musicdb://recentlyaddedalbums/', with sort criteria
+20:38:06 T:1559595936   DEBUG: bool CMusicDatabase::GetRecentlyAddedAlbums(VECALBUMS&, unsigned int) query: select * from albumview where strAlbum != '' order by idAlbum desc limit 25
+20:38:06 T:1559595936   DEBUG: Album format left  = [%B]
+20:38:06 T:1559595936   DEBUG: Album format right = [%A]
+20:38:06 T:1559595936   DEBUG: Building UPnP response with filter 'res@resolution,res@nrAudioChannels,res@sampleFrequency,res@bitrate,dc:creator,res@dlna:cleartextSize,dc:date,upnp:genre,res,res@duration,res@size,upnp:albumArtURI,upnp:originalTrackNumber,upnp:album,upnp:artist,upnp:author', starting @ 0 with 100 requested
+20:38:06 T:1559595936   DEBUG: Returning UPnP response with 0 items out of 0 total matches
+20:38:06 T:1560163640   DEBUG: UPnP Translated id to 'musicdb://recentlyplayedalbums/'
+20:38:06 T:1560163640    INFO: UPnP: Received Browse DirectChildren request for object 'musicdb://recentlyplayedalbums/', with sort criteria
+20:38:06 T:1560163640   DEBUG: bool CMusicDatabase::GetRecentlyPlayedAlbums(VECALBUMS&) query: select distinct albumview.* from song join albumview on albumview.idAlbum=song.idAlbum where song.lastplayed IS NOT NULL order by song.lastplayed desc limit 25
+20:38:06 T:1560163640   DEBUG: Album format left  = [%B]
+20:38:06 T:1560163640   DEBUG: Album format right = [%A]
+20:38:06 T:1560163640   DEBUG: Building UPnP response with filter 'res@resolution,res@nrAudioChannels,res@sampleFrequency,res@bitrate,dc:creator,res@dlna:cleartextSize,dc:date,upnp:genre,res,res@duration,res@size,upnp:albumArtURI,upnp:originalTrackNumber,upnp:album,upnp:artist,upnp:author', starting @ 0 with 100 requested
+20:38:06 T:1560163640   DEBUG: Returning UPnP response with 0 items out of 0 total matches
+20:38:06 T:1551200656   DEBUG: UPnP Translated id to 'special://musicplaylists/'
+20:38:06 T:1551200656    INFO: UPnP: Received Browse DirectChildren request for object 'special://musicplaylists/', with sort criteria
+20:38:06 T:1551200656   DEBUG: CMultiPathDirectory::GetDirectory(multipath://special%3a%2f%2fprofile%2fplaylists%2fmusic/special%3a%2f%2fprofile%2fplaylists%2fmixed/)
+20:38:06 T:1551200656   DEBUG: Getting Directory (special://profile/playlists/music)
+20:38:06 T:1551200656   DEBUG: Getting Directory (special://profile/playlists/mixed)
+20:38:06 T:1551200656   DEBUG: CMultiPathDirectory::MergeItems, items = 0
+20:38:06 T:1551200656   DEBUG: Building UPnP response with filter 'res@resolution,res@nrAudioChannels,res@sampleFrequency,res@bitrate,dc:creator,res@dlna:cleartextSize,dc:date,upnp:genre,res,res@duration,res@size,upnp:albumArtURI,upnp:originalTrackNumber,upnp:album,upnp:artist,upnp:author', starting @ 0 with 100 requested
+20:38:06 T:1551200656   DEBUG: Returning UPnP response with 0 items out of 0 total matches
+20:38:06 T:1559595936   DEBUG: UPnP Translated id to 'library://video/files.xml/'
+20:38:06 T:1559595936    INFO: UPnP: Received Browse DirectChildren request for object 'library://video/files.xml/', with sort criteria
+20:38:06 T:1559595936   DEBUG: Building UPnP response with filter 'res@resolution,res@nrAudioChannels,res@sampleFrequency,res@bitrate,dc:creator,res@dlna:cleartextSize,dc:date,upnp:genre,res,res@duration,res@size,upnp:albumArtURI,upnp:originalTrackNumber,upnp:album,upnp:artist,upnp:author', starting @ 0 with 100 requested
+20:38:06 T:1559595936   DEBUG: Returning UPnP response with 0 items out of 0 total matches
+20:38:06 T:1551200656   DEBUG: UPnP Translated id to 'library://video/playlists.xml/'
+20:38:06 T:1551200656    INFO: UPnP: Received Browse DirectChildren request for object 'library://video/playlists.xml/', with sort criteria
+20:38:06 T:1551200656   DEBUG: CMultiPathDirectory::GetDirectory(multipath://special%3a%2f%2fprofile%2fplaylists%2fvideo/special%3a%2f%2fprofile%2fplaylists%2fmixed/)
+20:38:06 T:1551200656   DEBUG: Getting Directory (special://profile/playlists/video)
+20:38:06 T:1551200656   DEBUG: Getting Directory (special://profile/playlists/mixed)
+20:38:06 T:1551200656   DEBUG: CMultiPathDirectory::MergeItems, items = 0
+20:38:06 T:1551200656   DEBUG: Building UPnP response with filter 'res@resolution,res@nrAudioChannels,res@sampleFrequency,res@bitrate,dc:creator,res@dlna:cleartextSize,dc:date,upnp:genre,res,res@duration,res@size,upnp:albumArtURI,upnp:originalTrackNumber,upnp:album,upnp:artist,upnp:author', starting @ 0 with 100 requested
+20:38:06 T:1551200656   DEBUG: Returning UPnP response with 0 items out of 0 total matches
+20:38:06 T:1559595936   DEBUG: UPnP Translated id to 'musicdb://genres/1/'
+20:38:06 T:1559595936    INFO: UPnP: Received Browse DirectChildren request for object 'musicdb://genres/1/', with sort criteria
+20:38:06 T:1559595936   DEBUG: bool CMusicDatabase::GetArtistsByWhere(const CStdString&, const CDatabase::Filter&, CFileItemList&, const SortDescription&, bool) query: SELECT artistview.* FROM artistview  WHERE (artistview.idArtist IN (SELECT song_artist.idArtist FROM song_artist JOIN song_genre ON song_artist.idSong = song_genre.idSong WHERE song_genre.idGenre = 1) OR idArtist IN (SELECT album_artist.idArtist FROM album_artist JOIN album_genre ON album_artist.idAlbum = album_genre.idAlbum WHERE album_genre.idGenre = 1)) and artistview.strArtist != '' and artistview.strArtist <> 'Various artists'
+20:38:06 T:1559595936   DEBUG: Time to retrieve artists from dataset = 4
+20:38:06 T:1559595936   DEBUG: Album format left  = [%B]
+20:38:06 T:1559595936   DEBUG: Album format right = [%A]
+20:38:06 T:1559595936   DEBUG: Building UPnP response with filter 'res@resolution,res@nrAudioChannels,res@sampleFrequency,res@bitrate,dc:creator,res@dlna:cleartextSize,dc:date,upnp:genre,res,res@duration,res@size,upnp:albumArtURI,upnp:originalTrackNumber,upnp:album,upnp:artist,upnp:author', starting @ 0 with 100 requested
+20:38:06 T:1559595936   DEBUG: Returning UPnP response with 0 items out of 0 total matches
+20:38:06 T:1551200656   DEBUG: UPnP Translated id to 'musicdb://top100/songs/'
+20:38:06 T:1551200656    INFO: UPnP: Received Browse DirectChildren request for object 'musicdb://top100/songs/', with sort criteria
+20:38:06 T:1551200656   DEBUG: bool CMusicDatabase::GetTop100(const CStdString&, CFileItemList&) query: select * from songview where iTimesPlayed>0 order by iTimesPlayed desc limit 100
+20:38:06 T:1551200656   DEBUG: Album format left  = [%B]
+20:38:06 T:1551200656   DEBUG: Album format right = [%A]
+20:38:06 T:1551200656   DEBUG: Building UPnP response with filter 'res@resolution,res@nrAudioChannels,res@sampleFrequency,res@bitrate,dc:creator,res@dlna:cleartextSize,dc:date,upnp:genre,res,res@duration,res@size,upnp:albumArtURI,upnp:originalTrackNumber,upnp:album,upnp:artist,upnp:author', starting @ 0 with 100 requested
+20:38:06 T:1551200656   DEBUG: Returning UPnP response with 0 items out of 0 total matches
+20:38:06 T:1559595936   DEBUG: UPnP Translated id to 'musicdb://top100/albums/'
+20:38:06 T:1559595936    INFO: UPnP: Received Browse DirectChildren request for object 'musicdb://top100/albums/', with sort criteria
+20:38:06 T:1559595936   DEBUG: bool CMusicDatabase::GetTop100Albums(VECALBUMS&) query: select albumview.* from albumview where albumview.iTimesPlayed>0 and albumview.strAlbum != '' order by albumview.iTimesPlayed desc limit 100
+20:38:07 T:1559595936   DEBUG: Album format left  = [%B]
+20:38:07 T:1559595936   DEBUG: Album format right = [%A]
+20:38:07 T:1559595936   DEBUG: Building UPnP response with filter 'res@resolution,res@nrAudioChannels,res@sampleFrequency,res@bitrate,dc:creator,res@dlna:cleartextSize,dc:date,upnp:genre,res,res@duration,res@size,upnp:albumArtURI,upnp:originalTrackNumber,upnp:album,upnp:artist,upnp:author', starting @ 0 with 100 requested
+20:38:07 T:1559595936   DEBUG: Returning UPnP response with 0 items out of 0 total matches
+20:38:13 T:1506940664    INFO: Python, unloading python shared library because no scripts are running anymore
+20:38:13 T:1506940664   DEBUG: void XBPython::UnloadExtensionLibs(), clearing python extension libraries
+20:38:17 T:1559690760  NOTICE: Thread Timer start, auto delete: false
+20:38:17 T:1559690760   DEBUG: Thread Timer 1559690760 terminating
+20:38:31 T:1506940664   DEBUG: SECTION:UnloadDelayed(DLL: libImageLib-arm.so)
+20:38:31 T:1506940664   DEBUG: Unloading: /libImageLib-arm.so
+20:38:33 T:1559174856   DEBUG: Thread JobWorker 1559174856 terminating (autodelete)
+20:38:33 T:1558759528   DEBUG: Thread JobWorker 1558759528 terminating (autodelete)
+20:38:33 T:1556835120  NOTICE: Thread LanguageInvoker start, auto delete: false
+20:38:33 T:1556835120    INFO: initializing python engine.
+20:38:33 T:1558043816   DEBUG: Thread JobWorker 1558043816 terminating (autodelete)
+20:38:33 T:1556835120   DEBUG: CPythonInvoker(1, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): start processing
+20:38:33 T:1556835120  NOTICE: -->Python Interpreter Initialized<--
+20:38:33 T:1556835120   DEBUG: CPythonInvoker(1, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): the source file to load is "/data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py"
+20:38:33 T:1556835120   DEBUG: CPythonInvoker(1, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): setting the Python path to /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck:/data/data/org.xbmc.xbmc/cache/apk/assets/addons/script.module.pil/lib:/:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python26.zip:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6/plat-linux3:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6/lib-tk:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6/lib-old:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6/lib-dynload
+20:38:33 T:1556835120   DEBUG: CPythonInvoker(1, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): entering source directory /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck
+20:38:33 T:1556835120   DEBUG: CPythonInvoker(1, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): instantiating addon using automatically obtained id of "service.xbmc.versioncheck" dependent on version 2.1.0 of the xbmc.python api
+20:38:33 T:1556835120   DEBUG: XBMC Version Check: Version 0.1.21 started
+20:38:33 T:1556835120   DEBUG: XBMC Version Check: Version installed {u'major': 14, u'tag': u'prealpha', u'minor': 0, u'revision': u'2014-08-01-62d01f6-dirty'}
+20:38:33 T:1556835120    INFO: CPythonInvoker(1, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): script successfully run
+20:38:33 T:1556835120    INFO: Python script stopped
+20:38:33 T:1556835120   DEBUG: Thread LanguageInvoker 1556835120 terminating
+20:38:33 T:1506940664    INFO: void XCURL::DllLibCurlGlobal::CheckIdle() - Closing session to http://feeds.xbmc.org (easy=0x5ce0dd60, multi=0x5cdd8240)
+20:38:34 T:1561593664  NOTICE: Thread Timer start, auto delete: false
+20:38:34 T:1561593664   DEBUG: Thread Timer 1561593664 terminating
+20:38:38 T:1561593664  NOTICE: Thread Timer start, auto delete: false
+20:38:38 T:1561593664   DEBUG: Thread Timer 1561593664 terminating
+20:38:43 T:1506940664    INFO: Python, unloading python shared library because no scripts are running anymore
+20:38:43 T:1506940664   DEBUG: void XBPython::UnloadExtensionLibs(), clearing python extension libraries
+20:39:01 T:1552929712  NOTICE: Thread Timer start, auto delete: false
+20:39:01 T:1552929712   DEBUG: Thread Timer 1552929712 terminating
+20:39:51 T:1508791792  NOTICE: Thread Timer start, auto delete: false
+20:39:51 T:1508791792   DEBUG: Thread Timer 1508791792 terminating
+20:40:04 T:1560199592  NOTICE: Thread Timer start, auto delete: false
+20:40:04 T:1560199592   DEBUG: Thread Timer 1560199592 terminating
+20:40:08 T:1560199592  NOTICE: Thread Timer start, auto delete: false
+20:40:08 T:1560199592   DEBUG: Thread Timer 1560199592 terminating
+20:40:11 T:1555163512  NOTICE: Thread Timer start, auto delete: false
+20:40:11 T:1555163512   DEBUG: Thread Timer 1555163512 terminating
+20:40:20 T:1560199592  NOTICE: Thread Timer start, auto delete: false
+20:40:20 T:1560199592   DEBUG: Thread Timer 1560199592 terminating
+20:40:35 T:1555163512  NOTICE: Thread Timer start, auto delete: false
+20:40:35 T:1555163512   DEBUG: Thread Timer 1555163512 terminating
+20:40:47 T:1559868704  NOTICE: Thread Timer start, auto delete: false
+20:40:47 T:1559868704   DEBUG: Thread Timer 1559868704 terminating
+20:40:48 T:1559868704  NOTICE: Thread Timer start, auto delete: false
+20:40:48 T:1559868704   DEBUG: Thread Timer 1559868704 terminating
+20:40:54 T:1560199592  NOTICE: Thread Timer start, auto delete: false
+20:40:54 T:1560199592   DEBUG: Thread Timer 1560199592 terminating
+20:40:55 T:1560199592  NOTICE: Thread Timer start, auto delete: false
+20:40:55 T:1560199592   DEBUG: Thread Timer 1560199592 terminating
+20:41:01 T:1559868704  NOTICE: Thread Timer start, auto delete: false
+20:41:01 T:1559868704   DEBUG: Thread Timer 1559868704 terminating
+20:41:03 T:1560199592  NOTICE: Thread Timer start, auto delete: false
+20:41:04 T:1560199592   DEBUG: Thread Timer 1560199592 terminating
+20:41:34 T:1560105824  NOTICE: Thread Timer start, auto delete: false
+20:41:34 T:1560105824   DEBUG: Thread Timer 1560105824 terminating
+20:41:51 T:1555163512  NOTICE: Thread Timer start, auto delete: false
+20:41:51 T:1555163512   DEBUG: Thread Timer 1555163512 terminating
+20:42:04 T:1559061536  NOTICE: Thread Timer start, auto delete: false
+20:42:04 T:1559061536   DEBUG: Thread Timer 1559061536 terminating
+20:42:16 T:1553566400  NOTICE: Thread Timer start, auto delete: false
+20:42:16 T:1553566400   DEBUG: Thread Timer 1553566400 terminating
+20:42:25 T:1553501488   DEBUG: CPlayerCoreConfig::<ctor>: created player XBMC (localhost) for core 5
+20:42:40 T:1558087736  NOTICE: Thread Timer start, auto delete: false
+20:42:40 T:1558087736   DEBUG: Thread Timer 1558087736 terminating
+20:42:45 T:1555905032  NOTICE: Thread Timer start, auto delete: false
+20:42:45 T:1555905032   DEBUG: Thread Timer 1555905032 terminating
+20:42:46 T:1555905032  NOTICE: Thread Timer start, auto delete: false
+20:42:46 T:1555905032   DEBUG: Thread Timer 1555905032 terminating
+20:42:46 T:1555905032  NOTICE: Thread Timer start, auto delete: false
+20:42:46 T:1555905032   DEBUG: Thread Timer 1555905032 terminating
+20:43:00 T:1555905032  NOTICE: Thread Timer start, auto delete: false
+20:43:00 T:1555905032   DEBUG: Thread Timer 1555905032 terminating
+20:43:20 T:1560105824  NOTICE: Thread Timer start, auto delete: false
+20:43:20 T:1560105824   DEBUG: Thread Timer 1560105824 terminating
+20:43:24 T:1555904864  NOTICE: Thread Timer start, auto delete: false
+20:43:24 T:1555904864   DEBUG: Thread Timer 1555904864 terminating
+20:44:37 T:1555895640  NOTICE: Thread Timer start, auto delete: false
+20:44:37 T:1555895640   DEBUG: Thread Timer 1555895640 terminating
+20:44:40 T:1555895640  NOTICE: Thread Timer start, auto delete: false
+20:44:40 T:1555895640   DEBUG: Thread Timer 1555895640 terminating
+20:44:43 T:1553534208  NOTICE: Thread Timer start, auto delete: false
+20:44:43 T:1553534208   DEBUG: Thread Timer 1553534208 terminating
+20:44:44 T:1553534208  NOTICE: Thread Timer start, auto delete: false
+20:44:44 T:1553534208   DEBUG: Thread Timer 1553534208 terminating
+20:44:49 T:1553534208  NOTICE: Thread Timer start, auto delete: false
+20:44:49 T:1553534208   DEBUG: Thread Timer 1553534208 terminating
+20:45:26 T:1560105824  NOTICE: Thread Timer start, auto delete: false
+20:45:26 T:1560105824   DEBUG: Thread Timer 1560105824 terminating
+20:45:42 T:1555895640  NOTICE: Thread Timer start, auto delete: false
+20:45:42 T:1555895640   DEBUG: Thread Timer 1555895640 terminating
+20:45:47 T:1560105824  NOTICE: Thread Timer start, auto delete: false
+20:45:47 T:1560105824   DEBUG: Thread Timer 1560105824 terminating
+20:45:50 T:1560105824  NOTICE: Thread Timer start, auto delete: false
+20:45:50 T:1560105824   DEBUG: Thread Timer 1560105824 terminating
+20:45:54 T:1555904480  NOTICE: Thread Timer start, auto delete: false
+20:45:54 T:1555904480   DEBUG: Thread Timer 1555904480 terminating
+20:46:16 T:1553501488  NOTICE: Thread Timer start, auto delete: false
+20:46:16 T:1553501488   DEBUG: Thread Timer 1553501488 terminating
+20:46:17 T:1553501488  NOTICE: Thread Timer start, auto delete: false
+20:46:17 T:1553501488   DEBUG: Thread Timer 1553501488 terminating
+20:46:32 T:1560105824  NOTICE: Thread Timer start, auto delete: false
+20:46:32 T:1560105824   DEBUG: Thread Timer 1560105824 terminating
+20:46:51 T:1560182224  NOTICE: Thread Timer start, auto delete: false
+20:46:51 T:1560182224   DEBUG: Thread Timer 1560182224 terminating
+20:47:08 T:1560105824  NOTICE: Thread Timer start, auto delete: false
+20:47:08 T:1560105824   DEBUG: Thread Timer 1560105824 terminating
+20:47:20 T:1555762256  NOTICE: Thread Timer start, auto delete: false
+20:47:20 T:1555762256   DEBUG: Thread Timer 1555762256 terminating
+20:47:33 T:1555904480  NOTICE: Thread Timer start, auto delete: false
+20:47:33 T:1555904480   DEBUG: Thread Timer 1555904480 terminating
+20:47:49 T:1559667536  NOTICE: Thread Timer start, auto delete: false
+20:47:49 T:1559667536   DEBUG: Thread Timer 1559667536 terminating
+20:48:08 T:1560105824  NOTICE: Thread Timer start, auto delete: false
+20:48:08 T:1560105824   DEBUG: Thread Timer 1560105824 terminating
+20:49:09 T:1553546000  NOTICE: Thread Timer start, auto delete: false
+20:49:09 T:1553546000   DEBUG: Thread Timer 1553546000 terminating
+20:49:21 T:1553501488  NOTICE: Thread Timer start, auto delete: false
+20:49:21 T:1553501488   DEBUG: Thread Timer 1553501488 terminating
+20:49:22 T:1553501488  NOTICE: Thread Timer start, auto delete: false
+20:49:22 T:1553501488   DEBUG: Thread Timer 1553501488 terminating
+20:49:33 T:1557980568  NOTICE: Thread Timer start, auto delete: false
+20:49:33 T:1557980568   DEBUG: Thread Timer 1557980568 terminating
+20:49:38 T:1553546000  NOTICE: Thread Timer start, auto delete: false
+20:49:38 T:1553546000   DEBUG: Thread Timer 1553546000 terminating
+20:49:41 T:1560105824  NOTICE: Thread Timer start, auto delete: false
+20:49:41 T:1560105824   DEBUG: Thread Timer 1560105824 terminating
+20:49:54 T:1560105824  NOTICE: Thread Timer start, auto delete: false
+20:49:54 T:1560105824   DEBUG: Thread Timer 1560105824 terminating
+20:50:11 T:1553501488  NOTICE: Thread Timer start, auto delete: false
+20:50:11 T:1553501488   DEBUG: Thread Timer 1553501488 terminating
+20:50:35 T:1553546000  NOTICE: Thread Timer start, auto delete: false
+20:50:35 T:1553546000   DEBUG: Thread Timer 1553546000 terminating
+20:50:39 T:1559868704  NOTICE: Thread Timer start, auto delete: false
+20:50:39 T:1559868704   DEBUG: Thread Timer 1559868704 terminating
+20:50:45 T:1559868704  NOTICE: Thread Timer start, auto delete: false
+20:50:45 T:1559868704   DEBUG: Thread Timer 1559868704 terminating
+20:51:13 T:1560105824  NOTICE: Thread Timer start, auto delete: false
+20:51:13 T:1560105824   DEBUG: Thread Timer 1560105824 terminating
+20:51:19 T:1557980568  NOTICE: Thread Timer start, auto delete: false
+20:51:19 T:1557980568   DEBUG: Thread Timer 1557980568 terminating
+20:51:48 T:1553546000  NOTICE: Thread Timer start, auto delete: false
+20:51:48 T:1553546000   DEBUG: Thread Timer 1553546000 terminating
+20:52:58 T:1557980568  NOTICE: Thread Timer start, auto delete: false
+20:52:58 T:1557980568   DEBUG: Thread Timer 1557980568 terminating
+20:53:01 T:1557980568  NOTICE: Thread Timer start, auto delete: false
+20:53:01 T:1557980568   DEBUG: Thread Timer 1557980568 terminating
+20:53:05 T:1553546000  NOTICE: Thread Timer start, auto delete: false
+20:53:06 T:1553546000   DEBUG: Thread Timer 1553546000 terminating
+20:53:08 T:1557980568  NOTICE: Thread Timer start, auto delete: false
+20:53:08 T:1557980568   DEBUG: Thread Timer 1557980568 terminating
+20:53:15 T:1557980568  NOTICE: Thread Timer start, auto delete: false
+20:53:15 T:1557980568   DEBUG: Thread Timer 1557980568 terminating
+20:53:28 T:1551291928  NOTICE: Thread Timer start, auto delete: false
+20:53:28 T:1551291928   DEBUG: Thread Timer 1551291928 terminating
+20:53:32 T:1553501488  NOTICE: Thread Timer start, auto delete: false
+20:53:32 T:1553501488   DEBUG: Thread Timer 1553501488 terminating
+20:53:44 T:1553501488  NOTICE: Thread Timer start, auto delete: false
+20:53:45 T:1553501488   DEBUG: Thread Timer 1553501488 terminating
+20:54:19 T:1553566400  NOTICE: Thread Timer start, auto delete: false
+20:54:19 T:1553566400   DEBUG: Thread Timer 1553566400 terminating
+20:54:21 T:1555762256  NOTICE: Thread Timer start, auto delete: false
+20:54:21 T:1555762256   DEBUG: Thread Timer 1555762256 terminating
+20:55:26 T:1553566400  NOTICE: Thread Timer start, auto delete: false
+20:55:26 T:1553566400   DEBUG: Thread Timer 1553566400 terminating
+20:55:26 T:1553566400  NOTICE: Thread Timer start, auto delete: false
+20:55:26 T:1553566400   DEBUG: Thread Timer 1553566400 terminating
+20:55:26 T:1553566400  NOTICE: Thread Timer start, auto delete: false
+20:55:26 T:1553566400   DEBUG: Thread Timer 1553566400 terminating
+20:55:39 T:1553537176  NOTICE: Thread Timer start, auto delete: false
+20:55:39 T:1553537176   DEBUG: Thread Timer 1553537176 terminating
+20:55:52 T:1559868704  NOTICE: Thread Timer start, auto delete: false
+20:55:52 T:1559868704   DEBUG: Thread Timer 1559868704 terminating
+20:55:53 T:1553537176  NOTICE: Thread Timer start, auto delete: false
+20:55:54 T:1553537176   DEBUG: Thread Timer 1553537176 terminating
+20:56:01 T:1560199592  NOTICE: Thread Timer start, auto delete: false
+20:56:01 T:1560199592   DEBUG: Thread Timer 1560199592 terminating
+20:56:26 T:1560199592  NOTICE: Thread Timer start, auto delete: false
+20:56:26 T:1560199592   DEBUG: Thread Timer 1560199592 terminating
+20:56:41 T:1553537176  NOTICE: Thread Timer start, auto delete: false
+20:56:41 T:1553537176   DEBUG: Thread Timer 1553537176 terminating
+20:57:36 T:1559868704  NOTICE: Thread Timer start, auto delete: false
+20:57:36 T:1559868704   DEBUG: Thread Timer 1559868704 terminating
+20:57:39 T:1555762256  NOTICE: Thread Timer start, auto delete: false
+20:57:40 T:1555762256   DEBUG: Thread Timer 1555762256 terminating
+20:57:43 T:1560199592  NOTICE: Thread Timer start, auto delete: false
+20:57:43 T:1560199592   DEBUG: Thread Timer 1560199592 terminating
+20:57:56 T:1560199592  NOTICE: Thread Timer start, auto delete: false
+20:57:56 T:1560199592   DEBUG: Thread Timer 1560199592 terminating
+20:58:36 T:1553501488  NOTICE: Thread Timer start, auto delete: false
+20:58:36 T:1553501488   DEBUG: Thread Timer 1553501488 terminating
+20:58:37 T:1560199592  NOTICE: Thread Timer start, auto delete: false
+20:58:38 T:1560199592   DEBUG: Thread Timer 1560199592 terminating
+20:59:10 T:1559868704  NOTICE: Thread Timer start, auto delete: false
+20:59:10 T:1559868704   DEBUG: Thread Timer 1559868704 terminating
+20:59:23 T:1555904864  NOTICE: Thread Timer start, auto delete: false
+20:59:23 T:1555904864   DEBUG: Thread Timer 1555904864 terminating
+20:59:38 T:1555762256  NOTICE: Thread Timer start, auto delete: false
+20:59:38 T:1555762256   DEBUG: Thread Timer 1555762256 terminating
+20:59:48 T:1553546000  NOTICE: Thread Timer start, auto delete: false
+20:59:49 T:1553546000   DEBUG: Thread Timer 1553546000 terminating
+21:00:10 T:1555904864  NOTICE: Thread Timer start, auto delete: false
+21:00:10 T:1555904864   DEBUG: Thread Timer 1555904864 terminating
+21:00:23 T:1553495656  NOTICE: Thread Timer start, auto delete: false
+21:00:23 T:1553495656   DEBUG: Thread Timer 1553495656 terminating
+21:00:47 T:1555762256  NOTICE: Thread Timer start, auto delete: false
+21:00:47 T:1555762256   DEBUG: Thread Timer 1555762256 terminating
+21:00:51 T:1555697144  NOTICE: Thread Timer start, auto delete: false
+21:00:51 T:1555697144   DEBUG: Thread Timer 1555697144 terminating
+21:00:56 T:1555904864  NOTICE: Thread Timer start, auto delete: false
+21:00:56 T:1555904864   DEBUG: Thread Timer 1555904864 terminating
+21:01:10 T:1555697144  NOTICE: Thread Timer start, auto delete: false
+21:01:10 T:1555697144   DEBUG: Thread Timer 1555697144 terminating
+21:01:15 T:1553501488  NOTICE: Thread Timer start, auto delete: false
+21:01:15 T:1553501488   DEBUG: Thread Timer 1553501488 terminating
+21:01:18 T:1560489912  NOTICE: Thread Timer start, auto delete: false
+21:01:18 T:1560489912   DEBUG: Thread Timer 1560489912 terminating
+21:01:22 T:1555697144  NOTICE: Thread Timer start, auto delete: false
+21:01:22 T:1555697144   DEBUG: Thread Timer 1555697144 terminating
+21:01:29 T:1553537176  NOTICE: Thread Timer start, auto delete: false
+21:01:29 T:1553537176   DEBUG: Thread Timer 1553537176 terminating
+21:01:32 T:1555697144  NOTICE: Thread Timer start, auto delete: false
+21:01:32 T:1555697144   DEBUG: Thread Timer 1555697144 terminating
+21:01:51 T:1553537176  NOTICE: Thread Timer start, auto delete: false
+21:01:51 T:1553537176   DEBUG: Thread Timer 1553537176 terminating
+21:01:53 T:1553537176  NOTICE: Thread Timer start, auto delete: false
+21:01:53 T:1553537176   DEBUG: Thread Timer 1553537176 terminating
+21:01:55 T:1555762256  NOTICE: Thread Timer start, auto delete: false
+21:01:55 T:1555762256   DEBUG: Thread Timer 1555762256 terminating
+21:02:02 T:1555697144  NOTICE: Thread Timer start, auto delete: false
+21:02:02 T:1555697144   DEBUG: Thread Timer 1555697144 terminating
+21:02:07 T:1555697144  NOTICE: Thread Timer start, auto delete: false
+21:02:07 T:1555697144   DEBUG: Thread Timer 1555697144 terminating
+21:02:23 T:1560489912  NOTICE: Thread Timer start, auto delete: false
+21:02:23 T:1560489912   DEBUG: Thread Timer 1560489912 terminating
+21:02:40 T:1560489912  NOTICE: Thread Timer start, auto delete: false
+21:02:40 T:1560489912   DEBUG: Thread Timer 1560489912 terminating
+21:02:43 T:1555697144  NOTICE: Thread Timer start, auto delete: false
+21:02:43 T:1555697144   DEBUG: Thread Timer 1555697144 terminating
+21:03:04 T:1553537176  NOTICE: Thread Timer start, auto delete: false
+21:03:04 T:1553537176   DEBUG: Thread Timer 1553537176 terminating
+21:03:05 T:1553537176  NOTICE: Thread Timer start, auto delete: false
+21:03:05 T:1553537176   DEBUG: Thread Timer 1553537176 terminating
+21:03:14 T:1553537176  NOTICE: Thread Timer start, auto delete: false
+21:03:14 T:1553537176   DEBUG: Thread Timer 1553537176 terminating
+21:03:16 T:1553537176  NOTICE: Thread Timer start, auto delete: false
+21:03:16 T:1553537176   DEBUG: Thread Timer 1553537176 terminating
+21:03:21 T:1555904864  NOTICE: Thread Timer start, auto delete: false
+21:03:21 T:1555904864   DEBUG: Thread Timer 1555904864 terminating
+21:03:58 T:1555762256  NOTICE: Thread Timer start, auto delete: false
+21:03:58 T:1555762256   DEBUG: Thread Timer 1555762256 terminating
+21:04:06 T:1553501488  NOTICE: Thread Timer start, auto delete: false
+21:04:06 T:1553501488   DEBUG: Thread Timer 1553501488 terminating
+21:04:21 T:1553501488   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:21 T:1553501488   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:21 T:1506940664   DEBUG: Loading settings for pipe://1/
+21:04:21 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers(pipe://1/)
+21:04:21 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: system rules
+21:04:21 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: matches rule: system rules
+21:04:21 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtv
+21:04:21 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: hdhomerun/myth/mms/udp
+21:04:21 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: lastfm/shout
+21:04:21 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtmp
+21:04:21 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtsp
+21:04:21 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: streams
+21:04:21 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: dvd
+21:04:21 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: dvdimage
+21:04:21 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: sdp/asf
+21:04:21 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: nsv
+21:04:21 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: radio
+21:04:21 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: matched 0 rules with players
+21:04:21 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: adding audiodefaultplayer (3)
+21:04:21 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: for video=0, audio=1
+21:04:21 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: adding player: PAPlayer (3)
+21:04:21 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: for video=1, audio=1
+21:04:21 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: adding player: DVDPlayer (1)
+21:04:21 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: adding player: [TV][LG]55LA6200-UA (4)
+21:04:21 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: adding player: XBMC (localhost) (5)
+21:04:21 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: added 4 players
+21:04:21 T:1506940664   DEBUG: FactoryCodec - Audio: passthrough - Opening
+21:04:21 T:1506940664   DEBUG: FactoryCodec - Audio: passthrough - Failed
+21:04:21 T:1506940664   DEBUG: FactoryCodec - Audio: FFmpeg - Opening
+21:04:21 T:1506940664   DEBUG: FactoryCodec - Audio: FFmpeg - Opened
+21:04:21 T:1506940664    INFO: CDVDAudioCodecFFmpeg::GetChannelMap - FFmpeg reported 2 channels, but the layout contains 0 ignoring
+21:04:23 T:1506940664    INFO: AudioDecoder: File is queued
+21:04:23 T:1506940664   DEBUG: AudioDecoder::GetReplayGain - Final Replaygain applied: 1.000000, Track/Album Gain 89.000000, Peak 0.000000
+21:04:23 T:1508510344   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+21:04:23 T:1506940664    INFO: PAPlayer::PrepareStream - Ready
+21:04:23 T:1506940664   DEBUG: PlayBackRet CApplication::PlayFile(const CFileItem&, bool) : OpenFile succeed, play state 1
+21:04:23 T:1506940664   DEBUG: ADDON: Dll Initializing - OpenGL Spectrum
+21:04:23 T:1506940664   DEBUG: SECTION:LoadDLL(/data/data/org.xbmc.xbmc/lib/libvisopengl_spectrum.so)
+21:04:23 T:1506940664   DEBUG: Loading: /data/data/org.xbmc.xbmc/lib/libvisopengl_spectrum.so
+21:04:23 T:1558048344  NOTICE: Thread PAPlayer start, auto delete: false
+21:04:23 T:1558048344   DEBUG: PAPlayer::Process - Playback started
+21:04:23 T:1508512544    INFO: CActiveAESink::OpenSink - initialize sink
+21:04:23 T:1508512544   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+21:04:23 T:1558048344   DEBUG: virtual void CApplication::OnPlayBackStarted() : play state was 1, starting 0
+21:04:23 T:1508512544   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+21:04:23 T:1508512544   DEBUG:   Output Device : android
+21:04:23 T:1508512544   DEBUG:   Sample Rate   : 48000
+21:04:23 T:1508512544   DEBUG:   Sample Format : AE_FMT_S16NE
+21:04:23 T:1508512544   DEBUG:   Channel Count : 2
+21:04:23 T:1508512544   DEBUG:   Channel Layout: FL,FR
+21:04:23 T:1508512544   DEBUG:   Frames        : 2048
+21:04:23 T:1508512544   DEBUG:   Frame Samples : 4096
+21:04:23 T:1508512544   DEBUG:   Frame Size    : 4
+21:04:23 T:1506940664   DEBUG: Calling TransferSettings for: OpenGL Spectrum
+21:04:23 T:1506940664   DEBUG: Visualisation::Start()
+21:04:23 T:1508510344   DEBUG: OnInitialize() started
+21:04:23 T:1508510344   DEBUG: OnInitialize() done
+21:04:23 T:1506940664   DEBUG: CGUIInfoManager::SetCurrentSong(pipe://1/)
+21:04:23 T:1506940664   DEBUG: virtual bool CFileItem::LoadMusicTag(): loading tag information for file: pipe://1/
+21:04:23 T:1506940664   DEBUG: Loading additional tag info for file pipe://1/
+21:04:23 T:1506940664   DEBUG: CAnnouncementManager - Announcement: OnPlay from xbmc
+21:04:23 T:1506940664   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnPlay
+21:04:23 T:1506940664   DEBUG: UPnP: Building didl for object 'pipe://1/'
+21:04:23 T:1555229920  NOTICE: Thread JobWorker start, auto delete: true
+21:04:23 T:1555229920   DEBUG: CRecentlyAddedJob::UpdateMusic() - Running RecentlyAdded home screen update
+21:04:23 T:1555229920   DEBUG: GetRecentlyAddedAlbumSongs() query: SELECT songview.* FROM (SELECT idAlbum FROM albumview ORDER BY idAlbum DESC LIMIT 10) AS recentalbums JOIN songview ON songview.idAlbum=recentalbums.idAlbum
+21:04:23 T:1555229920   DEBUG: bool CMusicDatabase::GetRecentlyAddedAlbums(VECALBUMS&, unsigned int) query: select * from albumview where strAlbum != '' order by idAlbum desc limit 10
+21:04:23 T:1555229920   DEBUG: CRecentlyAddedJob::UpdateVideos() - Running RecentlyAdded home screen update
+21:04:23 T:1555229920   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 2 ms for 0 items query: select * from movieview  ORDER BY dateAdded desc, idMovie desc LIMIT 10
+21:04:23 T:1555229920   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 3 ms for 0 items query: select * from episodeview  ORDER BY dateAdded desc, idEpisode desc LIMIT 10
+21:04:23 T:1555229920   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 2 ms for 0 items query: select * from musicvideoview  ORDER BY dateAdded desc, idMVideo desc LIMIT 10
+21:04:23 T:1555229920   DEBUG: CRecentlyAddedJob::UpdateTotal() - Running RecentlyAdded home screen update
+21:04:28 T:1506940664   DEBUG: Keyboard: scancode: 0x18, sym: 0x002b, unicode: 0x0000, modifier: 0x0
+21:04:28 T:1506940664   DEBUG: bool CApplication::OnKey(const CKey&): plus (0xf02b) pressed, action is VolumeUp
+21:04:28 T:1506940664   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:28 T:1506940664   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:28 T:1506940664   DEBUG: ------ Window Init (DialogVolumeBar.xml) ------
+21:04:28 T:1506940664   DEBUG: Window DialogVolumeBar.xml was already loaded
+21:04:28 T:1506940664   DEBUG: Alloc resources: 0.04m
+21:04:28 T:1506940664   DEBUG: Keyboard: scancode: 0x18, sym: 0x002b, unicode: 0x0000, modifier: 0x0
+21:04:28 T:1506940664   DEBUG: bool CApplication::OnKey(const CKey&): plus (0xf02b) pressed, action is VolumeUp
+21:04:28 T:1506940664   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:28 T:1506940664   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:28 T:1506940664   DEBUG: Keyboard: scancode: 0x18, sym: 0x002b, unicode: 0x0000, modifier: 0x0
+21:04:28 T:1506940664   DEBUG: bool CApplication::OnKey(const CKey&): plus (0xf02b) pressed, action is VolumeUp
+21:04:28 T:1506940664   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:28 T:1506940664   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:28 T:1506940664   DEBUG: Keyboard: scancode: 0x18, sym: 0x002b, unicode: 0x0000, modifier: 0x0
+21:04:28 T:1506940664   DEBUG: bool CApplication::OnKey(const CKey&): plus (0xf02b) pressed, action is VolumeUp
+21:04:28 T:1506940664   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:28 T:1506940664   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:28 T:1506940664   DEBUG: Keyboard: scancode: 0x18, sym: 0x002b, unicode: 0x0000, modifier: 0x0
+21:04:28 T:1506940664   DEBUG: bool CApplication::OnKey(const CKey&): plus (0xf02b) pressed, action is VolumeUp
+21:04:28 T:1506940664   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:28 T:1506940664   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:28 T:1506940664   DEBUG: Keyboard: scancode: 0x18, sym: 0x002b, unicode: 0x0000, modifier: 0x0
+21:04:28 T:1506940664   DEBUG: bool CApplication::OnKey(const CKey&): plus (0xf02b) pressed, action is VolumeUp
+21:04:28 T:1506940664   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:28 T:1506940664   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:28 T:1506940664   DEBUG: Keyboard: scancode: 0x18, sym: 0x002b, unicode: 0x0000, modifier: 0x0
+21:04:28 T:1506940664   DEBUG: bool CApplication::OnKey(const CKey&): plus (0xf02b) pressed, action is VolumeUp
+21:04:28 T:1506940664   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:28 T:1506940664   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:28 T:1506940664   DEBUG: Keyboard: scancode: 0x18, sym: 0x002b, unicode: 0x0000, modifier: 0x0
+21:04:28 T:1506940664   DEBUG: bool CApplication::OnKey(const CKey&): plus (0xf02b) pressed, action is VolumeUp
+21:04:28 T:1506940664   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:28 T:1506940664   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:30 T:1506940664   DEBUG: Keyboard: scancode: 0x19, sym: 0x002d, unicode: 0x0000, modifier: 0x0
+21:04:30 T:1506940664   DEBUG: bool CApplication::OnKey(const CKey&): minus (0xf02d) pressed, action is VolumeDown
+21:04:30 T:1506940664   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:30 T:1506940664   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:30 T:1506940664   DEBUG: ------ Window Init (DialogVolumeBar.xml) ------
+21:04:30 T:1506940664   DEBUG: Window DialogVolumeBar.xml was already loaded
+21:04:30 T:1506940664   DEBUG: Alloc resources: 0.03m
+21:04:31 T:1506940664   DEBUG: ------ Window Deinit (DialogVolumeBar.xml) ------
+21:04:33 T:1553537176  NOTICE: Thread Timer start, auto delete: false
+21:04:33 T:1553537176   DEBUG: Thread Timer 1553537176 terminating
+21:04:34 T:1553501488   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:34 T:1553501488   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:41 T:1553501488   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:41 T:1553501488   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:41 T:1553501488   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:41 T:1553501488   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:41 T:1553501488   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:41 T:1553501488   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:42 T:1553501488   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:42 T:1553501488   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:43 T:1553501488   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:43 T:1553501488   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:43 T:1553501488   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:43 T:1553501488   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:43 T:1553501488   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:43 T:1553501488   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:44 T:1553501488   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:44 T:1553501488   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:44 T:1553501488   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:44 T:1553501488   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:45 T:1553501488   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:45 T:1553501488   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:45 T:1553501488   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:45 T:1553501488   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:46 T:1553501488   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:46 T:1553501488   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:47 T:1553501488   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:47 T:1553501488   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:53 T:1555229920   DEBUG: Thread JobWorker 1555229920 terminating (autodelete)
+21:04:57 T:1508510344   DEBUG: CActiveAE::DiscardStream - audio stream deleted
+21:04:57 T:1508510344   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+21:04:57 T:1558048344   DEBUG: Previous line repeats 1 times.
+21:04:57 T:1558048344   DEBUG: virtual void CApplication::OnPlayBackStopped() : play state was 2, starting 0
+21:04:57 T:1558048344   DEBUG: CAnnouncementManager - Announcement: OnStop from xbmc
+21:04:57 T:1558048344   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnStop
+21:04:57 T:1558048344   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:57 T:1558048344   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:57 T:1558048344   DEBUG: Thread PAPlayer 1558048344 terminating
+21:04:57 T:1553501488   DEBUG: AIRTUNES: AirPlay not running - stopping player
+21:04:58 T:1506940664   DEBUG: FreeVisualisation() started
+21:04:58 T:1506940664    INFO: ADDON: Dll Stopped - OpenGL Spectrum
+21:04:58 T:1506940664    INFO: ADDON: Dll Destroyed - OpenGL Spectrum
+21:04:58 T:1506940664   DEBUG: FreeVisualisation() done
+21:04:58 T:1508510344   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+21:04:58 T:1555729424   DEBUG: Previous line repeats 1 times.
+21:04:58 T:1555729424  NOTICE: Thread JobWorker start, auto delete: true
+21:04:58 T:1555729424   DEBUG: virtual bool CSaveFileStateJob::DoWork() - Saving file state for audio item pipe://1/
+21:04:58 T:1555227112   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:04:58 T:1555227112   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:04:58 T:1506940664   DEBUG: Loading settings for pipe://2/
+21:04:58 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers(pipe://2/)
+21:04:58 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: system rules
+21:04:58 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: matches rule: system rules
+21:04:58 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtv
+21:04:58 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: hdhomerun/myth/mms/udp
+21:04:58 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: lastfm/shout
+21:04:58 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtmp
+21:04:58 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtsp
+21:04:58 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: streams
+21:04:58 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: dvd
+21:04:58 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: dvdimage
+21:04:58 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: sdp/asf
+21:04:58 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: nsv
+21:04:58 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: radio
+21:04:58 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: matched 0 rules with players
+21:04:58 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: adding audiodefaultplayer (3)
+21:04:58 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: for video=0, audio=1
+21:04:58 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: adding player: PAPlayer (3)
+21:04:58 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: for video=1, audio=1
+21:04:58 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: adding player: DVDPlayer (1)
+21:04:58 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: adding player: [TV][LG]55LA6200-UA (4)
+21:04:58 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: adding player: XBMC (localhost) (5)
+21:04:58 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: added 4 players
+21:04:58 T:1506940664   DEBUG: FactoryCodec - Audio: passthrough - Opening
+21:04:58 T:1506940664   DEBUG: FactoryCodec - Audio: passthrough - Failed
+21:04:58 T:1506940664   DEBUG: FactoryCodec - Audio: FFmpeg - Opening
+21:04:58 T:1506940664   DEBUG: FactoryCodec - Audio: FFmpeg - Opened
+21:04:58 T:1506940664    INFO: CDVDAudioCodecFFmpeg::GetChannelMap - FFmpeg reported 2 channels, but the layout contains 0 ignoring
+21:04:59 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:04:59 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:05:00 T:1555227112   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:05:00 T:1555227112   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:05:00 T:1555227112   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:05:00 T:1555227112   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:05:00 T:1506940664    INFO: AudioDecoder: File is queued
+21:05:00 T:1506940664   DEBUG: AudioDecoder::GetReplayGain - Final Replaygain applied: 1.000000, Track/Album Gain 89.000000, Peak 0.000000
+21:05:00 T:1508510344   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+21:05:00 T:1506940664    INFO: PAPlayer::PrepareStream - Ready
+21:05:00 T:1506940664   DEBUG: PlayBackRet CApplication::PlayFile(const CFileItem&, bool) : OpenFile succeed, play state 1
+21:05:00 T:1506940664   DEBUG: ADDON: Dll Initializing - OpenGL Spectrum
+21:05:00 T:1558958376  NOTICE: Thread PAPlayer start, auto delete: false
+21:05:00 T:1558958376   DEBUG: PAPlayer::Process - Playback started
+21:05:00 T:1558958376   DEBUG: virtual void CApplication::OnPlayBackStarted() : play state was 1, starting 0
+21:05:00 T:1506940664   DEBUG: Calling TransferSettings for: OpenGL Spectrum
+21:05:00 T:1506940664   DEBUG: Visualisation::Start()
+21:05:00 T:1506940664   DEBUG: CGUIInfoManager::SetCurrentSong(pipe://2/)
+21:05:01 T:1506940664   DEBUG: virtual bool CFileItem::LoadMusicTag(): loading tag information for file: pipe://2/
+21:05:01 T:1508510344   DEBUG: OnInitialize() started
+21:05:01 T:1508510344   DEBUG: OnInitialize() done
+21:05:01 T:1506940664   DEBUG: Loading additional tag info for file pipe://2/
+21:05:01 T:1506940664   DEBUG: CAnnouncementManager - Announcement: OnPlay from xbmc
+21:05:01 T:1506940664   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnPlay
+21:05:01 T:1506940664   DEBUG: UPnP: Building didl for object 'pipe://2/'
+21:05:01 T:1555729424   DEBUG: CRecentlyAddedJob::UpdateMusic() - Running RecentlyAdded home screen update
+21:05:01 T:1555729424   DEBUG: GetRecentlyAddedAlbumSongs() query: SELECT songview.* FROM (SELECT idAlbum FROM albumview ORDER BY idAlbum DESC LIMIT 10) AS recentalbums JOIN songview ON songview.idAlbum=recentalbums.idAlbum
+21:05:01 T:1555729424   DEBUG: bool CMusicDatabase::GetRecentlyAddedAlbums(VECALBUMS&, unsigned int) query: select * from albumview where strAlbum != '' order by idAlbum desc limit 10
+21:05:01 T:1555729424   DEBUG: CRecentlyAddedJob::UpdateVideos() - Running RecentlyAdded home screen update
+21:05:01 T:1555729424   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 2 ms for 0 items query: select * from movieview  ORDER BY dateAdded desc, idMovie desc LIMIT 10
+21:05:01 T:1555729424   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 2 ms for 0 items query: select * from episodeview  ORDER BY dateAdded desc, idEpisode desc LIMIT 10
+21:05:01 T:1555729424   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 1 ms for 0 items query: select * from musicvideoview  ORDER BY dateAdded desc, idMVideo desc LIMIT 10
+21:05:01 T:1555729424   DEBUG: CRecentlyAddedJob::UpdateTotal() - Running RecentlyAdded home screen update
+21:05:14 T:1558719104  NOTICE: Thread Timer start, auto delete: false
+21:05:14 T:1558719104   DEBUG: Thread Timer 1558719104 terminating
+21:05:22 T:1559074952  NOTICE: Thread Timer start, auto delete: false
+21:05:22 T:1559074952   DEBUG: Thread Timer 1559074952 terminating
+21:05:23 T:1555227112   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:05:23 T:1555227112   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:05:24 T:1555227112   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:05:24 T:1555227112   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:05:24 T:1555227112   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:05:24 T:1555227112   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:05:25 T:1555227112   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:05:25 T:1555227112   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:05:31 T:1555729424   DEBUG: Thread JobWorker 1555729424 terminating (autodelete)
+21:05:36 T:1558827472  NOTICE: Thread Timer start, auto delete: false
+21:05:37 T:1558827472   DEBUG: Thread Timer 1558827472 terminating
+21:05:50 T:1508510344   DEBUG: CActiveAE::DiscardStream - audio stream deleted
+21:05:50 T:1508510344   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+21:05:50 T:1558958376   DEBUG: Previous line repeats 1 times.
+21:05:50 T:1558958376   DEBUG: virtual void CApplication::OnPlayBackStopped() : play state was 2, starting 0
+21:05:50 T:1558958376   DEBUG: CAnnouncementManager - Announcement: OnStop from xbmc
+21:05:50 T:1558958376   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnStop
+21:05:50 T:1558958376   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:05:50 T:1558958376   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:05:50 T:1558958376   DEBUG: Thread PAPlayer 1558958376 terminating
+21:05:50 T:1555227112   DEBUG: AIRTUNES: AirPlay not running - stopping player
+21:05:50 T:1506940664   DEBUG: FreeVisualisation() started
+21:05:50 T:1506940664    INFO: ADDON: Dll Stopped - OpenGL Spectrum
+21:05:50 T:1506940664    INFO: ADDON: Dll Destroyed - OpenGL Spectrum
+21:05:50 T:1506940664   DEBUG: FreeVisualisation() done
+21:05:50 T:1508510344   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+21:05:50 T:1553566400   DEBUG: Previous line repeats 1 times.
+21:05:50 T:1553566400  NOTICE: Thread JobWorker start, auto delete: true
+21:05:50 T:1553566400   DEBUG: virtual bool CSaveFileStateJob::DoWork() - Saving file state for audio item pipe://2/
+21:06:20 T:1553566400   DEBUG: Thread JobWorker 1553566400 terminating (autodelete)
+21:06:24 T:1553566400  NOTICE: Thread Timer start, auto delete: false
+21:06:24 T:1553566400   DEBUG: Thread Timer 1553566400 terminating
+21:06:43 T:1558769120  NOTICE: Thread Timer start, auto delete: false
+21:06:43 T:1558769120   DEBUG: Thread Timer 1558769120 terminating
+21:06:56 T:1555850424  NOTICE: Thread Timer start, auto delete: false
+21:06:57 T:1555850424   DEBUG: Thread Timer 1555850424 terminating
+21:07:14 T:1553576424  NOTICE: Thread Timer start, auto delete: false
+21:07:14 T:1553576424   DEBUG: Thread Timer 1553576424 terminating
+21:07:22 T:1558824744  NOTICE: Thread Timer start, auto delete: false
+21:07:22 T:1558824744   DEBUG: Thread Timer 1558824744 terminating
+21:07:35 T:1557985584  NOTICE: Thread Timer start, auto delete: false
+21:07:36 T:1557985584   DEBUG: Thread Timer 1557985584 terminating
+21:08:20 T:1551291928  NOTICE: Thread Timer start, auto delete: false
+21:08:20 T:1551291928   DEBUG: Thread Timer 1551291928 terminating
+21:08:21 T:1555773328  NOTICE: Thread Timer start, auto delete: false
+21:08:21 T:1555773328   DEBUG: Thread Timer 1555773328 terminating
+21:08:26 T:1560514032  NOTICE: Thread Timer start, auto delete: false
+21:08:26 T:1560514032   DEBUG: Thread Timer 1560514032 terminating
+21:08:51 T:1560182224  NOTICE: Thread Timer start, auto delete: false
+21:08:51 T:1560182224   DEBUG: Thread Timer 1560182224 terminating
+21:08:51 T:1560182224  NOTICE: Thread Timer start, auto delete: false
+21:08:51 T:1560182224   DEBUG: Thread Timer 1560182224 terminating
+21:08:56 T:1558824744  NOTICE: Thread Timer start, auto delete: false
+21:08:56 T:1558824744   DEBUG: Thread Timer 1558824744 terminating
+21:09:00 T:1506940664   DEBUG: Updating RSS
+21:09:00 T:1555213824   DEBUG: Previous line repeats 2 times.
+21:09:00 T:1555213824  NOTICE: Thread RSSReader start, auto delete: false
+21:09:00 T:1555213824   DEBUG: CurlFile::Open(0x62e8ddb8) http://feeds.xbmc.org/xbmc
+21:09:00 T:1555213824    INFO: void XCURL::DllLibCurlGlobal::easy_aquire(const char*, const char*, XCURL::CURL_HANDLE**, XCURL::CURLM**) - Created session to http://feeds.xbmc.org
+21:09:00 T:1555213824   DEBUG: Got rss feed: http://feeds.xbmc.org/xbmc
+21:09:00 T:1555213824   DEBUG: RSS feed encoding: UTF-8
+21:09:00 T:1555213824   DEBUG: Parsed rss feed: http://feeds.xbmc.org/xbmc
+21:09:00 T:1555213824   DEBUG: CurlFile::Open(0x62e8ddb8) http://feeds.xbmc.org/latest_xbmc_addons
+21:09:00 T:1555213824   DEBUG: Got rss feed: http://feeds.xbmc.org/latest_xbmc_addons
+21:09:00 T:1555213824   DEBUG: RSS feed encoding: UTF-8
+21:09:00 T:1555213824   DEBUG: Parsed rss feed: http://feeds.xbmc.org/latest_xbmc_addons
+21:09:00 T:1555213824   DEBUG: CurlFile::Open(0x62e8ddb8) http://feeds.xbmc.org/updated_xbmc_addons
+21:09:00 T:1555213824   DEBUG: Got rss feed: http://feeds.xbmc.org/updated_xbmc_addons
+21:09:00 T:1555213824   DEBUG: RSS feed encoding: UTF-8
+21:09:00 T:1555213824   DEBUG: Parsed rss feed: http://feeds.xbmc.org/updated_xbmc_addons
+21:09:00 T:1555213824   DEBUG: Thread RSSReader 1555213824 terminating
+21:09:11 T:1553537176  NOTICE: Thread Timer start, auto delete: false
+21:09:11 T:1553537176   DEBUG: Thread Timer 1553537176 terminating
+21:09:19 T:1555850424  NOTICE: Thread Timer start, auto delete: false
+21:09:19 T:1555850424   DEBUG: Thread Timer 1555850424 terminating
+21:09:31 T:1506940664    INFO: void XCURL::DllLibCurlGlobal::CheckIdle() - Closing session to http://feeds.xbmc.org (easy=0x5ce0dd40, multi=0x5c9269f8)
+21:09:33 T:1560462032  NOTICE: Thread Timer start, auto delete: false
+21:09:33 T:1560462032   DEBUG: Thread Timer 1560462032 terminating
+21:09:37 T:1560462032  NOTICE: Thread Timer start, auto delete: false
+21:09:37 T:1560462032   DEBUG: Thread Timer 1560462032 terminating
+21:09:41 T:1555850424  NOTICE: Thread Timer start, auto delete: false
+21:09:41 T:1555850424   DEBUG: Thread Timer 1555850424 terminating
+21:09:51 T:1559136288   DEBUG: AIRPLAY Server: New connection detected
+21:09:51 T:1559136288    INFO: AIRPLAY Server: New connection added
+21:09:51 T:1559136288   ERROR: void CThread::Action() - thread AirPlayServer, Unhandled exception caught in thread process, aborting. auto delete: 0
+21:09:51 T:1559136288   DEBUG: Thread AirPlayServer 1559136288 terminating
+21:10:04 T:1558782312  NOTICE: Thread Timer start, auto delete: false
+21:10:04 T:1558782312   DEBUG: Thread Timer 1558782312 terminating
+21:10:08 T:1558824744  NOTICE: Thread Timer start, auto delete: false
+21:10:08 T:1558824744   DEBUG: Thread Timer 1558824744 terminating
+21:10:21 T:1561106656  NOTICE: Thread Timer start, auto delete: false
+21:10:21 T:1561106656   DEBUG: Thread Timer 1561106656 terminating
+21:10:32 T:1558782312  NOTICE: Thread Timer start, auto delete: false
+21:10:32 T:1558782312   DEBUG: Thread Timer 1558782312 terminating
+21:11:01 T:1555850424  NOTICE: Thread Timer start, auto delete: false
+21:11:01 T:1555850424   DEBUG: Thread Timer 1555850424 terminating
+21:11:27 T:1559136288  NOTICE: Thread Timer start, auto delete: false
+21:11:27 T:1559136288   DEBUG: Thread Timer 1559136288 terminating
+21:11:30 T:1558048344  NOTICE: Thread Timer start, auto delete: false
+21:11:30 T:1558048344   DEBUG: Thread Timer 1558048344 terminating
+21:11:44 T:1555850424  NOTICE: Thread Timer start, auto delete: false
+21:11:44 T:1555850424   DEBUG: Thread Timer 1555850424 terminating
+21:12:32 T:1506940664   DEBUG: Loading settings for pipe://3/
+21:12:32 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers(pipe://3/)
+21:12:32 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: system rules
+21:12:32 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: matches rule: system rules
+21:12:32 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtv
+21:12:32 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: hdhomerun/myth/mms/udp
+21:12:32 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: lastfm/shout
+21:12:32 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtmp
+21:12:32 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: rtsp
+21:12:32 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: streams
+21:12:32 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: dvd
+21:12:32 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: dvdimage
+21:12:32 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: sdp/asf
+21:12:32 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: nsv
+21:12:32 T:1506940664   DEBUG: CPlayerSelectionRule::GetPlayers: considering rule: radio
+21:12:32 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: matched 0 rules with players
+21:12:32 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: adding audiodefaultplayer (3)
+21:12:32 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: for video=0, audio=1
+21:12:32 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: adding player: PAPlayer (3)
+21:12:32 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: for video=1, audio=1
+21:12:32 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: adding player: DVDPlayer (1)
+21:12:32 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: adding player: [TV][LG]55LA6200-UA (4)
+21:12:32 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: adding player: XBMC (localhost) (5)
+21:12:32 T:1506940664   DEBUG: CPlayerCoreFactory::GetPlayers: added 4 players
+21:12:32 T:1506940664   DEBUG: FactoryCodec - Audio: passthrough - Opening
+21:12:32 T:1506940664   DEBUG: FactoryCodec - Audio: passthrough - Failed
+21:12:32 T:1506940664   DEBUG: FactoryCodec - Audio: FFmpeg - Opening
+21:12:32 T:1506940664   DEBUG: FactoryCodec - Audio: FFmpeg - Opened
+21:12:32 T:1558045376   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:12:32 T:1558045376   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:12:32 T:1506940664    INFO: CDVDAudioCodecFFmpeg::GetChannelMap - FFmpeg reported 2 channels, but the layout contains 0 ignoring
+21:12:33 T:1506940664    INFO: AudioDecoder: File is queued
+21:12:33 T:1506940664   DEBUG: AudioDecoder::GetReplayGain - Final Replaygain applied: 1.000000, Track/Album Gain 89.000000, Peak 0.000000
+21:12:34 T:1508510344   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+21:12:34 T:1506940664    INFO: PAPlayer::PrepareStream - Ready
+21:12:34 T:1506940664   DEBUG: PlayBackRet CApplication::PlayFile(const CFileItem&, bool) : OpenFile succeed, play state 1
+21:12:34 T:1555895448  NOTICE: Thread PAPlayer start, auto delete: false
+21:12:34 T:1555895448   DEBUG: PAPlayer::Process - Playback started
+21:12:34 T:1508512544    INFO: CActiveAESink::OpenSink - initialize sink
+21:12:34 T:1508512544   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+21:12:34 T:1508512544   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+21:12:34 T:1508512544   DEBUG:   Output Device : android
+21:12:34 T:1508512544   DEBUG:   Sample Rate   : 48000
+21:12:34 T:1508512544   DEBUG:   Sample Format : AE_FMT_S16NE
+21:12:34 T:1508512544   DEBUG:   Channel Count : 2
+21:12:34 T:1508512544   DEBUG:   Channel Layout: FL,FR
+21:12:34 T:1508512544   DEBUG:   Frames        : 2048
+21:12:34 T:1508512544   DEBUG:   Frame Samples : 4096
+21:12:34 T:1508512544   DEBUG:   Frame Size    : 4
+21:12:34 T:1506940664   DEBUG: ADDON: Dll Initializing - OpenGL Spectrum
+21:12:34 T:1555895448   DEBUG: virtual void CApplication::OnPlayBackStarted() : play state was 1, starting 0
+21:12:34 T:1506940664   DEBUG: Calling TransferSettings for: OpenGL Spectrum
+21:12:34 T:1506940664   DEBUG: Visualisation::Start()
+21:12:34 T:1508510344   DEBUG: OnInitialize() started
+21:12:34 T:1508510344   DEBUG: OnInitialize() done
+21:12:34 T:1506940664   DEBUG: CGUIInfoManager::SetCurrentSong(pipe://3/)
+21:12:34 T:1506940664   DEBUG: virtual bool CFileItem::LoadMusicTag(): loading tag information for file: pipe://3/
+21:12:34 T:1506940664   DEBUG: Loading additional tag info for file pipe://3/
+21:12:34 T:1506940664   DEBUG: CAnnouncementManager - Announcement: OnPlay from xbmc
+21:12:34 T:1506940664   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnPlay
+21:12:34 T:1506940664   DEBUG: UPnP: Building didl for object 'pipe://3/'
+21:12:34 T:1558958376  NOTICE: Thread JobWorker start, auto delete: true
+21:12:34 T:1558958376   DEBUG: CRecentlyAddedJob::UpdateMusic() - Running RecentlyAdded home screen update
+21:12:34 T:1558958376   DEBUG: GetRecentlyAddedAlbumSongs() query: SELECT songview.* FROM (SELECT idAlbum FROM albumview ORDER BY idAlbum DESC LIMIT 10) AS recentalbums JOIN songview ON songview.idAlbum=recentalbums.idAlbum
+21:12:34 T:1558958376   DEBUG: bool CMusicDatabase::GetRecentlyAddedAlbums(VECALBUMS&, unsigned int) query: select * from albumview where strAlbum != '' order by idAlbum desc limit 10
+21:12:34 T:1558958376   DEBUG: CRecentlyAddedJob::UpdateVideos() - Running RecentlyAdded home screen update
+21:12:34 T:1558958376   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 4 ms for 0 items query: select * from movieview  ORDER BY dateAdded desc, idMovie desc LIMIT 10
+21:12:34 T:1558958376   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 2 ms for 0 items query: select * from episodeview  ORDER BY dateAdded desc, idEpisode desc LIMIT 10
+21:12:34 T:1558958376   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 2 ms for 0 items query: select * from musicvideoview  ORDER BY dateAdded desc, idMVideo desc LIMIT 10
+21:12:34 T:1558958376   DEBUG: CRecentlyAddedJob::UpdateTotal() - Running RecentlyAdded home screen update
+21:12:46 T:1508510344   DEBUG: CActiveAE::DiscardStream - audio stream deleted
+21:12:46 T:1508510344   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+21:12:46 T:1555895448   DEBUG: virtual void CApplication::OnPlayBackStopped() : play state was 2, starting 0
+21:12:46 T:1555895448   DEBUG: CAnnouncementManager - Announcement: OnStop from xbmc
+21:12:46 T:1555895448   DEBUG: GOT ANNOUNCEMENT, type: 1, from xbmc, message OnStop
+21:12:46 T:1555895448   DEBUG: CAnnouncementManager - Announcement: OnVolumeChanged from xbmc
+21:12:46 T:1555895448   DEBUG: GOT ANNOUNCEMENT, type: 64, from xbmc, message OnVolumeChanged
+21:12:46 T:1555895448   DEBUG: AIRPLAY: sending event: stopped
+21:12:46 T:1558045376   DEBUG: AIRTUNES: AirPlay not running - stopping player
+21:12:46 T:1555895448   DEBUG: Thread PAPlayer 1555895448 terminating
+21:12:46 T:1508510344   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+21:12:46 T:1506940664   DEBUG: FreeVisualisation() started
+21:12:46 T:1506940664    INFO: ADDON: Dll Stopped - OpenGL Spectrum
+21:12:46 T:1506940664    INFO: ADDON: Dll Destroyed - OpenGL Spectrum
+21:12:46 T:1506940664   DEBUG: FreeVisualisation() done
+21:12:46 T:1508510344   DEBUG: CActiveAE::ClearDiscardedBuffers - buffer pool deleted
+21:12:47 T:1558958376   DEBUG: Previous line repeats 1 times.
+21:12:47 T:1558958376   DEBUG: virtual bool CSaveFileStateJob::DoWork() - Saving file state for audio item pipe://3/
+21:13:02 T:1555218960  NOTICE: Thread Timer start, auto delete: false
+21:13:02 T:1555218960   DEBUG: Thread Timer 1555218960 terminating
+21:13:17 T:1558958376   DEBUG: Thread JobWorker 1558958376 terminating (autodelete)
+21:13:25 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:13:26 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:13:34 T:1556831888  NOTICE: Thread Timer start, auto delete: false
+21:13:34 T:1556831888   DEBUG: Thread Timer 1556831888 terminating
+21:13:36 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:13:36 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:13:48 T:1560464136  NOTICE: Thread Timer start, auto delete: false
+21:13:48 T:1560464136   DEBUG: Thread Timer 1560464136 terminating
+21:14:23 T:1557980184  NOTICE: Thread Timer start, auto delete: false
+21:14:23 T:1557980184   DEBUG: Thread Timer 1557980184 terminating
+21:14:26 T:1557980184  NOTICE: Thread Timer start, auto delete: false
+21:14:26 T:1557980184   DEBUG: Thread Timer 1557980184 terminating
+21:14:26 T:1553537176  NOTICE: Thread Timer start, auto delete: false
+21:14:26 T:1553537176   DEBUG: Thread Timer 1553537176 terminating
+21:14:34 T:1553537176  NOTICE: Thread Timer start, auto delete: false
+21:14:34 T:1553537176   DEBUG: Thread Timer 1553537176 terminating
+21:15:23 T:1559006800  NOTICE: Thread Timer start, auto delete: false
+21:15:23 T:1559006800   DEBUG: Thread Timer 1559006800 terminating
+21:15:30 T:1559006800  NOTICE: Thread Timer start, auto delete: false
+21:15:30 T:1559006800   DEBUG: Thread Timer 1559006800 terminating
+21:15:44 T:1560182224   DEBUG: UPnP Translated id to 'virtualpath://upnproot/'
+21:15:44 T:1560182224    INFO: UPnP: Received Browse DirectChildren request for object '0', with sort criteria
+21:15:44 T:1560182224   DEBUG: Building UPnP response with filter '*', starting @ 0 with 999 requested
+21:15:44 T:1560182224   DEBUG: Preparing upnp object for item 'musicdb://'
+21:15:44 T:1560182224   DEBUG: UPnP: Building didl for object 'musicdb://'
+21:15:44 T:1560182224   DEBUG: Preparing upnp object for item 'library://video/'
+21:15:44 T:1560182224   DEBUG: UPnP: Building didl for object 'library://video/'
+21:15:44 T:1560182224   DEBUG: Returning UPnP response with 2 items out of 2 total matches
+21:15:44 T:1558827472   DEBUG: UPnP Translated id to 'virtualpath://upnproot/'
+21:15:44 T:1558827472    INFO: UPnP: Received Browse DirectChildren request for object '0', with sort criteria
+21:15:44 T:1558827472   DEBUG: Building UPnP response with filter '*', starting @ 0 with 999 requested
+21:15:44 T:1558827472   DEBUG: Preparing upnp object for item 'musicdb://'
+21:15:44 T:1558827472   DEBUG: UPnP: Building didl for object 'musicdb://'
+21:15:44 T:1558827472   DEBUG: Preparing upnp object for item 'library://video/'
+21:15:44 T:1558827472   DEBUG: UPnP: Building didl for object 'library://video/'
+21:15:44 T:1558827472   DEBUG: Returning UPnP response with 2 items out of 2 total matches
+21:15:44 T:1558827472   DEBUG: UPnP Translated id to 'musicdb://'
+21:15:44 T:1558827472    INFO: UPnP: Received Browse DirectChildren request for object 'musicdb://', with sort criteria
+21:15:44 T:1560182224   DEBUG: UPnP Translated id to 'library://video/'
+21:15:44 T:1560182224    INFO: UPnP: Received Browse DirectChildren request for object 'library://video/', with sort criteria
+21:15:44 T:1558827472   DEBUG: Album format left  = [%B]
+21:15:44 T:1558827472   DEBUG: Album format right = [%A]
+21:15:44 T:1560182224   DEBUG: Building UPnP response with filter '*', starting @ 0 with 999 requested
+21:15:44 T:1558827472   DEBUG: Previous line repeats 1 times.
+21:15:44 T:1558827472   DEBUG: Preparing upnp object for item 'musicdb://genres/'
+21:15:44 T:1558827472   DEBUG: UPnP: Building didl for object 'musicdb://genres/'
+21:15:44 T:1558827472   DEBUG: Preparing upnp object for item 'musicdb://artists/'
+21:15:44 T:1560182224   DEBUG: Preparing upnp object for item 'library://video/files.xml/'
+21:15:44 T:1558827472   DEBUG: UPnP: Building didl for object 'musicdb://artists/'
+21:15:44 T:1558827472   DEBUG: Preparing upnp object for item 'musicdb://albums/'
+21:15:44 T:1560182224   DEBUG: UPnP: Building didl for object 'library://video/files.xml/'
+21:15:44 T:1560182224 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/poster.jpg
+21:15:44 T:1560182224 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/poster.png
+21:15:44 T:1560182224 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/banner.jpg
+21:15:44 T:1560182224 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/banner.png
+21:15:44 T:1560182224 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/thumb.jpg
+21:15:44 T:1560182224 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/thumb.png
+21:15:44 T:1558827472   DEBUG: UPnP: Building didl for object 'musicdb://albums/'
+21:15:44 T:1560182224 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/movie.tbn
+21:15:44 T:1560182224 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/folder.jpg
+21:15:44 T:1560182224 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/fanart.jpg
+21:15:44 T:1560182224 WARNING: static XFILE::IFile* XFILE::CFileFactory::CreateLoader(const CURL&) - unsupported protocol(library) in library://video/files.xml/fanart.png
+21:15:44 T:1560182224   DEBUG: Preparing upnp object for item 'library://video/playlists.xml/'
+21:15:44 T:1558827472   DEBUG: Preparing upnp object for item 'musicdb://songs/'
+21:15:44 T:1560182224   DEBUG: UPnP: Building didl for object 'library://video/playlists.xml/'
+21:15:44 T:1558827472   DEBUG: UPnP: Building didl for object 'musicdb://songs/'
+21:15:44 T:1558827472   DEBUG: Preparing upnp object for item 'musicdb://years/'
+21:15:44 T:1558827472   DEBUG: UPnP: Building didl for object 'musicdb://years/'
+21:15:44 T:1558827472   DEBUG: Preparing upnp object for item 'musicdb://top100/'
+21:15:44 T:1560182224   DEBUG: Returning UPnP response with 2 items out of 2 total matches
+21:15:44 T:1558827472   DEBUG: UPnP: Building didl for object 'musicdb://top100/'
+21:15:44 T:1558827472   DEBUG: Preparing upnp object for item 'musicdb://recentlyaddedalbums/'
+21:15:44 T:1558827472   DEBUG: UPnP: Building didl for object 'musicdb://recentlyaddedalbums/'
+21:15:44 T:1558827472   DEBUG: Preparing upnp object for item 'musicdb://recentlyplayedalbums/'
+21:15:44 T:1560182224   DEBUG: UPnP Translated id to 'library://video/files.xml/'
+21:15:44 T:1560182224    INFO: UPnP: Received Browse DirectChildren request for object 'library://video/files.xml/', with sort criteria
+21:15:44 T:1560182224   DEBUG: Building UPnP response with filter '*', starting @ 0 with 999 requested
+21:15:44 T:1560182224   DEBUG: Returning UPnP response with 0 items out of 0 total matches
+21:15:44 T:1558827472   DEBUG: UPnP: Building didl for object 'musicdb://recentlyplayedalbums/'
+21:15:44 T:1558827472   DEBUG: Preparing upnp object for item 'special://musicplaylists/'
+21:15:44 T:1558827472   DEBUG: UPnP: Building didl for object 'special://musicplaylists/'
+21:15:44 T:1558827472   DEBUG: Returning UPnP response with 9 items out of 9 total matches
+21:15:44 T:1558827472   DEBUG: UPnP Translated id to 'musicdb://artists/'
+21:15:44 T:1558827472    INFO: UPnP: Received Browse DirectChildren request for object 'musicdb://artists/', with sort criteria
+21:15:44 T:1560182224   DEBUG: UPnP Translated id to 'musicdb://albums/'
+21:15:44 T:1560182224    INFO: UPnP: Received Browse DirectChildren request for object 'musicdb://albums/', with sort criteria
+21:15:44 T:1560182224   DEBUG: bool CMusicDatabase::GetAlbumsByWhere(const CStdString&, const CDatabase::Filter&, CFileItemList&, const SortDescription&, bool) query: SELECT albumview.* FROM albumview  WHERE albumview.strAlbum <> ''
+21:15:44 T:1558827472   DEBUG: bool CMusicDatabase::GetArtistsByWhere(const CStdString&, const CDatabase::Filter&, CFileItemList&, const SortDescription&, bool) query: SELECT artistview.* FROM artistview  WHERE (artistview.idArtist IN (SELECT song_artist.idArtist FROM song_artist) OR artistview.idArtist IN (SELECT album_artist.idArtist FROM album_artist)) and artistview.strArtist != '' and artistview.strArtist <> 'Various artists'
+21:15:44 T:1560182224   DEBUG: bool CMusicDatabase::GetAlbumsByWhere(const CStdString&, const CDatabase::Filter&, CFileItemList&, const SortDescription&, bool) - query took 1 ms
+21:15:44 T:1555729424   DEBUG: UPnP Translated id to 'musicdb://songs/'
+21:15:44 T:1555729424    INFO: UPnP: Received Browse DirectChildren request for object 'musicdb://songs/', with sort criteria
+21:15:44 T:1560462032   DEBUG: UPnP Translated id to 'special://musicplaylists/'
+21:15:44 T:1560462032    INFO: UPnP: Received Browse DirectChildren request for object 'special://musicplaylists/', with sort criteria
+21:15:44 T:1560182224   DEBUG: Album format left  = [%B]
+21:15:44 T:1560462032   DEBUG: CMultiPathDirectory::GetDirectory(multipath://special%3a%2f%2fprofile%2fplaylists%2fmusic/special%3a%2f%2fprofile%2fplaylists%2fmixed/)
+21:15:44 T:1560462032   DEBUG: Getting Directory (special://profile/playlists/music)
+21:15:44 T:1558827472   DEBUG: Time to retrieve artists from dataset = 15
+21:15:44 T:1560182224   DEBUG: Album format right = [%A]
+21:15:44 T:1560462032   DEBUG: Getting Directory (special://profile/playlists/mixed)
+21:15:44 T:1558827472   DEBUG: Album format left  = [%B]
+21:15:44 T:1558827472   DEBUG: Album format right = [%A]
+21:15:44 T:1560462032   DEBUG: CMultiPathDirectory::MergeItems, items = 0
+21:15:44 T:1558827472   DEBUG: Building UPnP response with filter '*', starting @ 0 with 999 requested
+21:15:44 T:1560462032   DEBUG: Previous line repeats 2 times.
+21:15:44 T:1560462032   DEBUG: Returning UPnP response with 0 items out of 0 total matches
+21:15:44 T:1555729424   DEBUG: Previous line repeats 1 times.
+21:15:44 T:1555729424   DEBUG: bool CMusicDatabase::GetSongsByWhere(const CStdString&, const CDatabase::Filter&, CFileItemList&, const SortDescription&) query = SELECT songview.* FROM songview
+21:15:44 T:1555729424   DEBUG: Album format left  = [%B]
+21:15:44 T:1555729424   DEBUG: Album format right = [%A]
+21:15:44 T:1555729424   DEBUG: Building UPnP response with filter '*', starting @ 0 with 999 requested
+21:15:44 T:1560182224   DEBUG: Returning UPnP response with 0 items out of 0 total matches
+21:16:02 T:1557983120   DEBUG: Previous line repeats 1 times.
+21:16:02 T:1557983120  NOTICE: Thread Timer start, auto delete: false
+21:16:02 T:1557983120   DEBUG: Thread Timer 1557983120 terminating
+21:16:06 T:1555729424  NOTICE: Thread Timer start, auto delete: false
+21:16:06 T:1555729424   DEBUG: Thread Timer 1555729424 terminating
+21:16:13 T:1551291928  NOTICE: Thread Timer start, auto delete: false
+21:16:13 T:1551291928   DEBUG: Thread Timer 1551291928 terminating
+21:16:43 T:1555895640  NOTICE: Thread Timer start, auto delete: false
+21:16:43 T:1555895640   DEBUG: Thread Timer 1555895640 terminating
+21:16:51 T:1555895640  NOTICE: Thread Timer start, auto delete: false
+21:16:52 T:1555895640   DEBUG: Thread Timer 1555895640 terminating
+21:16:57 T:1560182224  NOTICE: Thread Timer start, auto delete: false
+21:16:57 T:1560182224   DEBUG: Thread Timer 1560182224 terminating
+21:17:05 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:17:05 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:17:32 T:1506940664   DEBUG: Unfocus WindowID: 10000, ControlID: 90122
+21:17:35 T:1506940664   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+21:17:35 T:1506940664   DEBUG: Activating window ID: 10004
+21:17:35 T:1506940664   DEBUG: ------ Window Deinit (Home.xml) ------
+21:17:35 T:1506940664   DEBUG: ------ Window Init (Settings.xml) ------
+21:17:35 T:1506940664    INFO: Loading skin file: Settings.xml, load type: KEEP_IN_MEMORY
+21:17:35 T:1506940664   DEBUG: Load Settings.xml: 38.53ms
+21:17:36 T:1506940664   DEBUG: Alloc resources: 40.29ms  (39.55 ms skin load)
+21:17:36 T:1506940664   DEBUG: Unfocus WindowID: 10004, ControlID: 9000
+21:17:36 T:1560173272  NOTICE: Thread JobWorker start, auto delete: true
+21:17:36 T:1560173272   DEBUG: virtual bool CImageLoader::DoWork() - took 111 ms to load special://skin/backgrounds/settings.jpg
+21:17:37 T:1506940664   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+21:17:37 T:1506940664   DEBUG: Activating window ID: 10018
+21:17:38 T:1506940664   DEBUG: ------ Window Deinit (Settings.xml) ------
+21:17:38 T:1506940664   DEBUG: ------ Window Init (SettingsCategory.xml) ------
+21:17:38 T:1506940664    INFO: Loading skin file: SettingsCategory.xml, load type: KEEP_IN_MEMORY
+21:17:38 T:1506940664   DEBUG: Load SettingsCategory.xml: 40.23ms
+21:17:38 T:1506940664   DEBUG: Alloc resources: 45.39ms  (40.88 ms skin load)
+21:17:38 T:1506940664   DEBUG: Unfocus WindowID: 10018, ControlID: -100
+21:18:06 T:1560173272   DEBUG: Thread JobWorker 1560173272 terminating (autodelete)
+21:20:47 T:1506940664   DEBUG: CAnnouncementManager - Announcement: OnScreensaverActivated from xbmc
+21:20:47 T:1506940664   DEBUG: GOT ANNOUNCEMENT, type: 4, from xbmc, message OnScreensaverActivated
+21:20:47 T:1506940664   DEBUG: ------ Window Init () ------
+21:20:47 T:1506940664   DEBUG: Alloc resources: 0.02ms  (0.02 ms skin load)
+21:27:06 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:27:06 T:1506940664   DEBUG: CAnnouncementManager - Announcement: OnScreensaverDeactivated from xbmc
+21:27:06 T:1506940664   DEBUG: GOT ANNOUNCEMENT, type: 4, from xbmc, message OnScreensaverDeactivated
+21:27:06 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:27:07 T:1506940664   DEBUG: ------ Window Deinit () ------
+21:27:10 T:1559174856  NOTICE: Thread Timer start, auto delete: false
+21:27:10 T:1559174856   DEBUG: Thread Timer 1559174856 terminating
+21:27:15 T:1561655944  NOTICE: Thread Timer start, auto delete: false
+21:27:15 T:1561655944   DEBUG: Thread Timer 1561655944 terminating
+21:27:20 T:1561655944  NOTICE: Thread Timer start, auto delete: false
+21:27:20 T:1561655944   DEBUG: Thread Timer 1561655944 terminating
+21:27:34 T:1555895640  NOTICE: Thread Timer start, auto delete: false
+21:27:34 T:1555895640   DEBUG: Thread Timer 1555895640 terminating
+21:27:43 T:1555218960  NOTICE: Thread Timer start, auto delete: false
+21:27:43 T:1555218960   DEBUG: Thread Timer 1555218960 terminating
+21:27:45 T:1555895640  NOTICE: Thread Timer start, auto delete: false
+21:27:45 T:1555895640   DEBUG: Thread Timer 1555895640 terminating
+21:27:46 T:1555895640  NOTICE: Thread Timer start, auto delete: false
+21:27:46 T:1555895640   DEBUG: Thread Timer 1555895640 terminating
+21:27:53 T:1555218960  NOTICE: Thread Timer start, auto delete: false
+21:27:53 T:1555218960   DEBUG: Thread Timer 1555218960 terminating
+21:27:53 T:1555218960  NOTICE: Thread Timer start, auto delete: false
+21:27:53 T:1555218960   DEBUG: Thread Timer 1555218960 terminating
+21:27:54 T:1557981776  NOTICE: Thread Timer start, auto delete: false
+21:27:54 T:1557981776   DEBUG: Thread Timer 1557981776 terminating
+21:28:02 T:1561585864  NOTICE: Thread Timer start, auto delete: false
+21:28:02 T:1561585864   DEBUG: Thread Timer 1561585864 terminating
+21:28:31 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:28:31 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:29:22 T:1555229408  NOTICE: Thread Timer start, auto delete: false
+21:29:23 T:1555229408   DEBUG: Thread Timer 1555229408 terminating
+21:29:23 T:1555229408  NOTICE: Thread Timer start, auto delete: false
+21:29:23 T:1555229408   DEBUG: Thread Timer 1555229408 terminating
+21:29:24 T:1555229408  NOTICE: Thread Timer start, auto delete: false
+21:29:24 T:1555229408   DEBUG: Thread Timer 1555229408 terminating
+21:29:56 T:1555229408  NOTICE: Thread Timer start, auto delete: false
+21:29:56 T:1555229408   DEBUG: Thread Timer 1555229408 terminating
+21:30:09 T:1560661488  NOTICE: Thread Timer start, auto delete: false
+21:30:09 T:1560661488   DEBUG: Thread Timer 1560661488 terminating
+21:32:09 T:1559269560  NOTICE: Thread Timer start, auto delete: false
+21:32:09 T:1559269560   DEBUG: Thread Timer 1559269560 terminating
+21:32:20 T:1561585864  NOTICE: Thread Timer start, auto delete: false
+21:32:20 T:1561585864   DEBUG: Thread Timer 1561585864 terminating
+21:32:23 T:1561585864  NOTICE: Thread Timer start, auto delete: false
+21:32:23 T:1561585864   DEBUG: Thread Timer 1561585864 terminating
+21:32:26 T:1560661488  NOTICE: Thread Timer start, auto delete: false
+21:32:26 T:1560661488   DEBUG: Thread Timer 1560661488 terminating
+21:32:34 T:1560661488  NOTICE: Thread Timer start, auto delete: false
+21:32:34 T:1560661488   DEBUG: Thread Timer 1560661488 terminating
+21:32:36 T:1560661488  NOTICE: Thread Timer start, auto delete: false
+21:32:36 T:1560661488   DEBUG: Thread Timer 1560661488 terminating
+21:32:41 T:1559269560  NOTICE: Thread Timer start, auto delete: false
+21:32:41 T:1559269560   DEBUG: Thread Timer 1559269560 terminating
+21:32:51 T:1555895640  NOTICE: Thread Timer start, auto delete: false
+21:32:51 T:1555895640   DEBUG: Thread Timer 1555895640 terminating
+21:32:51 T:1555895640  NOTICE: Thread Timer start, auto delete: false
+21:32:51 T:1555895640   DEBUG: Thread Timer 1555895640 terminating
+21:33:07 T:1555229408  NOTICE: Thread Timer start, auto delete: false
+21:33:07 T:1555229408   DEBUG: Thread Timer 1555229408 terminating
+21:34:02 T:1560661488  NOTICE: Thread Timer start, auto delete: false
+21:34:02 T:1560661488   DEBUG: Thread Timer 1560661488 terminating
+21:34:08 T:1560661488  NOTICE: Thread Timer start, auto delete: false
+21:34:08 T:1560661488   DEBUG: Thread Timer 1560661488 terminating
+21:34:09 T:1560661488  NOTICE: Thread Timer start, auto delete: false
+21:34:09 T:1560661488   DEBUG: Thread Timer 1560661488 terminating
+21:34:35 T:1559269560  NOTICE: Thread Timer start, auto delete: false
+21:34:35 T:1559269560   DEBUG: Thread Timer 1559269560 terminating
+21:34:41 T:1557982624  NOTICE: Thread Timer start, auto delete: false
+21:34:41 T:1557982624   DEBUG: Thread Timer 1557982624 terminating
+21:34:41 T:1557982624  NOTICE: Thread Timer start, auto delete: false
+21:34:41 T:1557982624   DEBUG: Thread Timer 1557982624 terminating
+21:34:57 T:1559269560  NOTICE: Thread Timer start, auto delete: false
+21:34:57 T:1559269560   DEBUG: Thread Timer 1559269560 terminating
+21:35:07 T:1559269560  NOTICE: Thread Timer start, auto delete: false
+21:35:07 T:1559269560   DEBUG: Thread Timer 1559269560 terminating
+21:35:09 T:1560661488  NOTICE: Thread Timer start, auto delete: false
+21:35:09 T:1560661488   DEBUG: Thread Timer 1560661488 terminating
+21:35:44 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:35:44 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:35:53 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:35:54 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:35:55 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:35:55 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:35:56 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:35:56 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:36:05 T:1555229408  NOTICE: Thread Timer start, auto delete: false
+21:36:06 T:1555229408   DEBUG: Thread Timer 1555229408 terminating
+21:36:31 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:36:31 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:36:50 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:36:50 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:36:58 T:1559269560  NOTICE: Thread Timer start, auto delete: false
+21:36:58 T:1559269560   DEBUG: Thread Timer 1559269560 terminating
+21:37:16 T:1555895640  NOTICE: Thread Timer start, auto delete: false
+21:37:16 T:1555895640   DEBUG: Thread Timer 1555895640 terminating
+21:37:18 T:1553576424  NOTICE: Thread Timer start, auto delete: false
+21:37:18 T:1553576424   DEBUG: Thread Timer 1553576424 terminating
+21:37:48 T:1559269560  NOTICE: Thread Timer start, auto delete: false
+21:37:48 T:1559269560   DEBUG: Thread Timer 1559269560 terminating
+21:38:38 T:1560661488  NOTICE: Thread Timer start, auto delete: false
+21:38:38 T:1560661488   DEBUG: Thread Timer 1560661488 terminating
+21:39:20 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:39:20 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:39:21 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:39:21 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:39:35 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:39:35 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:39:45 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:39:45 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:40:44 T:1553576424  NOTICE: Thread Timer start, auto delete: false
+21:40:44 T:1553576424   DEBUG: Thread Timer 1553576424 terminating
+21:40:45 T:1559269560  NOTICE: Thread Timer start, auto delete: false
+21:40:45 T:1559269560   DEBUG: Thread Timer 1559269560 terminating
+21:40:56 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:40:56 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:41:03 T:1555816160  NOTICE: Thread Timer start, auto delete: false
+21:41:03 T:1555816160   DEBUG: Thread Timer 1555816160 terminating
+21:41:07 T:1558958376  NOTICE: Thread Timer start, auto delete: false
+21:41:07 T:1558958376   DEBUG: Thread Timer 1558958376 terminating
+21:41:08 T:1555816160  NOTICE: Thread Timer start, auto delete: false
+21:41:08 T:1555816160   DEBUG: Thread Timer 1555816160 terminating
+21:41:26 T:1553576424  NOTICE: Thread Timer start, auto delete: false
+21:41:26 T:1553576424   DEBUG: Thread Timer 1553576424 terminating
+21:41:54 T:1553576424  NOTICE: Thread Timer start, auto delete: false
+21:41:54 T:1553576424   DEBUG: Thread Timer 1553576424 terminating
+21:41:58 T:1559184776  NOTICE: Thread Timer start, auto delete: false
+21:41:58 T:1559184776   DEBUG: Thread Timer 1559184776 terminating
+21:41:58 T:1559184776  NOTICE: Thread Timer start, auto delete: false
+21:41:59 T:1559184776   DEBUG: Thread Timer 1559184776 terminating
+21:42:03 T:1553576424  NOTICE: Thread Timer start, auto delete: false
+21:42:03 T:1553576424   DEBUG: Thread Timer 1553576424 terminating
+21:42:20 T:1553576424  NOTICE: Thread Timer start, auto delete: false
+21:42:20 T:1553576424   DEBUG: Thread Timer 1553576424 terminating
+21:42:21 T:1553576424  NOTICE: Thread Timer start, auto delete: false
+21:42:21 T:1553576424   DEBUG: Thread Timer 1553576424 terminating
+21:42:26 T:1559184776  NOTICE: Thread Timer start, auto delete: false
+21:42:28 T:1559184776   DEBUG: Thread Timer 1559184776 terminating
+21:42:32 T:1559184776  NOTICE: Thread Timer start, auto delete: false
+21:42:32 T:1559184776   DEBUG: Thread Timer 1559184776 terminating

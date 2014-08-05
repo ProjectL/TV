@@ -1,0 +1,853 @@
+﻿20:27:47 T:1510372984  NOTICE: special://profile/ is mapped to: special://masterprofile/
+20:27:47 T:1510372984  NOTICE: -----------------------------------------------------------------------
+20:27:47 T:1510372984  NOTICE: Starting Kodi (14.0-ALPHA2 Git:2014-08-01-62d01f6-dirty). Platform: Android ARM 32-bit
+20:27:47 T:1510372984  NOTICE: Using Kodi Debug x32 build
+20:27:47 T:1510372984  NOTICE: Kodi compiled Aug  1 2014 by GCC 4.8.0 for Android ARM 32-bit API level 14 (API level 14)
+20:27:47 T:1510372984  NOTICE: Running on asus ASUS Transformer Pad TF300T with Android 4.1.1 API level 16, kernel: Linux ARM 32-bit version 3.1.10-00003-gb0003ba
+20:27:47 T:1510372984  NOTICE: FFmpeg version: 2.2.3-xbmc-2.2-Helix-alpha2
+20:27:47 T:1510372984  NOTICE: Host CPU: ARMv7 Processor rev 9 (v7l), 4 cores available
+20:27:47 T:1510372984  NOTICE: Product: US_epad, Device: TF300T, Board: EeePad - Manufacturer: asus, Brand: asus, Model: ASUS Transformer Pad TF300T, Hardware: cardhu
+20:27:47 T:1510372984  NOTICE: ARM Features: Neon enabled
+20:27:47 T:1510372984  NOTICE: special://xbmc/ is mapped to: /data/data/org.xbmc.xbmc/cache/apk/assets
+20:27:47 T:1510372984  NOTICE: special://xbmcbin/ is mapped to: /data/data/org.xbmc.xbmc/cache/apk/assets
+20:27:47 T:1510372984  NOTICE: special://masterprofile/ is mapped to: /storage/sdcard0/Android/data/org.xbmc.xbmc/files/.xbmc/userdata
+20:27:47 T:1510372984  NOTICE: special://home/ is mapped to: /storage/sdcard0/Android/data/org.xbmc.xbmc/files/.xbmc
+20:27:47 T:1510372984  NOTICE: special://temp/ is mapped to: /storage/sdcard0/Android/data/org.xbmc.xbmc/files/.xbmc/temp
+20:27:47 T:1510372984  NOTICE: The executable running is: /system/bin/app_process
+20:27:47 T:1510372984  NOTICE: Local hostname: localhost
+20:27:47 T:1510372984  NOTICE: Log File is located: /storage/sdcard0/Android/data/org.xbmc.xbmc/files/.xbmc/temp/xbmc.log
+20:27:47 T:1510372984  NOTICE: -----------------------------------------------------------------------
+20:27:47 T:1510372984  NOTICE: load settings...
+20:27:47 T:1510372984   DEBUG: static int CAndroidFeatures::GetVersion(): android.os.Build.VERSION 16
+20:27:47 T:1510372984   DEBUG: CSettings: loaded settings definition from special://xbmc/system/settings/settings.xml
+20:27:47 T:1510372984 WARNING: CSettingInt: unknown options filler "audiocdactions" of "audiocds.autoaction"
+20:27:47 T:1510372984   DEBUG: CSettings: loaded settings definition from special://xbmc/system/settings/android.xml
+20:27:47 T:1510372984  NOTICE: Found 1 Lists of Devices
+20:27:47 T:1510372984  NOTICE: Enumerated AUDIOTRACK devices:
+20:27:47 T:1510372984  NOTICE:     Device 1
+20:27:47 T:1510372984  NOTICE:         m_deviceName      : AudioTrack
+20:27:47 T:1510372984  NOTICE:         m_displayName     : android
+20:27:47 T:1510372984  NOTICE:         m_displayNameExtra: audiotrack
+20:27:47 T:1510372984  NOTICE:         m_deviceType      : AE_DEVTYPE_HDMI
+20:27:47 T:1510372984  NOTICE:         m_channels        : FL,FR
+20:27:47 T:1510372984  NOTICE:         m_sampleRates     : 48000
+20:27:47 T:1510372984  NOTICE:         m_dataFormats     : AE_FMT_S16LE,AE_FMT_AC3,AE_FMT_DTS
+20:27:47 T:1510372984   ERROR: CSettingsManager: unable to load settings from special://masterprofile/guisettings.xml, creating new default settings
+20:27:47 T:1510372984  NOTICE: No settings file to load (special://xbmc/system/advancedsettings.xml)
+20:27:47 T:1510372984  NOTICE: No settings file to load (special://masterprofile/advancedsettings.xml)
+20:27:47 T:1510372984  NOTICE: Default DVD Player: dvdplayer
+20:27:47 T:1510372984  NOTICE: Default Video Player: dvdplayer
+20:27:47 T:1510372984  NOTICE: Default Audio Player: paplayer
+20:27:47 T:1510372984  NOTICE: Disabled debug logging due to GUI setting. Level 0.
+20:27:47 T:1510372984  NOTICE: Log level changed to 0
+20:27:47 T:1510372984  NOTICE: Loading player core factory settings from special://xbmc/system/playercorefactory.xml.
+20:27:47 T:1510372984   DEBUG: CPlayerCoreConfig::<ctor>: created player DVDPlayer for core 1
+20:27:47 T:1510372984   DEBUG: CPlayerCoreConfig::<ctor>: created player oldmplayercore for core 1
+20:27:47 T:1510372984   DEBUG: CPlayerCoreConfig::<ctor>: created player PAPlayer for core 3
+20:27:47 T:1510372984   DEBUG: CPlayerSelectionRule::Initialize: creating rule: system rules
+20:27:47 T:1510372984   DEBUG: CPlayerSelectionRule::Initialize: creating rule: rtv
+20:27:47 T:1510372984   DEBUG: CPlayerSelectionRule::Initialize: creating rule: hdhomerun/myth/mms/udp
+20:27:47 T:1510372984   DEBUG: CPlayerSelectionRule::Initialize: creating rule: lastfm/shout
+20:27:47 T:1510372984   DEBUG: CPlayerSelectionRule::Initialize: creating rule: rtmp
+20:27:47 T:1510372984   DEBUG: CPlayerSelectionRule::Initialize: creating rule: rtsp
+20:27:47 T:1510372984   DEBUG: CPlayerSelectionRule::Initialize: creating rule: streams
+20:27:47 T:1510372984   DEBUG: CPlayerSelectionRule::Initialize: creating rule: aacp/sdp
+20:27:47 T:1510372984   DEBUG: CPlayerSelectionRule::Initialize: creating rule: mp2
+20:27:47 T:1510372984   DEBUG: CPlayerSelectionRule::Initialize: creating rule: dvd
+20:27:47 T:1510372984   DEBUG: CPlayerSelectionRule::Initialize: creating rule: dvdimage
+20:27:47 T:1510372984   DEBUG: CPlayerSelectionRule::Initialize: creating rule: sdp/asf
+20:27:47 T:1510372984   DEBUG: CPlayerSelectionRule::Initialize: creating rule: nsv
+20:27:47 T:1510372984   DEBUG: CPlayerSelectionRule::Initialize: creating rule: radio
+20:27:47 T:1510372984  NOTICE: Loaded playercorefactory configuration
+20:27:47 T:1510372984  NOTICE: Loading player core factory settings from special://masterprofile/playercorefactory.xml.
+20:27:47 T:1510372984  NOTICE: special://masterprofile/playercorefactory.xml does not exist. Skipping.
+20:27:47 T:1510372984    INFO: creating subdirectories
+20:27:47 T:1510372984    INFO: userdata folder: special://masterprofile/
+20:27:47 T:1510372984    INFO: recording folder:
+20:27:47 T:1510372984    INFO: screenshots folder:
+20:27:47 T:1510372984    INFO: load language info file: special://xbmc/language/English/langinfo.xml
+20:27:47 T:1510372984   DEBUG: trying to set locale to en_US.UTF-8
+20:27:47 T:1510372984    INFO: global locale set to C
+20:27:47 T:1510372984    INFO: load English language file, from path: special://xbmc/language/
+20:27:48 T:1510372984   DEBUG: POParser: loaded 3214 strings from file /data/data/org.xbmc.xbmc/cache/apk/assets/language/English/strings.po
+20:27:48 T:1510938168  NOTICE: Thread ActiveAE start, auto delete: false
+20:27:48 T:1542251440  NOTICE: Thread AESink start, auto delete: false
+20:27:48 T:1542251440    INFO: CActiveAESink::OpenSink - initialize sink
+20:27:48 T:1542251440   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+20:27:48 T:1542251440   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+20:27:48 T:1542251440   DEBUG:   Output Device : android
+20:27:48 T:1542251440   DEBUG:   Sample Rate   : 48000
+20:27:48 T:1542251440   DEBUG:   Sample Format : AE_FMT_S16NE
+20:27:48 T:1542251440   DEBUG:   Channel Count : 2
+20:27:48 T:1542251440   DEBUG:   Channel Layout: FL,FR
+20:27:48 T:1542251440   DEBUG:   Frames        : 2048
+20:27:48 T:1542251440   DEBUG:   Frame Samples : 4096
+20:27:48 T:1542251440   DEBUG:   Frame Size    : 4
+20:27:48 T:1510372984    INFO: creating version table
+20:27:48 T:1510372984    INFO: create addon table
+20:27:48 T:1510372984    INFO: create addonextra table
+20:27:48 T:1510372984    INFO: create dependencies table
+20:27:48 T:1510372984    INFO: create repo table
+20:27:48 T:1510372984    INFO: create addonlinkrepo table
+20:27:48 T:1510372984    INFO: create disabled table
+20:27:48 T:1510372984    INFO: create broken table
+20:27:48 T:1510372984    INFO: create blacklist table
+20:27:48 T:1510372984    INFO: create package table
+20:27:48 T:1510372984    INFO: virtual void CAddonDatabase::CreateAnalytics() creating indicies
+20:27:48 T:1510372984   DEBUG: SECTION:LoadDLL(libcpluff-arm.so)
+20:27:48 T:1510372984   DEBUG: Loading: /data/data/org.xbmc.xbmc/lib/libcpluff-arm.so
+20:27:48 T:1510372984    INFO: ADDON: cpluff: 'Could not read plug-in directory /storage/sdcard0/Android/data/org.xbmc.xbmc/files/.xbmc/addons: No such file or directory'
+20:27:49 T:1510372984  NOTICE: ADDONS: Using repository repository.xbmc.org
+20:27:49 T:1510372984  NOTICE: ADDONS: Using repository repository.pvr-android.xbmc.org
+20:27:49 T:1510372984   DEBUG: bool PERIPHERALS::CPeripherals::LoadMappings() - loaded node "Motorola Nyxboard Hybrid"
+20:27:49 T:1510372984   DEBUG: bool PERIPHERALS::CPeripherals::LoadMappings() - loaded node "CEC Adapter"
+20:27:49 T:1510372984   DEBUG: bool PERIPHERALS::CPeripherals::LoadMappings() - loaded node "Pulse-Eight CEC Adapter"
+20:27:49 T:1510372984   DEBUG: bool PERIPHERALS::CPeripherals::LoadMappings() - loaded node "iMON HID device"
+20:27:49 T:1510372984   DEBUG: PERIPHERALS::CPeripheralBusUSB::CPeripheralBusUSB(PERIPHERALS::CPeripherals*) - using libusb peripheral scanning
+20:27:49 T:1510372984   DEBUG: SECTION:LoadDLL(libcec.so)
+20:27:49 T:1510372984   DEBUG: Loading: libcec.so
+20:27:49 T:1510372984   ERROR: Unable to load libcec.so, reason: Symbol not found:
+20:27:49 T:1510372984   DEBUG: Dll libcec.so was not found in path
+20:27:49 T:1510372984   ERROR: virtual void PERIPHERALS::CPeripherals::Initialise() - failed to initialise bus cec
+20:27:49 T:1545832176  NOTICE: Thread PeripBusUSB start, auto delete: false
+20:27:49 T:1510372984  NOTICE: virtual bool CWinSystemEGL::InitWindowSystem(): Using EGL Implementation: android
+20:27:49 T:1510372984   DEBUG: bool CWinSystemEGL::CreateWindow(RESOLUTION_INFO&): Created surface of size 1280x752
+20:27:49 T:1510372984  NOTICE: Current resolution: 1280x752 @ 60.00 - Full Screen
+20:27:56 T:1510372984  NOTICE: Previous line repeats 1 times.
+20:27:56 T:1510372984  NOTICE: Found resolution 1280 x 752 for display 0 with 1280 x 752 @ 60.000000 Hz
+20:27:56 T:1510372984  NOTICE: Found (1280x752@60.000000) at 16, setting to RES_DESKTOP at 16
+20:27:56 T:1510372984  NOTICE: Checking resolution 16
+20:27:56 T:1510372984  NOTICE: Current resolution: 1280x752 @ 60.00 - Full Screen
+20:27:56 T:1510372984   DEBUG: bool CWinSystemEGL::CreateWindow(RESOLUTION_INFO&): Created surface of size 1280x752
+20:27:59 T:1510372984  NOTICE: GL_VENDOR = NVIDIA Corporation
+20:27:59 T:1510372984  NOTICE: GL_RENDERER = NVIDIA Tegra 3
+20:27:59 T:1510372984  NOTICE: GL_VERSION = OpenGL ES 2.0 14.01002
+20:27:59 T:1510372984  NOTICE: GL_SHADING_LANGUAGE_VERSION = OpenGL ES GLSL 1.00
+20:27:59 T:1510372984   DEBUG: GLES: Extension Support Test - GL_NVX_gpu_memory_info NO
+20:27:59 T:1510372984  NOTICE: GL_EXTENSIONS = GL_OES_rgb8_rgba8 GL_OES_EGL_sync GL_OES_surfaceless_context GL_OES_fbo_render_mipmap GL_NV_depth_nonlinear GL_NV_draw_path GL_NV_texture_npot_2D_mipmap GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_vertex_half_float GL_OES_mapbuffer GL_NV_draw_buffers GL_NV_multiview_draw_buffers GL_EXT_Cg_shader GL_EXT_packed_float GL_OES_texture_half_float GL_EXT_texture_array GL_OES_compressed_ETC1_RGB8_texture GL_EXT_texture_compression_latc GL_NV_texture_compression_latc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_s3tc GL_NV_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_NV_get_tex_image GL_NV_read_buffer GL_NV_shader_framebuffer_fetch GL_NV_copy_image GL_NV_fbo_color_attachments GL_EXT_bgra GL_EXT_texture_format_BGRA8888 GL_EXT_unpack_subimage GL_NV_pack_subimage GL_NV_texture_compression_s3tc_update GL_NV_read_depth GL_NV_read_stencil GL_NV_uniform_buffer_object GL_NV_map_buffer_range GL_EXT_robustness GL_OES_standard_derivatives GL_NV_EGL_stream_consumer_external GL_EXT_separate_shader_objects GL_NV_copy_buffer GL_NV_3dvision_settings GL_EXT_debug_marker GL_EXT_debug_label GL_EXT_texture_storage GL_NV_pixel_buffer_object GL_NV_framebuffer_blit GL_NV_explicit_attrib_location GL_NV_coverage_sample GL_EXT_occlusion_query_boolean GL_NV_occlusion_query_samples GL_NV_timer_query
+20:27:59 T:1510372984   DEBUG: GLES: Extension Support Test - GL_EXT_texture_format_BGRA8888 YES
+20:27:59 T:1510372984   DEBUG: GLES: Extension Support Test - GL_IMG_texture_format_BGRA8888 NO
+20:27:59 T:1510372984   DEBUG: GLES: Extension Support Test - GL_APPLE_texture_format_BGRA8888 NO
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compilation log:
+20:27:59 T:1510372984   DEBUG: 39 lines, 0 errors.
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GL: Pixel Shader compilation log:
+20:27:59 T:1510372984   DEBUG: 28 lines, 0 errors.
+20:27:59 T:1510372984   DEBUG: GL: Fragment Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GUI Shader [guishader_frag_default.glsl]- Initialise successful : 0x5a067070
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compilation log:
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GL: Pixel Shader compilation log:
+20:27:59 T:1510372984   DEBUG: 30 lines, 0 errors.
+20:27:59 T:1510372984   DEBUG: GL: Fragment Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GUI Shader [guishader_frag_texture.glsl]- Initialise successful : 0x5c26f3e8
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compilation log:
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GL: Pixel Shader compilation log:
+20:27:59 T:1510372984   DEBUG: 31 lines, 0 errors.
+20:27:59 T:1510372984   DEBUG: GL: Fragment Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GUI Shader [guishader_frag_multi.glsl]- Initialise successful : 0x5c26f018
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compilation log:
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GL: Pixel Shader compilation log:
+20:27:59 T:1510372984   DEBUG: 33 lines, 0 errors.
+20:27:59 T:1510372984   DEBUG: GL: Fragment Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GUI Shader [guishader_frag_fonts.glsl]- Initialise successful : 0x5c2c6e18
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compilation log:
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GL: Pixel Shader compilation log:
+20:27:59 T:1510372984   DEBUG: 29 lines, 0 errors.
+20:27:59 T:1510372984   DEBUG: GL: Fragment Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GUI Shader [guishader_frag_texture_noblend.glsl]- Initialise successful : 0x5c2d0478
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compilation log:
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GL: Pixel Shader compilation log:
+20:27:59 T:1510372984   DEBUG: 32 lines, 0 errors.
+20:27:59 T:1510372984   DEBUG: GL: Fragment Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GUI Shader [guishader_frag_multi_blendcolor.glsl]- Initialise successful : 0x5c2c6ec8
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compilation log:
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GL: Pixel Shader compilation log:
+20:27:59 T:1510372984   DEBUG: 33 lines, 0 errors.
+20:27:59 T:1510372984   DEBUG: GL: Fragment Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GUI Shader [guishader_frag_rgba.glsl]- Initialise successful : 0x5c91c570
+20:27:59 T:1510372984   DEBUG: GLES: Extension Support Test - GL_OES_EGL_image_external YES
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compilation log:
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GL: Pixel Shader compilation log:
+20:27:59 T:1510372984   DEBUG: 31 lines, 0 errors.
+20:27:59 T:1510372984   DEBUG: GL: Fragment Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GUI Shader [guishader_frag_rgba_oes.glsl]- Initialise successful : 0x5c26ede0
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compilation log:
+20:27:59 T:1510372984   DEBUG: GL: Vertex Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GL: Pixel Shader compilation log:
+20:27:59 T:1510372984   DEBUG: 33 lines, 0 errors.
+20:27:59 T:1510372984   DEBUG: GL: Fragment Shader compiled successfully
+20:27:59 T:1510372984   DEBUG: GUI Shader [guishader_frag_rgba_blendcolor.glsl]- Initialise successful : 0x5c2e6be8
+20:27:59 T:1510372984  NOTICE: Current resolution: 1280x752 @ 60.00 - Full Screen
+20:27:59 T:1510372984   DEBUG: CWinSystemEGL::CreateNewWindow: No need to create a new window
+20:27:59 T:1510372984    INFO: GLES: Maximum texture width: 2048
+20:27:59 T:1510372984   DEBUG: CRenderManager::UpdateDisplayLatency - Latency set to 0 msec
+20:27:59 T:1510372984    INFO: load default splash image: /data/data/org.xbmc.xbmc/cache/apk/assets/media/Splash.png
+20:27:59 T:1510372984   DEBUG: SECTION:LoadDLL(libImageLib-arm.so)
+20:27:59 T:1510372984   DEBUG: Loading: /data/data/org.xbmc.xbmc/lib/libImageLib-arm.so
+20:27:59 T:1510372984    INFO: load keymapping
+20:27:59 T:1510372984    INFO: Loading special://xbmc/system/keymaps/appcommand.xml
+20:27:59 T:1510372984    INFO: Loading special://xbmc/system/keymaps/gamepad.xml
+20:27:59 T:1510372984    INFO: Loading special://xbmc/system/keymaps/joystick.xml
+20:27:59 T:1510372984  NOTICE: No Joystick name specified, loading default map
+20:27:59 T:1510372984  NOTICE: Previous line repeats 35 times.
+20:27:59 T:1510372984    INFO: Loading special://xbmc/system/keymaps/keyboard.xml
+20:27:59 T:1510372984    INFO: Loading special://xbmc/system/keymaps/mouse.xml
+20:27:59 T:1510372984    INFO: Loading special://xbmc/system/keymaps/remote.xml
+20:27:59 T:1510372984    INFO: Loading special://xbmc/system/keymaps/touchscreen.xml
+20:27:59 T:1510372984    INFO: GUI format 1280x752, Display 1280x752 @ 60.00 - Full Screen
+20:27:59 T:1510372984   DEBUG: guilib: Fill viewport on change for solving rendering passes
+20:27:59 T:1510372984   DEBUG: SECTION:LoadDLL(libcurl.so)
+20:27:59 T:1510372984   DEBUG: Loading: /data/data/org.xbmc.xbmc/lib/libcurl.so
+20:28:00 T:1546631240  NOTICE: Thread Timer start, auto delete: false
+20:28:00 T:1546631240   DEBUG: Thread Timer 1546631240 terminating
+20:28:00 T:1510372984  NOTICE: Running database version Addons16
+20:28:00 T:1510372984   DEBUG: void CDatabaseManager::Initialize(bool), updating databases...
+20:28:00 T:1510372984    INFO: creating version table
+20:28:00 T:1510372984    INFO: create view table
+20:28:00 T:1510372984    INFO: virtual void CViewDatabase::CreateAnalytics() - creating indicies
+20:28:00 T:1510372984    INFO: creating version table
+20:28:00 T:1510372984    INFO: create texture table
+20:28:00 T:1510372984    INFO: create sizes table, index,  and trigger
+20:28:00 T:1510372984    INFO: create path table
+20:28:00 T:1510372984    INFO: virtual void CTextureDatabase::CreateAnalytics() creating indices
+20:28:00 T:1510372984    INFO: virtual void CTextureDatabase::CreateAnalytics() creating triggers
+20:28:00 T:1510372984    INFO: creating version table
+20:28:00 T:1510372984    INFO: create artist table
+20:28:00 T:1510372984    INFO: create album table
+20:28:00 T:1510372984    INFO: create album_artist table
+20:28:00 T:1510372984    INFO: create album_genre table
+20:28:00 T:1510372984    INFO: create genre table
+20:28:00 T:1510372984    INFO: create path table
+20:28:00 T:1510372984    INFO: create song table
+20:28:00 T:1510372984    INFO: create song_artist table
+20:28:00 T:1510372984    INFO: create song_genre table
+20:28:00 T:1510372984    INFO: create albuminfosong table
+20:28:00 T:1510372984    INFO: create content table
+20:28:00 T:1510372984    INFO: create discography table
+20:28:00 T:1510372984    INFO: create karaokedata table
+20:28:00 T:1510372984    INFO: create art table
+20:28:00 T:1510372984    INFO: virtual void CMusicDatabase::CreateAnalytics() - creating indices
+20:28:00 T:1510372984    INFO: create triggers
+20:28:00 T:1510372984    INFO: create song view
+20:28:00 T:1510372984    INFO: create album view
+20:28:00 T:1510372984    INFO: create artist view
+20:28:00 T:1510372984    INFO: create albumartist view
+20:28:00 T:1510372984    INFO: create songartist view
+20:28:00 T:1510372984    INFO: creating version table
+20:28:00 T:1510372984    INFO: create bookmark table
+20:28:00 T:1510372984    INFO: create settings table
+20:28:00 T:1510372984    INFO: create stacktimes table
+20:28:00 T:1510372984    INFO: create genre table
+20:28:00 T:1510372984    INFO: create genrelinkmovie table
+20:28:00 T:1510372984    INFO: create country table
+20:28:00 T:1510372984    INFO: create countrylinkmovie table
+20:28:00 T:1510372984    INFO: create movie table
+20:28:00 T:1510372984    INFO: create actorlinkmovie table
+20:28:00 T:1510372984    INFO: create directorlinkmovie table
+20:28:00 T:1510372984    INFO: create writerlinkmovie table
+20:28:00 T:1510372984    INFO: create actors table
+20:28:00 T:1510372984    INFO: create path table
+20:28:00 T:1510372984    INFO: create files table
+20:28:00 T:1510372984    INFO: create tvshow table
+20:28:00 T:1510372984    INFO: create directorlinktvshow table
+20:28:00 T:1510372984    INFO: create actorlinktvshow table
+20:28:00 T:1510372984    INFO: create studiolinktvshow table
+20:28:00 T:1510372984    INFO: create episode table
+20:28:00 T:1510372984    INFO: create tvshowlinkpath table
+20:28:00 T:1510372984    INFO: create actorlinkepisode table
+20:28:00 T:1510372984    INFO: create directorlinkepisode table
+20:28:00 T:1510372984    INFO: create writerlinkepisode table
+20:28:00 T:1510372984    INFO: create genrelinktvshow table
+20:28:00 T:1510372984    INFO: create movielinktvshow table
+20:28:00 T:1510372984    INFO: create studio table
+20:28:00 T:1510372984    INFO: create studiolinkmovie table
+20:28:00 T:1510372984    INFO: create musicvideo table
+20:28:00 T:1510372984    INFO: create artistlinkmusicvideo table
+20:28:00 T:1510372984    INFO: create genrelinkmusicvideo table
+20:28:00 T:1510372984    INFO: create studiolinkmusicvideo table
+20:28:00 T:1510372984    INFO: create directorlinkmusicvideo table
+20:28:00 T:1510372984    INFO: create streaminfo table
+20:28:00 T:1510372984    INFO: create sets table
+20:28:00 T:1510372984    INFO: create seasons table
+20:28:00 T:1510372984    INFO: create art table
+20:28:00 T:1510372984    INFO: create tag table
+20:28:00 T:1510372984    INFO: create taglinks table
+20:28:00 T:1510372984    INFO: virtual void CVideoDatabase::CreateAnalytics() - creating indicies
+20:28:00 T:1510372984    INFO: virtual void CVideoDatabase::CreateAnalytics() - creating triggers
+20:28:00 T:1510372984    INFO: create episodeview
+20:28:00 T:1510372984    INFO: create tvshowcounts
+20:28:00 T:1510372984    INFO: create tvshowview
+20:28:00 T:1510372984    INFO: create seasonview
+20:28:00 T:1510372984    INFO: create musicvideoview
+20:28:00 T:1510372984    INFO: create movieview
+20:28:00 T:1510372984    INFO: creating version table
+20:28:00 T:1510372984    INFO: PVR - virtual void PVR::CPVRDatabase::CreateTables() - creating tables
+20:28:00 T:1510372984   DEBUG: PVR - virtual void PVR::CPVRDatabase::CreateTables() - creating table 'clients'
+20:28:00 T:1510372984   DEBUG: PVR - virtual void PVR::CPVRDatabase::CreateTables() - creating table 'channels'
+20:28:00 T:1510372984   DEBUG: PVR - virtual void PVR::CPVRDatabase::CreateTables() - creating table 'channelgroups'
+20:28:00 T:1510372984   DEBUG: PVR - virtual void PVR::CPVRDatabase::CreateTables() - creating table 'map_channelgroups_channels'
+20:28:00 T:1510372984    INFO: virtual void PVR::CPVRDatabase::CreateAnalytics() - creating indices
+20:28:00 T:1510372984    INFO: creating version table
+20:28:00 T:1510372984    INFO: EpgDB - virtual void EPG::CEpgDatabase::CreateTables() - creating tables
+20:28:00 T:1510372984   DEBUG: EpgDB - virtual void EPG::CEpgDatabase::CreateTables() - creating table 'epg'
+20:28:00 T:1510372984   DEBUG: EpgDB - virtual void EPG::CEpgDatabase::CreateTables() - creating table 'epgtags'
+20:28:00 T:1510372984   DEBUG: EpgDB - virtual void EPG::CEpgDatabase::CreateTables() - creating table 'lastepgscan'
+20:28:00 T:1510372984   DEBUG: virtual void EPG::CEpgDatabase::CreateAnalytics() - creating indices
+20:28:00 T:1510372984   DEBUG: void CDatabaseManager::Initialize(bool), updating databases... DONE
+20:28:00 T:1510372984    INFO: DPMS: not supported on this platform
+20:28:00 T:1510372984   DEBUG: CAnnouncementManager - Announcement: OnClear from xbmc
+20:28:00 T:1510372984   DEBUG: GOT ANNOUNCEMENT, type: 2, from xbmc, message OnClear
+20:28:00 T:1510372984    INFO: Unloading old skin ...
+20:28:00 T:1510372984    INFO:   load skin from: /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence (version: 2.4.0)
+20:28:00 T:1510372984    INFO:   load fonts for skin...
+20:28:00 T:1510372984    INFO: Loading fonts from /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/720p/Font.xml
+20:28:00 T:1510372984   DEBUG: POParser: loaded 149 strings from file /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/language/English/strings.po
+20:28:00 T:1510372984    INFO: Loading skin includes from /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/720p/includes.xml
+20:28:01 T:1510372984    INFO:   load new skin...
+20:28:01 T:1510372984    INFO: Loading user windows, path /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/720p
+20:28:01 T:1510372984   DEBUG: Load Skin XML: 58.66ms
+20:28:01 T:1510372984    INFO:   initialize new skin...
+20:28:01 T:1510372984   DEBUG: guilib: Fill viewport on change for solving rendering passes
+20:28:01 T:1510372984    INFO: Loading skin file: Pointer.xml, load type: LOAD_ON_GUI_INIT
+20:28:01 T:1510372984   DEBUG: Load Pointer.xml: 6.68ms
+20:28:01 T:1510372984   DEBUG: bool CTextureBundleXBT::OpenBundle() - Opened bundle /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/media/Textures.xbt
+20:28:01 T:1510372984   DEBUG: Alloc resources: 57.08ms  (7.04 ms skin load)
+20:28:01 T:1510372984    INFO: Loading skin file: DialogVolumeBar.xml, load type: LOAD_ON_GUI_INIT
+20:28:01 T:1510372984   DEBUG: Load DialogVolumeBar.xml: 150.56ms
+20:28:01 T:1510372984   DEBUG: Alloc resources: 269.40ms  (151.89 ms skin load)
+20:28:02 T:1510372984    INFO: Loading skin file: DialogKaiToast.xml, load type: LOAD_ON_GUI_INIT
+20:28:02 T:1510372984   DEBUG: Load DialogKaiToast.xml: 128.17ms
+20:28:02 T:1510372984   DEBUG: Alloc resources: 131.46ms  (131.45 ms skin load)
+20:28:02 T:1510372984    INFO: Loading skin file: DialogMuteBug.xml, load type: LOAD_ON_GUI_INIT
+20:28:02 T:1510372984   DEBUG: Load DialogMuteBug.xml: 56.07ms
+20:28:02 T:1510372984   DEBUG: Alloc resources: 57.28ms  (57.27 ms skin load)
+20:28:02 T:1510372984    INFO: Loading skin file: DialogSeekBar.xml, load type: LOAD_ON_GUI_INIT
+20:28:02 T:1510372984   DEBUG: Load DialogSeekBar.xml: 53.46ms
+20:28:02 T:1510372984   DEBUG: Alloc resources: 112.77ms  (54.09 ms skin load)
+20:28:02 T:1510372984    INFO: Loading skin file: DialogBusy.xml, load type: LOAD_ON_GUI_INIT
+20:28:02 T:1510372984   DEBUG: Load DialogBusy.xml: 11.44ms
+20:28:02 T:1510372984   DEBUG: Alloc resources: 12.27ms  (12.23 ms skin load)
+20:28:02 T:1510372984    INFO: Loading skin file: DialogExtendedProgressBar.xml, load type: LOAD_ON_GUI_INIT
+20:28:03 T:1510372984   DEBUG: Load DialogExtendedProgressBar.xml: 25.93ms
+20:28:03 T:1510372984   DEBUG: Alloc resources: 26.61ms  (26.58 ms skin load)
+20:28:03 T:1510372984    INFO: Loading /data/data/org.xbmc.xbmc/cache/apk/assets/addons/skin.confluence/sounds/sounds.xml
+20:28:03 T:1510372984    INFO:   skin loaded...
+20:28:04 T:1510372984   DEBUG: JSONRPC: JSON schema type stereoscopicmode references an unknown type GUI.Stereoscopy.Mode
+20:28:04 T:1510372984 WARNING: JSONRPC: Could not parse type "GUI.Property.Value"
+20:28:04 T:1510372984    INFO: JSONRPC: Adding type "GUI.Property.Value" to list of incomplete definitions (waiting for "GUI.Stereoscopy.Mode")
+20:28:04 T:1510372984    INFO: JSONRPC: Resolving incomplete types/methods referencing GUI.Stereoscopy.Mode
+20:28:04 T:1510372984   DEBUG: JSONRPC: JSON schema type definition references an unknown type Setting.Details.Setting
+20:28:04 T:1510372984 WARNING: JSONRPC: Could not parse type "Setting.Details.SettingList"
+20:28:04 T:1510372984    INFO: JSONRPC: Adding type "Setting.Details.SettingList" to list of incomplete definitions (waiting for "Setting.Details.Setting")
+20:28:04 T:1510372984    INFO: JSONRPC: Resolving incomplete types/methods referencing Setting.Details.Setting
+20:28:04 T:1510372984    INFO: JSONRPC v6.16.0: Successfully initialized
+20:28:04 T:1510372984   DEBUG: ADDON: Starting service addons.
+20:28:04 T:1510372984   DEBUG: Activating window ID: 12999
+20:28:04 T:1510372984   DEBUG: ------ Window Init (Startup.xml) ------
+20:28:04 T:1510372984    INFO: Loading skin file: Startup.xml, load type: LOAD_EVERY_TIME
+20:28:04 T:1554990896  NOTICE: Thread LanguageInvoker start, auto delete: false
+20:28:04 T:1554990896    INFO: initializing python engine.
+20:28:04 T:1510372984   DEBUG: Load Startup.xml: 45.58ms
+20:28:04 T:1510372984   DEBUG: Alloc resources: 46.42ms  (46.41 ms skin load)
+20:28:04 T:1510372984    INFO: removing tempfiles
+20:28:04 T:1510372984   DEBUG: ADDON: Starting service addons.
+20:28:04 T:1510372984  NOTICE: initialize done
+20:28:04 T:1510372984  NOTICE: Running the application...
+20:28:04 T:1510372984   DEBUG: Activating window ID: 10000
+20:28:05 T:1510372984    INFO: GLES: Enabling VSYNC
+20:28:05 T:1510372984    INFO: GLES: Selected vsync mode 10
+20:28:05 T:1510372984   DEBUG: ------ Window Deinit (Startup.xml) ------
+20:28:05 T:1554990896   DEBUG: CPythonInvoker(0, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): start processing
+20:28:05 T:1510372984   DEBUG: ------ Window Init (Home.xml) ------
+20:28:05 T:1510372984    INFO: Loading skin file: Home.xml, load type: KEEP_IN_MEMORY
+20:28:05 T:1554990896  NOTICE: -->Python Interpreter Initialized<--
+20:28:05 T:1554990896   DEBUG: CPythonInvoker(0, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): the source file to load is "/data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py"
+20:28:05 T:1554990896   DEBUG: CPythonInvoker(0, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): setting the Python path to /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck:/data/data/org.xbmc.xbmc/cache/apk/assets/addons/script.module.pil/lib:/:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python26.zip:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6/plat-linux3:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6/lib-tk:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6/lib-old:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6/lib-dynload
+20:28:05 T:1554990896   DEBUG: CPythonInvoker(0, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): entering source directory /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck
+20:28:05 T:1554990896   DEBUG: CPythonInvoker(0, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): instantiating addon using automatically obtained id of "service.xbmc.versioncheck" dependent on version 2.1.0 of the xbmc.python api
+20:28:05 T:1510372984   DEBUG: Load Home.xml: 236.26ms
+20:28:06 T:1554990896   DEBUG: XBMC Version Check: Version 0.1.21 started
+20:28:06 T:1510372984   DEBUG: Alloc resources: 1239.16ms  (889.51 ms skin load)
+20:28:06 T:1561532816  NOTICE: Thread JobWorker start, auto delete: true
+20:28:06 T:1561532816   DEBUG: CRecentlyAddedJob::UpdateMusic() - Running RecentlyAdded home screen update
+20:28:06 T:1561532816   DEBUG: GetRecentlyAddedAlbumSongs() query: SELECT songview.* FROM (SELECT idAlbum FROM albumview ORDER BY idAlbum DESC LIMIT 10) AS recentalbums JOIN songview ON songview.idAlbum=recentalbums.idAlbum
+20:28:06 T:1561532816   DEBUG: bool CMusicDatabase::GetRecentlyAddedAlbums(VECALBUMS&, unsigned int) query: select * from albumview where strAlbum != '' order by idAlbum desc limit 10
+20:28:06 T:1561532816   DEBUG: CRecentlyAddedJob::UpdateVideos() - Running RecentlyAdded home screen update
+20:28:06 T:1554990896    INFO: CPythonInvoker(0, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): script successfully run
+20:28:06 T:1510372984   DEBUG: no profile autoexec.py (/storage/sdcard0/Android/data/org.xbmc.xbmc/files/.xbmc/userdata/autoexec.py) found, skipping
+20:28:06 T:1510372984   DEBUG: void CNetwork::NetworkMessage(CNetwork::EMESSAGE, int) - Starting network services
+20:28:06 T:1510372984  NOTICE: starting zeroconf publishing
+20:28:06 T:1560367384  NOTICE: Thread ZerocconfEmbedded start, auto delete: false
+20:28:06 T:1560367384   DEBUG: ZeroconfEmbedded - processing...
+20:28:06 T:1510372984  NOTICE: ES: Starting event server
+20:28:06 T:1510372984    INFO: JSONRPC Server: Successfully initialized
+20:28:06 T:1510372984   DEBUG: started alarm with name: checkatboot
+20:28:06 T:1510372984   DEBUG: started alarm with name: checkwhilerunning
+20:28:06 T:1561338096  NOTICE: Thread JobWorker start, auto delete: true
+20:28:06 T:1561338096   DEBUG: ZeroconfMDNS: identifier: servers.jsonrpc-tpc type: _xbmc-jsonrpc._tcp name:XBMC (localhost) port:9090
+20:28:06 T:1561231528  NOTICE: Thread AlarmClock start, auto delete: false
+20:28:06 T:1561229152  NOTICE: Thread EventServer start, auto delete: false
+20:28:06 T:1561229152  NOTICE: ES: Starting UDP Event server on 0.0.0.0:9777
+20:28:06 T:1561229152  NOTICE: UDP: Listening on port 9777
+20:28:06 T:1561338096   DEBUG: ZeroconfMDNS: identifier: servers.eventserver type: _xbmc-events._udp name:XBMC (localhost) port:9777
+20:28:06 T:1560247032  NOTICE: Thread TCPServer start, auto delete: false
+20:28:07 T:1554990896    INFO: Python script stopped
+20:28:07 T:1554990896   DEBUG: Thread LanguageInvoker 1554990896 terminating
+20:28:07 T:1510372984   DEBUG: Checking repositories for updates (triggered by XBMC.org Add-ons)
+20:28:07 T:1561338096   DEBUG: CFileCache::Open - opening <addons/gotham/addons.xml.md5> using cache
+20:28:07 T:1561338096   DEBUG: CurlFile::Open(0x5cb7e2f0) http://mirrors.xbmc.org/addons/gotham/addons.xml.md5
+20:28:07 T:1561338096    INFO: void XCURL::DllLibCurlGlobal::easy_aquire(const char*, const char*, XCURL::CURL_HANDLE**, XCURL::CURLM**) - Created session to http://mirrors.xbmc.org
+20:28:07 T:1560427312  NOTICE: Thread RSSReader start, auto delete: false
+20:28:07 T:1560427312   DEBUG: CurlFile::Open(0x6398edb8) http://feeds.xbmc.org/xbmc
+20:28:07 T:1561532816   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 6 ms for 0 items query: select * from movieview  ORDER BY dateAdded desc, idMovie desc LIMIT 10
+20:28:07 T:1560427312    INFO: void XCURL::DllLibCurlGlobal::easy_aquire(const char*, const char*, XCURL::CURL_HANDLE**, XCURL::CURLM**) - Created session to http://feeds.xbmc.org
+20:28:07 T:1561532816   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 2 ms for 0 items query: select * from episodeview  ORDER BY dateAdded desc, idEpisode desc LIMIT 10
+20:28:07 T:1561532816   DEBUG: int CVideoDatabase::RunQuery(const CStdString&) took 3 ms for 0 items query: select * from musicvideoview  ORDER BY dateAdded desc, idMVideo desc LIMIT 10
+20:28:07 T:1561532816   DEBUG: CRecentlyAddedJob::UpdateTotal() - Running RecentlyAdded home screen update
+20:28:07 T:1560427248  NOTICE: Thread FileCache start, auto delete: false
+20:28:07 T:1560427248    INFO: CFileCache::Process - Hit eof.
+20:28:07 T:1560427248   DEBUG: Thread FileCache 1560427248 terminating
+20:28:07 T:1561338096   DEBUG: CFileCache::Open - opening <addons/helix/addons.xml.md5> using cache
+20:28:07 T:1561338096   DEBUG: CurlFile::Open(0x5d009040) http://mirrors.xbmc.org/addons/helix/addons.xml.md5
+20:28:07 T:1560427312   DEBUG: Got rss feed: http://feeds.xbmc.org/xbmc
+20:28:07 T:1560427312   DEBUG: RSS feed encoding: UTF-8
+20:28:07 T:1560427312   DEBUG: Parsed rss feed: http://feeds.xbmc.org/xbmc
+20:28:07 T:1560427312   DEBUG: CurlFile::Open(0x6398edb8) http://feeds.xbmc.org/latest_xbmc_addons
+20:28:07 T:1560427312   DEBUG: Got rss feed: http://feeds.xbmc.org/latest_xbmc_addons
+20:28:07 T:1560427312   DEBUG: RSS feed encoding: UTF-8
+20:28:07 T:1560427312   DEBUG: Parsed rss feed: http://feeds.xbmc.org/latest_xbmc_addons
+20:28:07 T:1560427312   DEBUG: CurlFile::Open(0x6398edb8) http://feeds.xbmc.org/updated_xbmc_addons
+20:28:07 T:1560367384   DEBUG: ZeroconfMDNS: XBMC (localhost)._xbmc-jsonrpc._tcp.local. Name in use, please choose another
+20:28:07 T:1560367384   DEBUG: ZeroconfMDNS: XBMC (localhost)._xbmc-events._udp.local. Name in use, please choose another
+20:28:07 T:1560427312   DEBUG: Got rss feed: http://feeds.xbmc.org/updated_xbmc_addons
+20:28:07 T:1560427312   DEBUG: RSS feed encoding: UTF-8
+20:28:07 T:1560427312   DEBUG: Parsed rss feed: http://feeds.xbmc.org/updated_xbmc_addons
+20:28:07 T:1560427312   DEBUG: Thread RSSReader 1560427312 terminating
+20:28:07 T:1560427312  NOTICE: Thread FileCache start, auto delete: false
+20:28:07 T:1560427312    INFO: CFileCache::Process - Hit eof.
+20:28:08 T:1560427312   DEBUG: Thread FileCache 1560427312 terminating
+20:28:08 T:1561338096   DEBUG: CFileCache::Open - opening <addons/frodo/addons.xml.md5> using cache
+20:28:08 T:1561338096   DEBUG: CurlFile::Open(0x5cb7e2f0) http://mirrors.xbmc.org/addons/frodo/addons.xml.md5
+20:28:08 T:1560416504  NOTICE: Thread FileCache start, auto delete: false
+20:28:10 T:1560416504    INFO: CFileCache::Process - Hit eof.
+20:28:10 T:1562101504  NOTICE: Thread Timer start, auto delete: false
+20:28:10 T:1562101504   DEBUG: Thread Timer 1562101504 terminating
+20:28:10 T:1560416504   DEBUG: Thread FileCache 1560416504 terminating
+20:28:10 T:1561338096   DEBUG: CFileCache::Open - opening <addons/gotham/addons.xml> using cache
+20:28:10 T:1561338096   DEBUG: CurlFile::Open(0x5d02c280) http://mirrors.xbmc.org/addons/gotham/addons.xml
+20:28:10 T:1560278912  NOTICE: Thread FileCache start, auto delete: false
+20:28:11 T:1560278912    INFO: CFileCache::Process - Hit eof.
+20:28:11 T:1560278912   DEBUG: Thread FileCache 1560278912 terminating
+20:28:11 T:1561338096   DEBUG: CFileCache::Open - opening <addons/helix/addons.xml> using cache
+20:28:12 T:1561338096   DEBUG: CurlFile::Open(0x5d026ba0) http://mirrors.xbmc.org/addons/helix/addons.xml
+20:28:12 T:1562101504  NOTICE: Thread FileCache start, auto delete: false
+20:28:12 T:1562101504    INFO: CFileCache::Process - Hit eof.
+20:28:12 T:1562101504   DEBUG: Thread FileCache 1562101504 terminating
+20:28:12 T:1561338096   DEBUG: CFileCache::Open - opening <addons/frodo/addons.xml> using cache
+20:28:12 T:1561338096   DEBUG: CurlFile::Open(0x5d009040) http://mirrors.xbmc.org/addons/frodo/addons.xml
+20:28:13 T:1561285680  NOTICE: Thread FileCache start, auto delete: false
+20:28:14 T:1561285680    INFO: CFileCache::Process - Hit eof.
+20:28:14 T:1561285680   DEBUG: Thread FileCache 1561285680 terminating
+20:28:16 T:1561338096   DEBUG: CFileCache::Open - opening <addons/gotham/pvr/android/addons.xml.md5> using cache
+20:28:16 T:1561338096   DEBUG: CurlFile::Open(0x5cb7e2f0) http://mirrors.xbmc.org/addons/gotham/pvr/android/addons.xml.md5
+20:28:17 T:1643794088  NOTICE: Thread FileCache start, auto delete: false
+20:28:17 T:1643794088    INFO: CFileCache::Process - Hit eof.
+20:28:17 T:1643794088   DEBUG: Thread FileCache 1643794088 terminating
+20:28:17 T:1561338096   DEBUG: CFileCache::Open - opening <addons/gotham/pvr/android/addons.xml> using cache
+20:28:17 T:1561338096   DEBUG: CurlFile::Open(0x61fbd760) http://mirrors.xbmc.org/addons/gotham/pvr/android/addons.xml
+20:28:17 T:1510372984    INFO: Python, unloading python shared library because no scripts are running anymore
+20:28:17 T:1510372984   DEBUG: void XBPython::UnloadExtensionLibs(), clearing python extension libraries
+20:28:17 T:1558256224  NOTICE: Thread FileCache start, auto delete: false
+20:28:17 T:1558256224    INFO: CFileCache::Process - Hit eof.
+20:28:17 T:1558256224   DEBUG: Thread FileCache 1558256224 terminating
+20:28:17 T:1561338096   DEBUG: Addon metadata.moviemaze.de requires metadata.common.themoviedb.org version 3.7.8 which is not available
+20:28:17 T:1561338096   DEBUG: Addon plugin.audio.hvsc requires script.module.pysqlite version 2.5.6 which is not available
+20:28:17 T:1561338096   DEBUG: Addon plugin.audio.mp3search requires xbmc.python version 2.0 which is not available
+20:28:17 T:1561338096   DEBUG: Addon plugin.program.akinator_com requires xbmc.python version 2.0 which is not available
+20:28:17 T:1561338096   DEBUG: Addon plugin.program.rtorrent requires xbmc.python version 2.0 which is not available
+20:28:18 T:1561338096   DEBUG: Addon plugin.video.attactv requires plugin.video.vimeo version 3.5.1 which is not available
+20:28:18 T:1561338096   DEBUG: Addon plugin.video.documentary.net requires plugin.video.vimeo version 2.3.0 which is not available
+20:28:18 T:1561338096   DEBUG: Addon plugin.video.dtm_tv requires xbmc.python version 2.0.1 which is not available
+20:28:18 T:1561338096   DEBUG: Addon plugin.video.earth.touch requires plugin.video.vimeo version 2.4.0 which is not available
+20:28:18 T:1561338096   DEBUG: Addon plugin.video.extreme-vidz requires plugin.video.vimeo version 3.5.2 which is not available
+20:28:18 T:1561338096   DEBUG: Addon plugin.video.fightcasts requires plugin.video.mmafighting version 0.0.2 which is not available
+20:28:18 T:1561338096   DEBUG: Addon plugin.video.greenpeace requires plugin.video.vimeo version 2.5.1 which is not available
+20:28:18 T:1561338096   DEBUG: Addon plugin.video.infinitylist_com requires plugin.video.vimeo version 2.3.0 which is not available
+20:28:18 T:1561338096   DEBUG: Addon plugin.video.joeroganexperience requires plugin.video.vimeo version 3.5.2 which is not available
+20:28:18 T:1561338096   DEBUG: Addon script.module.brightcove requires xbmc.python version 2.0 which is not available
+20:28:19 T:1561338096   DEBUG: Addon plugin.video.redditmusic requires plugin.video.vimeo version 2.4.0 which is not available
+20:28:19 T:1561338096   DEBUG: Addon plugin.video.redux_com requires plugin.video.vimeo version 2.3.0 which is not available
+20:28:19 T:1561338096   DEBUG: Addon plugin.video.rockpeaks requires plugin.video.vimeo version 3.5.2 which is not available
+20:28:19 T:1561338096   DEBUG: Addon script.module.dialogaddonscan requires xbmc.python version 2.0 which is not available
+20:28:19 T:1561338096   DEBUG: Addon plugin.video.topdocumentaryfilms_com requires plugin.video.vimeo version 2.3.0 which is not available
+20:28:19 T:1561338096   DEBUG: Addon plugin.video.upworthy_com requires plugin.video.vimeo version 2.3.0 which is not available
+20:28:19 T:1561338096   DEBUG: Addon script.gmail.checker requires xbmc.python version 2.0 which is not available
+20:28:19 T:1561338096   DEBUG: Addon script.gomiso requires xbmc.python version 2.0 which is not available
+20:28:19 T:1561338096   DEBUG: Addon script.ibelight requires xbmc.python version 2.0 which is not available
+20:28:19 T:1561338096   DEBUG: Addon script.lrclyrics requires xbmc.python version 1.0 which is not available
+20:28:19 T:1561338096   DEBUG: Addon script.module.brightcove requires xbmc.python version 2.0 which is not available
+20:28:19 T:1561338096   DEBUG: Addon script.module.dialogaddonscan requires xbmc.python version 2.0 which is not available
+20:28:19 T:1561338096   DEBUG: Addon script.module.playbackengine requires xbmc.python version 2.0 which is not available
+20:28:19 T:1561338096   DEBUG: Addon script.xbmc-pbx-addon requires xbmc.python version 2.0 which is not available
+20:28:20 T:1561338096   DEBUG: Addon skin.carmichael requires xbmc.gui version 4.0.0 which is not available
+20:28:20 T:1561338096   DEBUG: Addon skin.diffuse requires xbmc.gui version 4.0.0 which is not available
+20:28:20 T:1561338096   DEBUG: Addon skin.droid requires xbmc.gui version 4.0.0 which is not available
+20:28:20 T:1561338096   DEBUG: Addon skin.nbox requires xbmc.gui version 4.0.0 which is not available
+20:28:20 T:1561338096   DEBUG: Addon skin.pm3-hd requires xbmc.gui version 4.0.0 which is not available
+20:28:20 T:1561338096   DEBUG: Addon skin.simplicity requires xbmc.gui version 4.0.0 which is not available
+20:28:20 T:1561338096   DEBUG: Addon skin.xeebo requires xbmc.gui version 4.0.0 which is not available
+20:28:20 T:1561338096   DEBUG: Addon skin.xperience-more requires xbmc.gui version 4.0.0 which is not available
+20:28:20 T:1561338096   DEBUG: Addon weather.worldweatheronline requires xbmc.python version 2.0 which is not available
+20:28:20 T:1561338096   DEBUG: Addon webinterface.home-row requires xbmc.gui version 4.0.0 which is not available
+20:28:20 T:1561338096   DEBUG: Addon webinterface.pwi requires xbmc.gui version 4.0.0 which is not available
+20:28:20 T:1561338096    INFO: ADDON: cpluff: 'Could not read plug-in directory /storage/sdcard0/Android/data/org.xbmc.xbmc/files/.xbmc/addons: No such file or directory'
+20:28:21 T:1560758488  NOTICE: Thread Timer start, auto delete: false
+20:28:21 T:1560758488   DEBUG: Thread Timer 1560758488 terminating
+20:28:27 T:1560758488  NOTICE: Thread Timer start, auto delete: false
+20:28:27 T:1560758488   DEBUG: Thread Timer 1560758488 terminating
+20:28:30 T:1510372984   DEBUG: SECTION:UnloadDelayed(DLL: libImageLib-arm.so)
+20:28:30 T:1510372984   DEBUG: Unloading: /libImageLib-arm.so
+20:28:30 T:1560758488  NOTICE: Thread Timer start, auto delete: false
+20:28:30 T:1560758488   DEBUG: Thread Timer 1560758488 terminating
+20:28:37 T:1560758488  NOTICE: Thread LanguageInvoker start, auto delete: false
+20:28:37 T:1560758488    INFO: initializing python engine.
+20:28:37 T:1560758488   DEBUG: CPythonInvoker(1, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): start processing
+20:28:37 T:1561532816   DEBUG: Thread JobWorker 1561532816 terminating (autodelete)
+20:28:37 T:1560758488  NOTICE: -->Python Interpreter Initialized<--
+20:28:37 T:1560758488   DEBUG: CPythonInvoker(1, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): the source file to load is "/data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py"
+20:28:37 T:1560758488   DEBUG: CPythonInvoker(1, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): setting the Python path to /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck:/data/data/org.xbmc.xbmc/cache/apk/assets/addons/script.module.pil/lib:/:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python26.zip:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6/plat-linux3:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6/lib-tk:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6/lib-old:/data/app/org.xbmc.xbmc-2.apk/assets/python2.6/lib/python2.6/lib-dynload
+20:28:37 T:1560758488   DEBUG: CPythonInvoker(1, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): entering source directory /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck
+20:28:37 T:1560758488   DEBUG: CPythonInvoker(1, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): instantiating addon using automatically obtained id of "service.xbmc.versioncheck" dependent on version 2.1.0 of the xbmc.python api
+20:28:37 T:1560758488   DEBUG: XBMC Version Check: Version 0.1.21 started
+20:28:37 T:1560758488   DEBUG: XBMC Version Check: Version installed {u'major': 14, u'tag': u'prealpha', u'minor': 0, u'revision': u'2014-08-01-62d01f6-dirty'}
+20:28:37 T:1560758488    INFO: CPythonInvoker(1, /data/data/org.xbmc.xbmc/cache/apk/assets/addons/service.xbmc.versioncheck/service.py): script successfully run
+20:28:37 T:1560758488    INFO: Python script stopped
+20:28:37 T:1560758488   DEBUG: Thread LanguageInvoker 1560758488 terminating
+20:28:38 T:1510372984    INFO: void XCURL::DllLibCurlGlobal::CheckIdle() - Closing session to http://feeds.xbmc.org (easy=0x61784008, multi=0x5d17d6b8)
+20:28:47 T:1510372984    INFO: Python, unloading python shared library because no scripts are running anymore
+20:28:47 T:1510372984   DEBUG: void XBPython::UnloadExtensionLibs(), clearing python extension libraries
+20:28:48 T:1510372984    INFO: void XCURL::DllLibCurlGlobal::CheckIdle() - Closing session to http://mirrors.xbmc.org (easy=0x5d251428, multi=0x5cff8ae8)
+20:28:49 T:1561028136  NOTICE: Thread Timer start, auto delete: false
+20:28:49 T:1561028136   DEBUG: Thread Timer 1561028136 terminating
+20:28:51 T:1561338096   DEBUG: Thread JobWorker 1561338096 terminating (autodelete)
+20:28:58 T:1542247920  NOTICE: Thread Timer start, auto delete: false
+20:28:58 T:1542247920   DEBUG: Thread Timer 1542247920 terminating
+20:28:58 T:1542247920  NOTICE: Thread Timer start, auto delete: false
+20:28:58 T:1542247920   DEBUG: Thread Timer 1542247920 terminating
+20:28:59 T:1542247920  NOTICE: Thread Timer start, auto delete: false
+20:28:59 T:1542247920   DEBUG: Thread Timer 1542247920 terminating
+20:29:09 T:1542247920  NOTICE: Thread Timer start, auto delete: false
+20:29:09 T:1542247920   DEBUG: Thread Timer 1542247920 terminating
+20:29:12 T:1542247920  NOTICE: Thread Timer start, auto delete: false
+20:29:12 T:1542247920   DEBUG: Thread Timer 1542247920 terminating
+20:30:01 T:1542247920  NOTICE: Thread Timer start, auto delete: false
+20:30:01 T:1542247920   DEBUG: Thread Timer 1542247920 terminating
+20:30:04 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:30:04 T:1510372984   DEBUG: Activating window ID: 10501
+20:30:04 T:1510372984   DEBUG: ------ Window Deinit (Home.xml) ------
+20:30:04 T:1510372984   DEBUG: ------ Window Init (MyMusicSongs.xml) ------
+20:30:04 T:1510372984    INFO: Loading skin file: MyMusicSongs.xml, load type: KEEP_IN_MEMORY
+20:30:05 T:1510372984   DEBUG: Load MyMusicSongs.xml: 150.16ms
+20:30:05 T:1510372984   DEBUG: Alloc resources: 202.87ms  (150.83 ms skin load)
+20:30:05 T:1510372984   DEBUG: CGUIMediaWindow::GetDirectory ()
+20:30:05 T:1510372984   DEBUG:   ParentPath = []
+20:30:05 T:1510372984   DEBUG: RetrieveMusicInfo() took 0 msec
+20:30:05 T:1510372984   DEBUG: Activating window ID: 11112
+20:30:05 T:1510372984   DEBUG: ------ Window Init (custom_SideMenuHelp.xml) ------
+20:30:05 T:1510372984    INFO: Loading skin file: custom_SideMenuHelp.xml, load type: KEEP_IN_MEMORY
+20:30:05 T:1635803384  NOTICE: Thread BackgroundLoader start, auto delete: false
+20:30:05 T:1510372984   DEBUG: Load custom_SideMenuHelp.xml: 7.70ms
+20:30:05 T:1510372984   DEBUG: Alloc resources: 9.28ms  (9.25 ms skin load)
+20:30:05 T:1635803384   DEBUG: Thread BackgroundLoader 1635803384 terminating
+20:30:09 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:30:09 T:1510372984   DEBUG: Unfocus WindowID: 11112, ControlID: 100
+20:30:09 T:1510372984   DEBUG: Unfocus WindowID: 10501, ControlID: 50
+20:30:09 T:1510372984   DEBUG: ------ Window Deinit (custom_SideMenuHelp.xml) ------
+20:30:10 T:1510372984   DEBUG: Keyboard: scancode: 0x04, sym: 0x0008, unicode: 0x0000, modifier: 0x0
+20:30:10 T:1510372984   DEBUG: bool CApplication::OnKey(const CKey&): backspace (0xf008) pressed, action is Back
+20:30:10 T:1510372984   DEBUG: CGUIWindowManager::PreviousWindow: Deactivate
+20:30:10 T:1542251440    INFO: CActiveAESink::OpenSink - initialize sink
+20:30:10 T:1542251440   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+20:30:10 T:1542251440   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+20:30:10 T:1542251440   DEBUG:   Output Device : android
+20:30:10 T:1542251440   DEBUG:   Sample Rate   : 48000
+20:30:10 T:1542251440   DEBUG:   Sample Format : AE_FMT_S16NE
+20:30:10 T:1542251440   DEBUG:   Channel Count : 2
+20:30:10 T:1542251440   DEBUG:   Channel Layout: FL,FR
+20:30:10 T:1542251440   DEBUG:   Frames        : 2048
+20:30:10 T:1542251440   DEBUG:   Frame Samples : 4096
+20:30:10 T:1542251440   DEBUG:   Frame Size    : 4
+20:30:10 T:1510372984   DEBUG: ------ Window Deinit (MyMusicSongs.xml) ------
+20:30:10 T:1510372984   DEBUG: CGUIWindowManager::PreviousWindow: Activate new
+20:30:10 T:1510372984   DEBUG: ------ Window Init (Home.xml) ------
+20:30:10 T:1510372984   DEBUG: Window Home.xml was already loaded
+20:30:10 T:1510372984   DEBUG: Alloc resources: 9.68m
+20:30:17 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:30:17 T:1510372984   DEBUG: Activating window ID: 10004
+20:30:17 T:1510372984   DEBUG: ------ Window Deinit (Home.xml) ------
+20:30:17 T:1510372984   DEBUG: ------ Window Init (Settings.xml) ------
+20:30:17 T:1510372984    INFO: Loading skin file: Settings.xml, load type: KEEP_IN_MEMORY
+20:30:17 T:1510372984   DEBUG: Load Settings.xml: 38.43ms
+20:30:17 T:1510372984   DEBUG: Alloc resources: 40.16ms  (39.43 ms skin load)
+20:30:17 T:1510372984   DEBUG: Unfocus WindowID: 10004, ControlID: 9000
+20:30:18 T:1635136128  NOTICE: Thread JobWorker start, auto delete: true
+20:30:18 T:1635136128   DEBUG: virtual bool CImageLoader::DoWork() - took 141 ms to load special://skin/backgrounds/settings.jpg
+20:30:19 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:30:19 T:1510372984   DEBUG: Activating window ID: 10018
+20:30:19 T:1510372984   DEBUG: ------ Window Deinit (Settings.xml) ------
+20:30:19 T:1510372984   DEBUG: ------ Window Init (SettingsCategory.xml) ------
+20:30:19 T:1510372984    INFO: Loading skin file: SettingsCategory.xml, load type: KEEP_IN_MEMORY
+20:30:19 T:1510372984   DEBUG: Load SettingsCategory.xml: 40.90ms
+20:30:19 T:1510372984   DEBUG: Alloc resources: 44.75ms  (41.44 ms skin load)
+20:30:19 T:1510372984   DEBUG: Unfocus WindowID: 10018, ControlID: -100
+20:30:24 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:30:24 T:1510372984    INFO: Loading skin file: DialogKeyboard.xml, load type: KEEP_IN_MEMORY
+20:30:24 T:1510372984   DEBUG: Load DialogKeyboard.xml: 68.31ms
+20:30:24 T:1510372984   DEBUG: Alloc resources: 74.94ms  (70.21 ms skin load)
+20:30:24 T:1510372984   DEBUG: ------ Window Init (DialogKeyboard.xml) ------
+20:30:24 T:1510372984   DEBUG: Window DialogKeyboard.xml was already loaded
+20:30:24 T:1510372984   DEBUG: Alloc resources: 0.04m
+20:30:24 T:1510372984   DEBUG: CAnnouncementManager - Announcement: OnInputRequested from xbmc
+20:30:24 T:1510372984   DEBUG: GOT ANNOUNCEMENT, type: 128, from xbmc, message OnInputRequested
+20:30:25 T:1510372984   DEBUG: Keyboard: scancode: 0x43, sym: 0x0008, unicode: 0x0000, modifier: 0x0
+20:30:25 T:1510372984   DEBUG: bool CApplication::OnKey(const CKey&): backspace (0xf008) pressed, trying keyboard action f008
+20:30:26 T:1510372984   DEBUG: Keyboard: scancode: 0x43, sym: 0x0008, unicode: 0x0000, modifier: 0x0
+20:30:26 T:1510372984   DEBUG: bool CApplication::OnKey(const CKey&): backspace (0xf008) pressed, trying keyboard action f008
+20:30:26 T:1510372984   DEBUG: Keyboard: scancode: 0x43, sym: 0x0008, unicode: 0x0000, modifier: 0x0
+20:30:26 T:1510372984   DEBUG: bool CApplication::OnKey(const CKey&): backspace (0xf008) pressed, trying keyboard action f008
+20:30:26 T:1510372984   DEBUG: Keyboard: scancode: 0x43, sym: 0x0008, unicode: 0x0000, modifier: 0x0
+20:30:26 T:1510372984   DEBUG: bool CApplication::OnKey(const CKey&): backspace (0xf008) pressed, trying keyboard action f008
+20:30:27 T:1510372984   DEBUG: Keyboard: scancode: 0x27, sym: 0x006b, unicode: 0x006b, modifier: 0x0
+20:30:27 T:1510372984   DEBUG: bool CApplication::OnKey(const CKey&): k (0xf04b) pressed, trying keyboard action f16b
+20:30:27 T:1510372984   DEBUG: Keyboard: scancode: 0x2b, sym: 0x006f, unicode: 0x006f, modifier: 0x0
+20:30:27 T:1510372984   DEBUG: bool CApplication::OnKey(const CKey&): o (0xf04f) pressed, trying keyboard action f16f
+20:30:28 T:1510372984   DEBUG: Keyboard: scancode: 0x20, sym: 0x0064, unicode: 0x0064, modifier: 0x0
+20:30:28 T:1510372984   DEBUG: bool CApplication::OnKey(const CKey&): d (0xf044) pressed, trying keyboard action f164
+20:30:30 T:1510372984   DEBUG: Keyboard: scancode: 0x25, sym: 0x0069, unicode: 0x0069, modifier: 0x0
+20:30:30 T:1510372984   DEBUG: bool CApplication::OnKey(const CKey&): i (0xf049) pressed, trying keyboard action f169
+20:30:30 T:1510372984   DEBUG: Keyboard: scancode: 0x42, sym: 0x000d, unicode: 0x000a, modifier: 0x0
+20:30:30 T:1510372984   DEBUG: bool CApplication::OnKey(const CKey&): return (0xf00d) pressed, trying keyboard action f00d
+20:30:30 T:1510372984   DEBUG: ------ Window Deinit (DialogKeyboard.xml) ------
+20:30:30 T:1510372984   DEBUG: CAnnouncementManager - Announcement: OnInputFinished from xbmc
+20:30:30 T:1510372984   DEBUG: GOT ANNOUNCEMENT, type: 128, from xbmc, message OnInputFinished
+20:30:30 T:1510372984   DEBUG: Unfocus WindowID: 10018, ControlID: -80
+20:30:30 T:1560467440  NOTICE: Thread Timer start, auto delete: false
+20:30:31 T:1560467440   DEBUG: Thread Timer 1560467440 terminating
+20:30:38 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:30:38 T:1510372984  NOTICE: starting upnp renderer
+20:30:38 T:1510372984   DEBUG: Unfocus WindowID: 10018, ControlID: -78
+20:30:39 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:30:39 T:1510372984  NOTICE: starting upnp server
+20:30:39 T:1510372984  NOTICE: stopping upnp client
+20:30:39 T:1510372984   DEBUG: Unfocus WindowID: 10018, ControlID: -80
+20:30:40 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:30:40 T:1510372984  NOTICE: stopping upnp client
+20:30:40 T:1510372984  NOTICE: starting upnp controller
+20:30:40 T:1510372984   DEBUG: Unfocus WindowID: 10018, ControlID: -79
+20:30:43 T:1560133264  NOTICE: Thread Timer start, auto delete: false
+20:30:43 T:1560133264   DEBUG: Thread Timer 1560133264 terminating
+20:30:44 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:30:44 T:1510372984  NOTICE: Webserver: Starting...
+20:30:44 T:1510372984  NOTICE: WebServer: Started the webserver
+20:30:44 T:1635136128   DEBUG: ZeroconfMDNS: identifier: servers.webserver type: _http._tcp name:kodi port:8080
+20:30:44 T:1635136128   DEBUG: ZeroconfMDNS: identifier: servers.jsonrpc-http type: _xbmc-jsonrpc-h._tcp name:kodi port:8080
+20:30:44 T:1635452224  NOTICE: Thread JobWorker start, auto delete: true
+20:30:44 T:1510372984   DEBUG: Unfocus WindowID: 10018, ControlID: -80
+20:30:44 T:1635821640   DEBUG: CPlayerCoreConfig::<ctor>: created player [TV][LG]55LA6200-UA for core 5
+20:30:45 T:1560367384   DEBUG: ZeroconfMDNS: kodi._http._tcp.local. registration removed
+20:30:45 T:1560367384   DEBUG: ZeroconfMDNS: kodi._xbmc-jsonrpc-h._tcp.local. registration removed
+20:30:51 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:30:51 T:1510372984  NOTICE: ES: Stopping event server with confirmation
+20:30:52 T:1561229152  NOTICE: ES: UDP Event server stopped
+20:30:52 T:1561229152   DEBUG: Thread EventServer 1561229152 terminating
+20:30:52 T:1510372984   DEBUG: Unfocus WindowID: 10018, ControlID: -80
+20:30:52 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:30:54 T:1510372984   DEBUG: Previous line repeats 1 times.
+20:30:54 T:1510372984  NOTICE: ES: Starting event server
+20:30:54 T:1510372984   DEBUG: Unfocus WindowID: 10018, ControlID: -80
+20:30:54 T:1562610312  NOTICE: Thread EventServer start, auto delete: false
+20:30:54 T:1562610312  NOTICE: ES: Starting UDP Event server on 0.0.0.0:9777
+20:30:54 T:1562610312  NOTICE: UDP: Listening on port 9777
+20:30:55 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:30:55 T:1510372984  NOTICE: ES: Stopping event server with confirmation
+20:30:56 T:1562610312  NOTICE: ES: UDP Event server stopped
+20:30:56 T:1562610312   DEBUG: Thread EventServer 1562610312 terminating
+20:30:56 T:1510372984  NOTICE: ES: Starting event server
+20:30:56 T:1510372984   DEBUG: Unfocus WindowID: 10018, ControlID: -79
+20:30:56 T:1635456064  NOTICE: Thread EventServer start, auto delete: false
+20:30:56 T:1635456064  NOTICE: ES: Starting UDP Event server on 0.0.0.0:9777
+20:30:56 T:1635456064  NOTICE: UDP: Listening on port 9777
+20:31:14 T:1635136128   DEBUG: Thread JobWorker 1635136128 terminating (autodelete)
+20:31:14 T:1635452224   DEBUG: Thread JobWorker 1635452224 terminating (autodelete)
+20:31:21 T:1510372984   DEBUG: Unfocus WindowID: 10018, ControlID: -80
+20:31:21 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:31:21 T:1510372984   DEBUG: SECTION:LoadDLL(libshairplay.so)
+20:31:21 T:1510372984   DEBUG: Loading: /data/data/org.xbmc.xbmc/lib/libshairplay.so
+20:31:21 T:1510372984    INFO: AIRPLAY Server: Successfully initialized
+20:31:21 T:1510372984   DEBUG: Unfocus WindowID: 10018, ControlID: -80
+20:31:21 T:1562610312  NOTICE: Thread JobWorker start, auto delete: true
+20:31:21 T:1562597568  NOTICE: Thread AirPlayServer start, auto delete: false
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: identifier: servers.airtunes type: _raop._tcp name:5CFF35707B1C@kodi port:36666
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:txtvers, value:1
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:cn, value:0,1
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:ch, value:2
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:ek, value:1
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:et, value:0,1
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:sv, value:false
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:tp, value:UDP
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:sm, value:false
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:ss, value:16
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:sr, value:44100
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:pw, value:false
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:vn, value:3
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:da, value:true
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:vs, value:130.14
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:md, value:0,1,2
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:am, value:Xbmc,1
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: identifier: servers.airplay type: _airplay._tcp name:kodi port:36667
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:deviceid, value:5C:FF:35:70:7B:1C
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:features, value:0x77
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:model, value:Xbmc,1
+20:31:21 T:1562610312   DEBUG: ZeroconfMDNS: key:srcvers, value:101.28
+20:31:22 T:1560367384   DEBUG: ZeroconfMDNS: 5CFF35707B1C@kodi._raop._tcp.local. registration removed
+20:31:22 T:1560367384   DEBUG: ZeroconfMDNS: kodi._airplay._tcp.local. registration removed
+20:31:24 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:31:24 T:1510372984   DEBUG: Unfocus WindowID: 10018, ControlID: 20
+20:31:28 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:31:28 T:1510372984   DEBUG: Unfocus WindowID: 10018, ControlID: -94
+20:31:33 T:1510372984   DEBUG: Keyboard: scancode: 0x04, sym: 0x0008, unicode: 0x0000, modifier: 0x0
+20:31:33 T:1510372984   DEBUG: bool CApplication::OnKey(const CKey&): backspace (0xf008) pressed, action is Back
+20:31:33 T:1542251440    INFO: CActiveAESink::OpenSink - initialize sink
+20:31:33 T:1542251440   DEBUG: CActiveAESink::OpenSink - trying to open device AUDIOTRACK:AudioTrack
+20:31:33 T:1542251440   DEBUG: CActiveAESink::OpenSink - AUDIOTRACK Initialized:
+20:31:33 T:1542251440   DEBUG:   Output Device : android
+20:31:33 T:1542251440   DEBUG:   Sample Rate   : 48000
+20:31:33 T:1542251440   DEBUG:   Sample Format : AE_FMT_S16NE
+20:31:33 T:1542251440   DEBUG:   Channel Count : 2
+20:31:33 T:1542251440   DEBUG:   Channel Layout: FL,FR
+20:31:33 T:1542251440   DEBUG:   Frames        : 2048
+20:31:33 T:1542251440   DEBUG:   Frame Samples : 4096
+20:31:33 T:1542251440   DEBUG:   Frame Size    : 4
+20:31:33 T:1510372984   DEBUG: CGUIWindowManager::PreviousWindow: Deactivate
+20:31:33 T:1510372984   DEBUG: ------ Window Deinit (SettingsCategory.xml) ------
+20:31:33 T:1510372984   DEBUG: CGUIWindowManager::PreviousWindow: Activate new
+20:31:33 T:1510372984   DEBUG: ------ Window Init (Settings.xml) ------
+20:31:33 T:1510372984   DEBUG: Window Settings.xml was already loaded
+20:31:33 T:1510372984   DEBUG: Alloc resources: 0.42m
+20:31:33 T:1562610312   DEBUG: virtual bool CImageLoader::DoWork() - took 103 ms to load special://skin/backgrounds/settings.jpg
+20:32:03 T:1562610312   DEBUG: Thread JobWorker 1562610312 terminating (autodelete)
+20:32:15 T:1561840568  NOTICE: Thread Timer start, auto delete: false
+20:32:16 T:1561840568   DEBUG: Thread Timer 1561840568 terminating
+20:32:31 T:1562610312  NOTICE: Thread Timer start, auto delete: false
+20:32:31 T:1562610312   DEBUG: Thread Timer 1562610312 terminating
+20:33:58 T:1560552256  NOTICE: Thread Timer start, auto delete: false
+20:33:58 T:1560552256   DEBUG: Thread Timer 1560552256 terminating
+20:36:53 T:1560602000  NOTICE: Thread Timer start, auto delete: false
+20:36:53 T:1560602000   DEBUG: Thread Timer 1560602000 terminating
+20:36:55 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:36:55 T:1510372984   DEBUG: CGUIWindowManager::PreviousWindow: Deactivate
+20:36:55 T:1510372984   DEBUG: ------ Window Deinit (Settings.xml) ------
+20:36:55 T:1510372984   DEBUG: CGUIWindowManager::PreviousWindow: Activate new
+20:36:56 T:1510372984   DEBUG: ------ Window Init (Home.xml) ------
+20:36:56 T:1510372984   DEBUG: Window Home.xml was already loaded
+20:36:56 T:1510372984   DEBUG: Alloc resources: 18.61m
+20:36:56 T:1510372984   DEBUG: Unfocus WindowID: 10000, ControlID: 9000
+20:36:58 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:36:58 T:1510372984   DEBUG: Activating window ID: 10111
+20:36:58 T:1510372984   DEBUG: ------ Window Init (DialogButtonMenu.xml) ------
+20:36:58 T:1510372984    INFO: Loading skin file: DialogButtonMenu.xml, load type: KEEP_IN_MEMORY
+20:36:58 T:1510372984   DEBUG: Load DialogButtonMenu.xml: 21.69ms
+20:36:58 T:1510372984   DEBUG: Alloc resources: 23.44ms  (22.24 ms skin load)
+20:36:59 T:1510372984   DEBUG: bool CApplication::ProcessMouse(): trying mouse action leftclick
+20:36:59 T:1510372984   DEBUG: Unfocus WindowID: 10111, ControlID: 2
+20:36:59 T:1510372984   DEBUG: Unfocus WindowID: 10000, ControlID: 20
+20:36:59 T:1510372984   DEBUG: CAnnouncementManager - Announcement: OnQuit from xbmc
+20:36:59 T:1510372984   DEBUG: GOT ANNOUNCEMENT, type: 8, from xbmc, message OnQuit
+20:36:59 T:1561231528   DEBUG: Thread AlarmClock 1561231528 terminating
+20:36:59 T:1510372984  NOTICE: Storing total System Uptime
+20:36:59 T:1510372984  NOTICE: Saving settings
+20:36:59 T:1510372984  NOTICE: stop all
+20:36:59 T:1510372984  NOTICE: stop player
+20:36:59 T:1510372984    INFO: stopping PVRManager
+20:36:59 T:1510372984   DEBUG: void CNetwork::NetworkMessage(CNetwork::EMESSAGE, int) - Signaling network services to stop
+20:36:59 T:1510372984  NOTICE: ES: Stopping event server
+20:36:59 T:1510372984   DEBUG: ZeroconfMDNS: Removed service servers.airplay
+20:37:00 T:1510372984   DEBUG: ZeroconfMDNS: Removed service servers.airtunes
+20:37:00 T:1510372984   DEBUG: void CNetwork::NetworkMessage(CNetwork::EMESSAGE, int) - Waiting for network services to stop
+20:37:00 T:1510372984  NOTICE: stopping upnp
+20:37:00 T:1635456064  NOTICE: ES: UDP Event server stopped
+20:37:00 T:1562597568   DEBUG: Thread AirPlayServer 1562597568 terminating
+20:37:00 T:1635456064   DEBUG: Thread EventServer 1635456064 terminating
+20:37:00 T:1560247032   DEBUG: Thread TCPServer 1560247032 terminating
+20:37:00 T:1510372984  NOTICE: stopping zeroconf publishing
+20:37:00 T:1510372984   DEBUG: ZeroconfMDNS: Shutdown services
+20:37:00 T:1510372984   DEBUG: ZeroconfMDNS: Removed service servers.eventserver
+20:37:00 T:1510372984   DEBUG: ZeroconfMDNS: Removed service servers.jsonrpc-http
+20:37:00 T:1510372984   DEBUG: ZeroconfMDNS: Removed service servers.jsonrpc-tpc
+20:37:00 T:1510372984   DEBUG: ZeroconfMDNS: Removed service servers.webserver
+20:37:00 T:1510372984  NOTICE: Webserver: Stopping...
+20:37:00 T:1510372984  NOTICE: WebServer: Stopped the webserver
+20:37:00 T:1510372984  NOTICE: Webserver: Stopped...
+20:37:00 T:1545832176   DEBUG: Thread PeripBusUSB 1545832176 terminating
+20:37:00 T:1510372984  NOTICE: stop sap announcement listener
+20:37:00 T:1510372984  NOTICE: clean cached files!
+20:37:00 T:1510372984  NOTICE: unload skin
+20:37:00 T:1510372984    INFO: Unloading old skin ...
+20:37:00 T:1510372984   DEBUG: ------ Window Deinit (Home.xml) ------
+20:37:00 T:1510372984   DEBUG: void CTextureBundleXBT::Cleanup() - Closed bundle
+20:37:00 T:1510372984   DEBUG: ADDON: Stopping service addons.
+20:37:00 T:1510372984   DEBUG: GUI Shader - Destroying Shader : 0x5c26f3c0
+20:37:00 T:1510938168   DEBUG: Thread ActiveAE 1510938168 terminating
+20:37:00 T:1542251440   DEBUG: Thread AESink 1542251440 terminating
+20:37:00 T:1510372984  NOTICE: stopped
+20:37:00 T:1510372984  NOTICE: destroy
+20:37:01 T:1510372984  NOTICE: unload sections
+20:37:01 T:1510372984  NOTICE: special://profile/ is mapped to: special://masterprofile/
+20:37:01 T:1510372984   DEBUG: object 0 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 1 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 2 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 3 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 4 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 5 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 6 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 7 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 8 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 9 --> 0 instances
+20:37:01 T:1510372984   DEBUG: SECTION:UnloadAll(DLL: libcpluff-arm.so)
+20:37:01 T:1510372984   DEBUG: Unloading: /libcpluff-arm.so
+20:37:01 T:1510372984   DEBUG: SECTION:UnloadAll(DLL: libcurl.so)
+20:37:01 T:1510372984   DEBUG: Unloading: /libcurl.so
+20:37:01 T:1510372984   DEBUG: SECTION:UnloadAll(DLL: libshairplay.so)
+20:37:01 T:1510372984   DEBUG: Unloading: /libshairplay.so
+20:37:01 T:1510372984   DEBUG: CAnnouncementManager - Announcement: OnClear from xbmc
+20:37:01 T:1510372984  NOTICE: destroy
+20:37:01 T:1510372984 WARNING: Attempted to remove window 10013 from the window manager when it didn't exist
+20:37:01 T:1510372984 WARNING: Attempted to remove window 10014 from the window manager when it didn't exist
+20:37:01 T:1510372984 WARNING: Attempted to remove window 10015 from the window manager when it didn't exist
+20:37:01 T:1510372984 WARNING: Attempted to remove window 10016 from the window manager when it didn't exist
+20:37:01 T:1510372984 WARNING: Attempted to remove window 10017 from the window manager when it didn't exist
+20:37:01 T:1510372984 WARNING: Attempted to remove window 10018 from the window manager when it didn't exist
+20:37:01 T:1510372984 WARNING: Attempted to remove window 10019 from the window manager when it didn't exist
+20:37:01 T:1510372984 WARNING: Attempted to remove window 10021 from the window manager when it didn't exist
+20:37:01 T:1510372984 WARNING: Attempted to remove window 10107 from the window manager when it didn't exist
+20:37:01 T:1510372984 WARNING: Attempted to remove window 10115 from the window manager when it didn't exist
+20:37:01 T:1510372984 WARNING: Attempted to remove window 10104 from the window manager when it didn't exist
+20:37:01 T:1510372984  NOTICE: unload sections
+20:37:01 T:1510372984   DEBUG: object 0 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 1 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 2 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 3 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 4 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 5 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 6 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 7 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 8 --> 0 instances
+20:37:01 T:1510372984   DEBUG: object 9 --> 0 instances
+20:37:01 T:1510372984  NOTICE: application stopped...
