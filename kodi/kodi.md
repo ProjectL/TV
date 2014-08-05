@@ -40,4 +40,7 @@ be notified of what's available and press play at her leisure.
 
 ![alt tag](https://github.com/projectl/TV/blob/master/kodi/push2kodi.png)
 
+####TODO:
+* Need to figure out how to get those access to the links to content thats already hosted somewhere,in the above solution we are hosting the streams....
+
 
