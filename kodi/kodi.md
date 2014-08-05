@@ -38,6 +38,6 @@ sent to the appropriate TV for the follower to enjoy.
 No more sending to repos, to fumble through links and links, just send whats available direct to the viewer so that she
 be notified of what's available and press play at her leisure.
 
-![alt tag](https://github.com/projectl/TV/blob/master/push2kodi.png)
+![alt tag](https://github.com/projectl/TV/blob/master/kodi/push2kodi.png)
 
 
